@@ -2,11 +2,11 @@ import Pricingbox from './Pricingbox';
 import { Link } from 'react-router-dom';
 import './pricing.css';
 import Pdata from './Pdata';
-
+import '../App.css'
 export default function Pricing() {
     return (
         <>
-            <section className="bg-black w-screen h-auto flex justify-center items-center">
+            <section className="bg-black w-screen h-auto flex justify-center items-center section">
                 <div className="bg-[#FFD93D] my-24 rounded-3xl md:rounded-large flex justify-center items-center h-auto md:h-screen">
                     <div className="flex justify-center items-center my-10 sm:my-20 md:my-40 py-0 bg-[#7F00FF] w-screen h-auto md:h-130 overflow-hidden">
                         <div className='w-screen'>

@@ -5,6 +5,7 @@ import Pdata from "./Pdata.jsx";
 import { useState } from 'react';
 import Leverage from "./Levrage";
 
+import '../App.css'
 
 export default function Pricingsecond() {
   const [eigthClicked, seteightClicked] = useState(false);
@@ -17,7 +18,7 @@ export default function Pricingsecond() {
 
   return (
     <>
-      <section className="bg-black w-screen h-auto flex justify-center items-center">
+      <section className="bg-black w-screen h-auto flex justify-center items-center section">
         <div className="bg-[#FFD93D] my-24 rounded-3xl md:rounded-large flex justify-center items-center h-auto md:h-screen">
           <div className="flex justify-center items-center my-10 sm:my-20 md:my-40 py-0 bg-[#7F00FF] w-screen h-auto md:h-5/6 2xl:h-126 overflow-hidden">
             <div className="w-screen">

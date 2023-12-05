@@ -1,10 +1,10 @@
 import "./star.css";
 import Tilt from 'react-parallax-tilt';
-
+import "../App.css"
 function Hero({ type }) {
     return (
         <>
-            <section className="bg-black h-auto w-screen overflow-hidden">
+            <section className="bg-black h-auto w-screen overflow-hidden section">
                 <div className="bg-black w-screen mt-4 sm:mt-20 lg:mt-32 pt-24 py-8 px-1 text-center lg:py-16 lg:px-1 flex flex-col">
                     <Tilt tiltMaxAngleX={3}
                         tiltMaxAngleY={3}>

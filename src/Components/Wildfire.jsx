@@ -8,7 +8,7 @@ import Vector from '../assets/img/Trash.svg'
 import Video from '../assets/video/video.mp4'
 import Mask from '../assets/img/Mask-group.jpeg'
 import Mask2 from '../assets/img/Mask-group2.jpeg'
-
+import '../App.css'
 function Wildfire() {
       const [isHovered, setIsHovered] = useState(false);
 
@@ -20,7 +20,7 @@ function Wildfire() {
             setIsHovered(false);
       };
       return (
-            <div className='bg-black w-screen pt-2 h-auto'>
+            <div className='bg-black w-screen sm:pt-44 h-auto section'>
                   <h1 className='self-center text-center text-2xl sm:text-3xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white' style={{ fontFamily: 'Archivo' }}>Videos that <span style={{ color: '#7F00FF' }}>Makes</span> <br />your<span style={{ color: '#FFD93D' }}> Brand Spread</span> <br />like<span style={{ color: '#7F00FF' }}> Wildfire.</span></h1>
                   <img src={Scissors} className='ceaser w-6 lg:w-12 sm:w-8 md:w-10' />
                   <div

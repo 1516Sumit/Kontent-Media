@@ -1,7 +1,8 @@
+import '../App.css'
 function Keyfeature() {
     return (
         <>
-            <div className="bg-black flex items-center justify-center flex-col w-screen h-auto md:h-screen">
+            <div className="bg-black flex items-center justify-center flex-col w-screen h-auto md:h-screen section">
                 <div className="mt-0 sm:mt-56 md:mt-14 mb-2 md:mb-0 text-center">
                     <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white"  style={{fontFamily: 'Archivo'}}>
                         Key features to

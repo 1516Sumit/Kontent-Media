@@ -1,11 +1,11 @@
 // import React from 'react'
 import Slider from "./Slider"
-
+import '../App.css'
 
 function CareerTestimonials() {
   return (
     <>
-    <div className="bg-black flex items-center justify-between flex-col md:pt-20">
+    <div className="bg-black flex items-center justify-between flex-col md:pt-24 section">
         <div className="mt-5 mb-7 md:mb-7 text-center">
             <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                 You are not

@@ -1,9 +1,9 @@
 import "./flow.css"
-
+import '../App.css'
 function Flow() {
     return (
         <>
-            <section className="h-auto bg-black w-screen">
+            <section className="h-auto bg-black w-screen section md:pt-20">
                 <div className="bg-black flex justify-center sm:justify-start items-center pt-20">
                     <p className="m-5 sm:m-10 lg:ml-42 xl:ml-40 2xl:ml-44 font-bold text-white text-2xl md:text-3xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Unveiling Our Impact</p>
                 </div>
