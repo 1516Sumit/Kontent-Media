@@ -3,7 +3,7 @@ import './navbarsecond.css'
 function Navbarsecond() {
     return (
         <>
-            <div className='navbar bg-black flex justify-center w-screen h-10  lg:h-16 z-10 items-center sticky pt-8'>
+            <div className='navbar bg-black flex justify-center w-screen h-10  lg:h-16 z-10 items-center sticky p-10 pt-14'>
                 <nav className="bg-black w-7/12 h-10 lg:h-16 flex justify-center items-center z-20 border-slate-400 rounded-xl border-x-2 border-b-2">
                     <div className="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-1 sm:p-2">
                         <div className="items-center flex w-auto order-1" id="navbar-sticky">
