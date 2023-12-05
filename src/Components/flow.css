@@ -1,0 +1,93 @@
+@property --num {
+    syntax: '<integer>';
+    initial-value: 0;
+    inherits: false;
+}
+
+@keyframes counter1 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 75023489;
+    }
+}
+
+@keyframes counter2 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 1000000;
+    }
+}
+
+@keyframes counter3 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 1800;
+    }
+}
+
+@keyframes counter4 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 700;
+    }
+}
+
+/* .sparkWraper {
+    margin-top: -23%;
+    animation: sparkAnimation-y 2s linear infinite;
+}
+
+.spark {
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    
+    animation: sparkAnimation-x 2s linear infinite;
+}
+
+@keyframes sparkAnimation-y {
+    0% {
+        transform: translateY(-1px);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    70% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes sparkAnimation-x {
+    0% {
+        transform: translateX(0);
+        box-shadow: 0 0 10px 5px #626060;
+    }
+
+    50% {
+        transform: translateX(100px);
+        box-shadow: 0 0 20px 8px #a8a4a4;
+    }
+
+    100% {
+        transform: translateX(200px);
+        box-shadow: 0 0 10px 5px #FFFFFF;
+    }
+} */

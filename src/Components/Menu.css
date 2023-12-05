@@ -1,0 +1,34 @@
+.sidebar {
+    align-items: center;
+    background: #8c52ff;
+    height: 100%;
+    position: fixed;
+    right: -100%; /* Start off-screen to the right */
+    top: 0;
+    width: 100vw;
+    display: flex;
+    list-style: none;
+    z-index: 1;
+    flex-direction: column;
+    transition: right 0.3 ease !important;
+  }
+  
+  .sidebar.visible {
+    right: 0;
+  }
+  
+  .sidebar li {
+    padding-top: 11%;
+    color: white;
+    font-family: Archivo;
+    font-size: 18px;
+    transition: color 0.5s ease; /* Transition color property */
+  }
+  
+  .sidebar li button {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    margin-top: 140%;
+    transition: color 0.3s ease; /* Transition color property */
+  }

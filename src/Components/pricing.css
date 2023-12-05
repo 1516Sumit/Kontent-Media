@@ -1,0 +1,36 @@
+@media (min-width: 910px) {
+    .popular {
+        left: -22%;
+    }
+}
+
+@media (min-width: 840px) {
+    .popular {
+        left: -26%;
+    }
+}
+
+@media (min-width: 768px) {
+    .popular {
+        left: -42%;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    .pricing {
+        padding: 0 96px!important;
+    }
+}
+
+@media (max-width: 490px) {
+    .pricing {
+        padding: 0 56px!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .pricing {
+        padding: 0 16px!important;
+    }
+}

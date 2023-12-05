@@ -1,0 +1,384 @@
+.ceaser{
+    margin-top: -7%;
+     margin-left: 32%;
+}
+.Rocket{
+    margin-left: 65%;
+    margin-top: -5%;
+}
+.Vector{
+    margin-left: 36%;
+    margin-top: 8%; 
+}
+.Hand{
+    margin-left: 60%;
+    margin-top: -4%; 
+}
+
+.mask1{
+    margin-top: -50%;
+}
+
+.mask2{
+    margin-top: -30%;
+}
+
+.rocket-container {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .Rocket.animate {
+    transform: translate(20px, -20px);  
+  }
+
+@media (max-width: 1536px){
+    .ceaser{
+        margin-top: -11.5%;
+         margin-left: 34.5%;
+    }
+    .Rocket{
+        margin-left: 62%;
+        margin-top: -4%;
+    }
+    .Vector{
+        margin-left: 38%;
+        margin-top: 6%; 
+    }
+    .Hand{
+        margin-left: 58%;
+        margin-top: -3%; 
+    }
+}
+@media (max-width: 1436px){
+    .ceaser{
+        margin-top: -12.5%;
+         margin-left: 33.5%;
+    }
+    .Rocket{
+        margin-left: 62%;
+        margin-top: -4%;
+    }
+    .Vector{
+        margin-left: 37%;
+        margin-top: 7.5%; 
+    }
+    .Hand{
+        margin-left: 59%;
+        margin-top: -3%; 
+    }
+}
+
+@media (max-width: 1374px){
+    .ceaser{
+        margin-top: -13%;
+         margin-left: 32.5%;
+    }
+    .Rocket{
+        margin-left: 64%;
+        margin-top: -4%;
+    }
+    .Vector{
+        margin-left: 37%;
+        margin-top: 7.5%; 
+    }
+    .Hand{
+        margin-left: 59%;
+        margin-top: -3%; 
+    }
+}
+
+@media (max-width: 1280px){
+    .ceaser{
+        margin-top: -14%;
+         margin-left: 31.5%;
+    }
+    .Rocket{
+        margin-left: 65%;
+        margin-top: -4%;
+    }
+    .Vector{
+        margin-left: 35%;
+        margin-top: 8%; 
+    }
+    .Hand{
+        margin-left: 61%;
+        margin-top: -5%; 
+    }   
+}
+
+@media (max-width: 1224px){
+    .ceaser{
+        margin-top: -15%;
+         margin-left: 30%;
+    }
+    .Rocket{
+        margin-left: 65%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 35%;
+        margin-top: 8%; 
+    }
+    .Hand{
+        margin-left: 61%;
+        margin-top: -5%; 
+    }
+}
+
+@media (max-width: 1124px){
+    .ceaser{
+        margin-top: -16%;
+         margin-left: 28.2%;
+    }
+    .Rocket{
+        margin-left: 67%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 33%;
+        margin-top: 10%; 
+    }
+    .Hand{
+        margin-left: 62%;
+        margin-top: -5%; 
+    }
+}
+
+@media (max-width: 1024px){
+    .ceaser{
+        margin-top: -17%;
+         margin-left: 26.8%;
+    }
+    .Rocket{
+        margin-left: 68%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 33%;
+        margin-top: 10%; 
+    }
+    .Hand{
+        margin-left: 63%;
+        margin-top: -4%; 
+    } 
+}
+
+@media (max-width: 940px){
+    .ceaser{
+        margin-top: -18.5%;
+         margin-left: 24.6%;
+    }
+    .Rocket{
+        margin-left: 71%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 31%;
+        margin-top: 11%; 
+    }
+    .Hand{
+        margin-left: 64%;
+        margin-top: -4%; 
+    } 
+}
+
+@media (max-width: 855px){
+    .ceaser{
+        margin-top: -20.8%;
+         margin-left: 21.8%;
+    }
+    .Rocket{
+        margin-left: 72%;
+        margin-top: -6%;
+    }
+    .Vector{
+        margin-left: 28%;
+        margin-top: 12%; 
+    }
+    .Hand{
+        margin-left: 65%;
+        margin-top: -4%; 
+    } 
+}
+
+@media (max-width: 768px){
+    .ceaser{
+        margin-top: -16.5%;
+         margin-left: 29.2%;
+    }
+    .Rocket{
+        margin-left: 68%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 34%;
+        margin-top: 10%; 
+    }
+    .Hand{
+        margin-left: 62%;
+        margin-top: -5%; 
+    } 
+}
+
+
+@media (max-width: 710px){
+    .ceaser{
+        margin-top: -18.5%;
+         margin-left: 28.2%;
+    }
+    .Rocket{
+        margin-left: 68%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 34%;
+        margin-top: 12%; 
+    }
+    .Hand{
+        margin-left: 62%;
+        margin-top: -5%; 
+    } 
+    .mask1{
+        margin-top: -130%;
+    }
+
+    .mask2{
+        margin-top: -80%;
+    }
+}
+
+@media (max-width: 639px){
+    .ceaser{
+        margin-top: -17%;
+         margin-left: 31%;
+    }
+    .Rocket{
+        margin-left: 65%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 35%;
+        margin-top: 10%; 
+    }
+    .Hand{
+        margin-left: 60%;
+        margin-top: -4%; 
+    }  
+}
+
+@media (max-width: 600px){
+    .ceaser{
+        margin-top: -19%;
+         margin-left: 29%;
+    }
+    .Rocket{
+        margin-left: 66%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 34%;
+        margin-top: 10%; 
+    }
+    .Hand{
+        margin-left: 62%;
+        margin-top: -4%; 
+    }  
+}
+
+@media (max-width: 540px){
+    .ceaser{
+        margin-top: -21%;
+         margin-left: 27%;
+    }
+    .Rocket{
+        margin-left: 68%;
+        margin-top: -5%;
+    }
+    .Vector{
+        margin-left: 33%;
+        margin-top: 11%; 
+    }
+    .Hand{
+        margin-left: 62%;
+        margin-top: -4%; 
+    }  
+}
+
+@media (max-width: 490px){
+    .ceaser{
+        margin-top: -24%;
+         margin-left: 24%;
+    }
+    .Rocket{
+        margin-left: 72%;
+        margin-top: -6%;
+    }
+    .Vector{
+        margin-left: 30%;
+        margin-top: 13%; 
+    }
+    .Hand{
+        margin-left: 64%;
+        margin-top: -4%; 
+    }  
+}
+
+
+
+@media (max-width: 420px){
+    .ceaser{
+        margin-top: -28%;
+         margin-left: 19%;
+    }
+    .Rocket{
+        margin-left: 75%;
+        margin-top: -7%;
+    }
+    .Vector{
+        margin-left: 27%;
+        margin-top: 14%; 
+    }
+    .Hand{
+        margin-left: 67%;
+        margin-top: -5%; 
+    }  
+}
+
+@media (max-width: 360px){
+    .ceaser{
+        margin-top: -32%;
+         margin-left: 16%;
+    }
+    .Rocket{
+        margin-left: 77%;
+        margin-top: -7%;
+    }
+    .Vector{
+        margin-left: 24%;
+        margin-top: 18%; 
+    }
+    .Hand{
+        margin-left: 69%;
+        margin-top: -5%; 
+    } 
+}
+
+@media (max-width: 330px){
+    .ceaser{
+        margin-top: -34%;
+         margin-left: 13%;
+    }
+    .Rocket{
+        margin-left: 79%;
+        margin-top: -8%;
+    }
+    .Vector{
+        margin-left: 22%;
+        margin-top: 18%; 
+    }
+    .Hand{
+        margin-left: 70%;
+        margin-top: -5%; 
+    }  
+}

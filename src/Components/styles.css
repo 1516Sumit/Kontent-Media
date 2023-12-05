@@ -1,0 +1,115 @@
+.swiper {
+    width: 100%;
+    /* margin-top: 380px; */
+    margin: 4%;
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 545px!important;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 40px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.slider .profile-sec img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.profile-sect {
+    padding: 0px 50px;
+    width: 495px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.profile-sec {
+    display: flex;
+    gap: 16px;
+}
+
+.swiper-button-prev{
+    margin-left: 5%!important;
+}
+.swiper-button-next{
+    margin-right: 5%!important;
+}
+
+.swiper-button-prev:after{
+    content: url(../assets/img/Vectorprev.png) !important;  
+}
+.swiper-button-prev:before{
+    content: url(../assets/img/Vectorprev.png) !important;  
+}
+
+.swiper-button-next:after{
+    content: url(../assets/img/Vectornext.png) !important;
+}
+.swiper-button-next:before{
+    content: url(../assets/img/Vectornext.png) !important;
+}
+
+
+@media only screen and (max-width:1024px){
+    .slider {
+        width: 505px!important;  
+    }
+}
+
+@media only screen and (max-width:800px){
+    .slider {
+        width: 405px!important;  
+    }
+    .profile-content {
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width:512px){
+    .slider {
+        width: 305px!important;  
+    }
+    .profile-content {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .slider {
+        width: 205px!important;  
+    }
+    .profile-sect {
+        padding: 0px 10px;
+    }
+    .slider .profile-sec img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .profile-content {
+        width: 190px;
+    }
+}
