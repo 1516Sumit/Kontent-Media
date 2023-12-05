@@ -8,7 +8,7 @@ export default function Leverage(props) {
 
     return (
         <>
-            <div className="box flex flex-col p-3 lg:w-10/12 xl:w-9/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard">
+            <div className="box flex flex-col p-3 lg:w-10/12 xl:w-9/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard xxs:p-0">
                 <div className="flex justify-between items-center">
                     <div className="lev">
                         <h3 className="p-2 text-2xl lg:text-3xl font-black text-[#7F00FF]">
@@ -66,7 +66,7 @@ export default function Leverage(props) {
                 </div>
                 <div className='m-1 flex justify-center items-center'>
 
-                    <button className="flex justify-center items-center m-1 mt-2 h-10 w-96 md:h-14 md:w-96 bg-[#7F00FF] hover:bg-[#6f11cf] text-lg md:text-xl text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg" style={{ fontFamily: 'Archivo' }}>
+                    <button className="flex justify-center items-center m-1 mt-2 h-10 xxs:h-8 sm:h-10 w-96 md:h-14 md:w-96 bg-[#7F00FF] hover:bg-[#6f11cf] text-lg md:text-xl text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg" style={{ fontFamily: 'Archivo' }}>
                         <Link to="./Kontentedit">
                             Subscribe
                         </Link>

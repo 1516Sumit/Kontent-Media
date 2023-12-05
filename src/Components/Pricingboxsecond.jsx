@@ -9,7 +9,7 @@ export default function Pricingboxsecond(props) {
 
   return (
     <>
-      <div className="box flex flex-col p-3 lg:w-10/12 xl:w-9/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard">
+      <div className="box flex flex-col p-3 lg:w-10/12 xl:w-9/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard xxs:p-0">
         <div className="flex justify-between items-center">
           <div>
             <h3 className="p-2 text-2xl lg:text-3xl font-black text-[#7F00FF]">
@@ -68,12 +68,12 @@ export default function Pricingboxsecond(props) {
           </div>
 
         </div>
-        <div className="m-1 flex justify-center items-center">
+        <div className="m-1 flex justify-center items-center xxs:pt-1 sm:pt-0">
           <p className="price">
             {standardPrice}
           </p>
           <button
-            className="flex items-center justify-center h-10 w-2/4 xl:h-12 2xl:h-14 md:w-2/4 bg-[#7F00FF] hover:bg-[#6f11cf] text-base xl:text-lg 2xl:text-xl text-white font-bold py-2 px-1 border-b-2 border-white-400 hover:border-purple-800 rounded-lg"
+            className="flex items-center justify-center h-10 w-2/4 sm:h-10 xxs:h-8 xl:h-12 2xl:h-14 md:w-2/4 bg-[#7F00FF] hover:bg-[#6f11cf] text-base xl:text-lg 2xl:text-xl text-white font-bold py-2 px-1 border-b-2 border-white-400 hover:border-purple-800 rounded-lg"
             style={{ fontFamily: "Archivo" }}
           >
 
