@@ -35,13 +35,12 @@ body {
 }
 
 .full-screen-scroll {
-  height: 100vh;
-  width: "100%";
+  overflow-x: hidden;
+  height: 100vh; 
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
-.section{ 
-  width: "100%"; 
+.section{   
   scroll-snap-align: start;
 }
 
