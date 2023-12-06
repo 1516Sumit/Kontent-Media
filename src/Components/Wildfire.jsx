@@ -1,5 +1,5 @@
 // import React from 'react'
-import { useState } from 'react'
+import {useState} from 'react'
 import './wildfire.css';
 import Hand from '../assets/img/HandGrabbing.svg'
 import Scissors from '../assets/img/Scissors.svg'
@@ -8,7 +8,6 @@ import Vector from '../assets/img/Trash.svg'
 import Video from '../assets/video/video.mp4'
 import Mask from '../assets/img/Mask-group.jpeg'
 import Mask2 from '../assets/img/Mask-group2.jpeg'
-import iphone from '../assets/img/iphone.png'
 import '../App.css'
 function Wildfire() {
       const [isHovered, setIsHovered] = useState(false);
@@ -42,38 +41,22 @@ function Wildfire() {
 
                   <div className='m-14 grid justify-items-center items-center grid-cols-1 gap-0 md:grid-cols-3'>
                         <div>
-                              <img src={iphone} className='iphone1 rotate-0 md:rotate-90 z-1 absolute' />
-                              <div className='videodiv videodiv1 overflow-hidden rotate-0 md:rotate-90'>
-                                    <video className='w-64 sm:w-80 md:w-96 z-2' controls autoPlay muted loop>
-                                          <source src={Video} type="video/mp4" />
-                                    </video>
-                              </div>
+                              <video className='rotate-0 md:rotate-90 w-64 sm:w-80 md:w-96' controls>
+                                    <source src={Video} type="video/mp4" />
+                              </video>
                         </div>
-                        <div className='midvid flex flex-col justify-between md:m-0'>
-                              <div>
-                                    <img src={iphone} className='iphone1 z-1 absolute' />
-                                    <div className='videodiv videodiv2 overflow-hidden'>
-                                          <video className='w-64 sm:w-80 md:w-96 z-2 rotate-0' controls autoPlay muted loop>
-                                                <source src={Video} type="video/mp4" />
-                                          </video>
-                                    </div>
-                              </div>
-                              <div className='mt-5'>
-                                    <img src={iphone} className='iphone1 z-1 absolute' />
-                                    <div className='videodiv videodiv2 overflow-hidden'>
-                                          <video className='w-64 sm:w-80 md:w-96 rotate-0' controls autoPlay muted loop>
-                                                <source src={Video} type="video/mp4" />
-                                          </video>
-                                    </div>
-                              </div>
+                        <div className='flex flex-col justify-between'>
+                              <video className='w-64 sm:w-80 md:w-96' controls>
+                                    <source src={Video} type="video/mp4" />
+                              </video>
+                              <video className='w-64 sm:w-80 md:w-96' controls >
+                                    <source src={Video} type="video/mp4" />
+                              </video>
                         </div>
                         <div>
-                              <img src={iphone} className='iphone1 z-1 absolute rotate-0 md:rotate-90' />
-                              <div className='videodiv videodiv1 overflow-hidden rotate-0 md:rotate-90'>
-                                    <video className='w-64 sm:w-80 md:w-96 z-2' controls autoPlay muted loop>
-                                          <source src={Video} type="video/mp4" />
-                                    </video>
-                              </div>
+                              <video className='rotate-0 md:rotate-90 w-64 sm:w-80 md:w-96' controls>
+                                    <source src={Video} type="video/mp4" />
+                              </video>
                         </div>
                   </div>
                   <div className='flex justify-between flex-row'>

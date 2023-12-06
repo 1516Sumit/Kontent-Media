@@ -8,9 +8,9 @@ export default function Pricing() {
         <>
             <section className="bg-black w-screen h-auto flex justify-center items-center section">
                 <div className="bg-[#FFD93D] my-24 rounded-3xl md:rounded-large flex justify-center items-center h-auto md:h-screen">
-                    <div className="flex justify-center items-center my-10 sm:my-20 md:my-40 py-0 bg-[#7F00FF] w-screen h-auto md:h-128 overflow-hidden">
+                    <div className="flex justify-center items-center my-10 sm:my-20 md:my-40 py-0 bg-[#7F00FF] w-screen h-auto md:h-130 overflow-hidden">
                         <div className='w-screen'>
-                        <div className="bg-[url('./assets/img/grid2.png')] rotate-180 bg-cover bg-no-repeat h-12 sm:h-28 md:h-36"></div>
+                        <div className="bg-[url('./assets/img/grid2.png')] rotate-180 bg-cover bg-no-repeat h-12 sm:h-24"></div>
                             <div className="pricing grid grid-cols-1 md:grid-cols-3 justify-items-center items-center gap-10 sm:px-28 md:px-2 lg:px-16 md:gap-1 my-12 sm:m-12 md:m-0">
                                 <div className="flex flex-col p-4 w-11/12 scale-105 bg-white rounded-lg shadow xl:p-6 overflow-hidden z-10">
                                     <div className="flex justify-between items-center">
@@ -28,7 +28,7 @@ export default function Pricing() {
                                     <div className='m-1 flex justify-center items-center'>
 
                                         <button className="h-10 w-96 md:h-14 md:w-96 bg-[#7F00FF] hover:bg-[#6f11cf] text-lg md:text-xl text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg" style={{ fontFamily: 'Archivo' }}>
-                                            <Link to="/Kontentedit" onClick={() => window.scrollTo(0, 0)}>
+                                            <Link to="./Kontentedit">
                                                 Subscribe
                                             </Link>
                                         </button>
@@ -39,7 +39,7 @@ export default function Pricing() {
                                 <Pricingbox hname={Pdata[1].hname} />
                                 <Pricingbox hname={Pdata[2].hname} />
                             </div>
-                            <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-12 sm:h-28 md:h-36"></div>
+                            <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-12 sm:h-24"></div>
                         </div>
                     </div>
                 </div>
