@@ -27,7 +27,7 @@ export default {
       height: {
       '124' : '524px',
       '126' : '584px',
-      '128': '624px',
+      '128': '644px',
     }},
     clipPath: {
       mypolygon: "polygon(48% 1%, 68% 2%, 88% 4%, 100% 6%, 100% 100%, 50% 100%, 0 100%, 0 11%, 15% 6%, 28% 3%);",
@@ -42,7 +42,7 @@ export default {
     '2xl': '1rem',
     '3xl': '1.5rem',
     'full': '9999px',
-    'large': '54px',
+    'large': '64px',
   },
   },
   

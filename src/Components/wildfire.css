@@ -23,29 +23,9 @@
     margin-top: -30%;
 }
 
-.iphone1{
-    width: 394px;
-}
-
-.videodiv{
-    border-radius: 40px;
-}
-
-.videodiv1{
-    width: 370px;
-    margin-left: 3.2%;
-    margin-top: 2%;
-}
-
-.videodiv2{
-    width: 370px;
-    margin-left: 3.2%;
-    margin-top: 1.5%;
-}
-
 .rocket-container {
     position: relative;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease-in-out;
   }
   
   .Rocket.animate {
@@ -144,22 +124,6 @@
         margin-left: 61%;
         margin-top: -5%; 
     }
-
-    .iphone1{
-        width: 344px;
-    }
-
-    .videodiv1{
-        width: 320px;
-        margin-left: 3.5%;
-        margin-top: 2%;
-    }
-    
-    .videodiv2{
-        width: 320px;
-        margin-left: 3.5%;
-        margin-top: 1.8%;
-    }
 }
 
 @media (max-width: 1124px){
@@ -200,24 +164,6 @@
     } 
 }
 
-@media (max-width:967px){
-    .iphone1{
-        width: 294px;
-    }
-
-    .videodiv1{
-        width: 270px;
-        margin-left: 3.8%;
-        margin-top: 4%;
-    }
-    
-    .videodiv2{
-        width: 270px;
-        margin-left: 4.5%;
-        margin-top: 2.2%;
-    }
-}
-
 @media (max-width: 940px){
     .ceaser{
         margin-top: -18.5%;
@@ -254,21 +200,6 @@
         margin-left: 65%;
         margin-top: -4%; 
     } 
-    .iphone1{
-        width: 264px;
-    }
-
-    .videodiv1{
-        width: 240px;
-        margin-left: 4.4%;
-        margin-top: 4%;
-    }
-    
-    .videodiv2{
-        width: 240px;
-        margin-left: 5.2%;
-        margin-top: 2.5%;
-    }
 }
 
 @media (max-width: 768px){
@@ -288,24 +219,6 @@
         margin-left: 62%;
         margin-top: -5%; 
     } 
-    .iphone1{
-        width: 344px;
-    }
-
-    .videodiv1{
-        width: 320px;
-        margin-left: 4%;
-        margin-top: 2%;
-    }
-    
-    .videodiv2{
-        width: 320px;
-        margin-left: 4%;
-        margin-top: 2%;
-    }
-    .midvid{
-        margin: 5%;
-    }
 }
 
 
@@ -335,7 +248,7 @@
     }
 }
 
-@media (max-width: 640px){
+@media (max-width: 639px){
     .ceaser{
         margin-top: -17%;
          margin-left: 31%;
@@ -351,22 +264,7 @@
     .Hand{
         margin-left: 60%;
         margin-top: -4%; 
-    } 
-    .iphone1{
-        width: 284px;
-    }
-
-    .videodiv1{
-        width: 270px;
-        margin-left: 5%;
-        margin-top: 2%;
-    }
-    
-    .videodiv2{
-        width: 270px;
-        margin-left: 5%;
-        margin-top: 2%;
-    } 
+    }  
 }
 
 @media (max-width: 600px){
