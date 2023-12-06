@@ -4,13 +4,14 @@ import Ig from "../assets/img/ig.png";
 import Ln from "../assets/img/ln.png";
 import Tw from "../assets/img/tw.png";
 
+import '../App.css'
 function ContactForm() {
   return (
-    <div className="flex justify-center items-center flex-col bg-[#FFD93D] w-screen">
-      <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat rotate-180 h-16 sm:h-28 lg:h-36 w-screen"></div>
+    <div className="flex justify-center items-center flex-col bg-[#FFD93D] w-screen section md:pt-12 ">
+      <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat rotate-180 h-16 sm:h-28 lg:h-33 w-screen"></div>
       <div className="bg-black shadow w-10/12 h-auto overflow-hidden rounded-xl" >
-        <div className='h-1 top-0' style={{backgroundColor:'#7F00FF'}}></div>
-        <div className="grid md:grid-cols-2">
+        <div className='h-1 top-0 md:pt-8' style={{backgroundColor:'#7F00FF'}}></div>
+        <div className="grid md:grid-cols-2 ">
 
         <div className="text-gray-50 mx-auto my-auto py-16 ">
           <h1

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <>
-            <footer className="bg-[#FFD93D] w-screen">
+            <footer className="bg-[#FFD93D] w-screen h-auto section">
             <div className=" bg-[url('./assets/img/BG.png')] bg-cover">
                 {/* <div className=" bg-black clip-path-mypolygon"> */}
                     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">

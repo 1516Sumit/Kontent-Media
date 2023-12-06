@@ -2,7 +2,7 @@ import { useState } from 'react'
 import NewestCard from './NewestCard'
 // import Mask from '../assets/img/mask2.png'
 import './NewestJobs.css'
-
+import '../App.css'
 function NewestJobs() {
   const [all, setAll] = useState(true)
   const [finance, setFinance] = useState(false)
@@ -12,6 +12,7 @@ function NewestJobs() {
 
   return (
     <div className='flex flex-col w-screen full' style={{ backgroundColor: 'black' }}>
+
       <div className="bg-black h-0 block relative rotate-180 z-0 right-0" style={{ top: '120px' }}>
         <img className="w-32 sm:w-36 md:w-40" src="./images/Mask group.svg" />
       </div>

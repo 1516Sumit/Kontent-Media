@@ -4,12 +4,13 @@ import Mask2 from '../assets/img/Mask-group2.jpeg'
 import Marquees from './Marquees'
 
 import './trustby.css'
+import '../App.css'
 
 export default function Trustby() {
 
     return (
         <>
-            <section className="bg-black w-screen h-auto md:h-screen">
+            <section className="bg-black w-screen h-auto md:h-screen section sm:pt-24">
                 <div className="flex flex-col justify-center align-center bg-black w-screen text-center">
                     <h1 className="mt-10 mb-0 sm:mb-4 font-semibold tracking-wide leading-none text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white z-10" style={{ fontFamily: 'Archivo' }}><svg xmlns="http://www.w3.org/2000/svg" className="purpleCursor w-2 sm:w-2 md:w-3 lg:w-3 xl:w-4 relative inline-block" viewBox="0 0 24 24" fill="none">
                         <path d="M23.4137 19.9999C23.5995 20.1856 23.7469 20.4061 23.8474 20.6488C23.948 20.8915 23.9997 21.1516 23.9997 21.4143C23.9997 21.6769 23.948 21.937 23.8474 22.1797C23.7469 22.4224 23.5995 22.6429 23.4137 22.8286L22.8288 23.4136C22.643 23.5994 22.4225 23.7468 22.1798 23.8473C21.9372 23.9478 21.6771 23.9996 21.4144 23.9996C21.1517 23.9996 20.8916 23.9478 20.6489 23.8473C20.4062 23.7468 20.1857 23.5994 20 23.4136L13.0938 16.5086L10.3588 22.8011C10.2055 23.158 9.95063 23.462 9.6259 23.6752C9.30118 23.8883 8.92093 24.0012 8.5325 23.9999H8.435C8.03004 23.9829 7.64007 23.8419 7.31789 23.596C6.99571 23.35 6.75689 23.011 6.63375 22.6249L0.1 2.61488C-0.0145948 2.26474 -0.0299319 1.88969 0.0556904 1.53137C0.141313 1.17304 0.324545 0.845441 0.585055 0.584932C0.845564 0.324423 1.17316 0.141191 1.53149 0.0555683C1.88982 -0.0300539 2.26486 -0.0147168 2.615 0.0998779L22.625 6.63363C23.0074 6.76156 23.3423 7.00211 23.5856 7.32372C23.8288 7.64533 23.9692 8.03298 23.9883 8.43579C24.0073 8.83861 23.9042 9.23777 23.6924 9.58092C23.4805 9.92407 23.1699 10.1952 22.8013 10.3586L16.5088 13.0936L23.4137 19.9999Z" fill="#7F00FF" /></svg>T<span className="text-[#7F00FF]">r

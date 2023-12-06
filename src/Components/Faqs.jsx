@@ -5,6 +5,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
+import '../App.css'
 function Faqs() {
   return (
     <div
@@ -14,7 +15,7 @@ function Faqs() {
         paddingLeft:"6%",
         paddingRight:"8%",
         paddingBottom:"6%"
-      }} className="w-screen h-auto pb-10"
+      }} className="w-screen h-auto pb-10 section md:pt-52"
     >
       <h2
         className="mb-2 text-lg font-semibold text-gray-900 dark:text-white"

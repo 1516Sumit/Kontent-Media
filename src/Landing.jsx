@@ -1,3 +1,4 @@
+import React from "react";
 import Hero from './Components/Hero';
 import Keyfeature from './Components/Keyfeatures.jsx';
 import Testimonial from './Components/Testimonial.jsx';
@@ -7,11 +8,11 @@ import Pricing from './Components/Pricing.jsx';
 import BookACall from './Components/BookACall.jsx';
 import Trustby from './Components/Trustby.jsx'
 // import Navbar from './Components/Navbar.jsx';
-
+import './App.css'
 
 function Landing() {
     return (
-        <>
+        <div className="full-screen-scroll">
             {/* <Navbar/> */}
             <Hero type={"page"}/>
             <Trustby />
@@ -22,7 +23,7 @@ function Landing() {
             <BookACall/>
             <Footer />
             
-        </>
+        </div>
     )
 }
 

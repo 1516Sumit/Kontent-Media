@@ -1,10 +1,10 @@
 import Slider from "./Slider"
-
+import '../App.css'
 
 function Testimonial() {
     return (
         <>
-            <div className="bg-black flex items-center justify-center sm:justify-between flex-col w-screen h-auto md:h-screen">
+            <div className="bg-black flex items-center justify-center sm:justify-between flex-col w-screen h-auto md:h-screen section">
                 <div className="w-screen my-4 mb-8">
                     <div className="h-2 bg-[#7F00FF]"></div>
                     <div className="h-2 bg-[#FFD93D]"></div>

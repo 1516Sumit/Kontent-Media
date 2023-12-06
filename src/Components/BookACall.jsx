@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import Circle from '../assets/img/circle.png'
-
+import '../App.css'
 function BookACall() {
   return (
     <>
-      <div className='flex justify-center items-center flex-col' style={{ fontFamily: 'Archivo' }} >
+      <div className='flex justify-center items-center flex-col h-auto section' style={{ fontFamily: 'Archivo' }} >
         <div className=" flex justify-center items-center flex-col bg-[#FFD93D] w-screen h-auto lg:h-screen">
           <div className='w-screen flex justify-between flex-col overflow-hidden'>
             <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat rotate-180 h-16 sm:h-28 lg:h-44"></div>
