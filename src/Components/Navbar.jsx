@@ -46,9 +46,10 @@
 import { Link } from 'react-router-dom'
 import Frame from '../assets/img/Frame.png'
 import { useState } from "react";
+import Navbarsecond from './Navbarsecond';
 import "./Menu.css";
 
-function Navbar() {
+function Navbar({ second }) {
   const [hamburger, setHamburger] = useState(false);
   return (
     <>
@@ -86,7 +87,7 @@ function Navbar() {
 
        </div>
    ) : (
-      <div className='bg-black flex justify-center w-screen z-20 items-center fixed top-0'>
+      <div className='bg-black flex flex-col justify-center w-screen z-20 items-center fixed top-0'>
         <nav className="bg-black mt-4 w-10/12 z-20 border-slate-400 rounded-xl border-x-2 border-b-2">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 px-8">
             <Link to="/" className="flex items-center">
@@ -120,6 +121,9 @@ function Navbar() {
             </div>
           </div>
         </nav>
+        <section className={second === "kontentedit" ? " " : "hidden"}>
+        <Navbarsecond />
+        </section>
       </div> )}
     </>
   )

@@ -15,7 +15,7 @@ function ContactForm() {
 
         <div className="text-gray-50 mx-auto my-auto py-16 ">
           <h1
-            className="mb-4 text-4xl leading-none tracking-tight md:text-4xl lg:text-5xl xs:ml-8 xxs:ml-3"
+            className="px-12 sm:px-0 mb-4 text-4xl leading-none tracking-tight md:text-4xl lg:text-5xl xs:ml-8 xxs:ml-3"
             style={{ fontFamily: "Archivo, sans-serif" }}
           >
             Let us discuss your <br />
@@ -28,7 +28,7 @@ function ContactForm() {
               width: 89,
               marginTop: 19,
             }}
-            className="xs:ml-8 xxs:ml-3" 
+            className="xs:ml-8 xxs:ml-3 mx-12 sm:mx-0" 
           />
           <div
             style={{
@@ -38,7 +38,7 @@ function ContactForm() {
               textAlign: "left",
               color: "gray",
             }}
-            className="xs:ml-8 xxs:ml-3"
+            className="xs:ml-8 xxs:ml-3 px-12 sm:px-0"
           >
             Org.nr:559264-1871 <br />
             Lunar Holding LDA <br />
@@ -52,7 +52,7 @@ function ContactForm() {
               display: "flex",
               justifyContent: "space-between",
             }}
-            className="xs:ml-8 xxs:ml-3"
+            className="xs:ml-8 xxs:ml-3 ml-12 sm:ml-0"
           >
             <img src={Fb} style={{ height: 24, width: 24 }} />
             <img src={Tw} style={{ height: 24, width: 24 }} />
@@ -61,7 +61,7 @@ function ContactForm() {
           </div>
 
           <button
-            className="my-10 w-72 h-14 xs:w-56 xs:ml-8 xxs:ml-4 xxs:w-52"
+            className=" w-9/12 sm:w-11/12 my-10 h-14 ml-12 sm:ml-0 xs:w-56 xs:ml-8 xxs:ml-4 xxs:w-52"
             style={{
               border: "1px solid #7F00FF",
               color: "#7F00FF",
