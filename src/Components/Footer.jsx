@@ -48,7 +48,7 @@ function Footer() {
                                     <div>
                                         <ul className="text-sm text-slate-200 font-medium font-Inter">
                                             <li className="mb-2">
-                                                <Link to="/Career" className="hover:underline ">Career</Link>
+                                            <Link to="/Career" onClick={() => window.scrollTo(0, 0)} className="hover:underline">Career</Link>
                                             </li>
                                         </ul>
                                     </div>

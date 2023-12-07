@@ -11,12 +11,12 @@ function NewestJobs() {
   const [specialist, setSpecialist] = useState(false)
 
   return (
-    <div className='block w-screen full section sm:pt-10' style={{ backgroundColor: 'black' }}>
+    <div className='flex flex-col w-screen full section sm:pt-10' style={{ backgroundColor: 'black' }}>
       <div className="bg-black h-0 block relative rotate-180 z-0 right-0" style={{ top: '120px' }}>
         <img className="w-32 sm:w-36 md:w-40" src="./images/Mask group.svg" />
       </div>
-      <div className="heading">Newest<span style={{ color: "#FFD93D" }} > Jobs</span> For <span style={{ color: '#7F00FF' }}>You</span></div>
-      <div className="sub-heading">Get The Fastest Application So That Your Name Is Above Other Application</div>
+      <div className="flex justify-center items-center heading">Newest&nbsp;<span style={{ color: "#FFD93D" }} > Jobs&nbsp;</span> For&nbsp;<span style={{ color: '#7F00FF' }}> You</span></div>
+      <div className="flex justify-center items-center sub-heading text-center">Get The Fastest Application So That Your Name Is Above Other Application</div>
       {/* <div style={{display:'flex', justifyContent:'space-evenly', marginTop:"2%", marginBottom:'2%'}}>
       <p className='tabs'  style={{color:'white', cursor:'pointer' }} onClick={e=>{setAll(true)}}>All Recent</p>
       <p className='tabs' style={{color:'white', cursor:'pointer'}} onClick={e=>{ setAll(false); setFinance(true)}}>Finance</p>

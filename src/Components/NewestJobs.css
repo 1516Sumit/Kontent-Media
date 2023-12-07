@@ -4,21 +4,21 @@
 .heading {
     color: #F1F1F1;
     font-size:84px;
-    line-height:1px;
+    /* line-height:1px; */
     font-weight:900px;
     font-family:Archivo;
     text-align:center;
-    width:60%;
-    margin-left:15%; 
-    height:157px;
-    padding-top:7%
+    /* width:60%; */
+    /* margin-left:15%;  */
+    /* height:157px; */
+    /* padding-top:7% */
 }
 .sub-heading{
     color:#ffffff;
-    width:50%; 
+    /* width:50%;  */
     font-size:18px;
     font-weight:400px;
-    margin-left:27%;
+    /* margin-left:27%; */
 }
 .mask{
     left: 83%;
@@ -34,7 +34,7 @@
 @media (max-width: 1498px) and (min-width:801px) {
    .heading{
     font-size: 50px;
-    margin-left: 22%;
+    /* margin-left: 22%; */
    }
    .mask{
     height: 35%;
@@ -42,13 +42,13 @@
    .sub-heading{
     font-size:12px;
     text-align: center;
-    margin-top:-3%
+    /* margin-top:-3% */
    }
 }
 @media (max-width: 800px) and (min-width:660px) {
     .heading{
-     font-size: 30px;
-     margin-left: 22%;
+     font-size: 40px;
+     /* margin-left: 22%; */
     }
     .mask{
      height: 30%;
@@ -56,14 +56,14 @@
     .sub-heading{
         font-size:12px;
         text-align: center;
-        margin-top:-9%
+        /* margin-top:-9% */
        }
     
  }
  @media (max-width: 659px) and (min-width:548px) {
     .heading{
-     font-size: 30px;
-     margin-left: 22%;
+     font-size: 40px;
+     /* margin-left: 22%; */
     }
     .mask{
      height: 30%;
@@ -73,7 +73,7 @@
     .sub-heading{
         font-size:12px;
         text-align: center;
-        margin-top:-14%
+        /* margin-top:-14% */
        }
        .cards{
         margin-left: 13.2%;
@@ -81,10 +81,10 @@
     }
     
  }
- @media (max-width: 547px) and (min-width:481px){
+ @media (max-width: 548px) and (min-width:481px){
     .heading{
      font-size: 30px;
-     margin-left: 22%;
+     /* margin-left: 22%; */
     }
     .mask{
      height: 30%;
@@ -94,7 +94,7 @@
     .sub-heading{
         font-size:12px;
         text-align: center;
-        margin-top:-19%
+        /* margin-top:-19% */
        }
        .cards{
         margin-left: 16.2%;
@@ -105,8 +105,8 @@
     .heading{
      font-size: 30px;
      text-align: center;
-     width: 70%;
-     line-height:1em ;
+     /* width: 70%; */
+     /* line-height:1em ; */
     }
     .mask{
      height: 30%;
@@ -115,10 +115,10 @@
     }
     .sub-heading{
         font-size:10px;
-        margin-top:-16%;
-        width: 90%;
-        margin-left: 10%;
-        margin-bottom: 5%
+        /* margin-top:-16%; */
+        /* width: 90%; */
+        /* margin-left: 10%; */
+        /* margin-bottom: 5% */
        }
     .tabs{
         font-size:10px
@@ -131,11 +131,5 @@
 @media (max-width:1400px) and (min-width:1295px){
     .full{
         padding-bottom: 10%;
-    }
-}
-
-@media (min-width:1468px){
-    .sub-heading{
-        margin-top: -1%;
     }
 }
