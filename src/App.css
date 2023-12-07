@@ -28,6 +28,12 @@ body{
 
   /* styles.css */
 
+  body{
+    overflow: hidden;
+ 
+    padding: 0;
+    margin: 0;
+}
 
 
 .full-screen-scroll {
