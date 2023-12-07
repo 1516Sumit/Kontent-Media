@@ -15,7 +15,7 @@ export default function Pricingbox(props) {
                 <p className='p-2 text-sm text-slate-500'>Many of these bussiness ideasare home-<br />based. While they may not</p>
                 <div className='m-1 flex justify-center items-center'>
                     <button className="h-10 w-96 md:h-14 md:w-96 bg-[#7F00FF] hover:bg-[#6f11cf] text-lg md:text-xl text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg" style={{ fontFamily: 'Archivo' }}>
-                        <Link to="./Kontentpod">
+                        <Link to="/Kontentedit" onClick={() => window.scrollTo(0, 0)}>
                             Subscribe
                         </Link>
                     </button>
