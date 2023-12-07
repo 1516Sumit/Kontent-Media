@@ -4,9 +4,11 @@ import NewestJobs from "./NewestJobs"
 import CareerFooter from "./CareerFooter"
 import CareerTestimonials from "./CareerTestimonials"
 import '../App.css'
+import Navbar from './Navbar.jsx';
 function Career() {
     return (
         <div className="full-screen-scroll">
+        <Navbar/>
             <Hero />
             <Collage/>
             <NewestJobs/>
