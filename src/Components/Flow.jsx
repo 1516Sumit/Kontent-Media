@@ -16,7 +16,7 @@ function Flow({ type }) {
                         <h2>
                             <span className="flex justify-evenly items-center text-slate-900 text-3xl md:text-5xl font-extrabold mb-2">
                                 <h2 className="ml-4">
-                                    <span className="flex tabular-nums text-white text-3xl md:text-5xl font-extrabold  animate-[counter1_4s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                                    <span className="flex tabular-nums text-white text-3xl md:text-5xl font-extrabold animate-[counter5_4s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                                         <span className="sr-only">10 </span><svg className="mt-3 ml-2 h-4 w-4 sm:h-6 sm:w-6 sm:mt-4 sm:ml-4" xmlns="http://www.w3.org/2000/svg" width="25" height="27" viewBox="0 0 25 27" fill="none">
                                             <path d="M24.8594 16.5803H15.8049V26.669H9.12534V16.5803H0.0213013V10.5468H9.12534V0.507568H15.8049V10.5468H24.8594V16.5803Z" fill="#FFD93D" />
                                         </svg> &nbsp;Countries
@@ -31,7 +31,7 @@ function Flow({ type }) {
                         <h2>
                             <span className="flex text-slate-900 text-3xl md:text-5xl font-extrabold mb-2">
                                 <h2 className="ml-4">
-                                    <span className="flex tabular-nums text-white text-3xl md:text-5xl font-extrabold  animate-[counter2_4s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                                    <span className="flex tabular-nums text-white text-3xl md:text-5xl font-extrabold  animate-[counter6_4s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                                         <span className="sr-only">2600 </span><svg className="mt-3 ml-2 h-4 w-4 sm:h-6 sm:w-6 sm:mt-4 sm:ml-4" xmlns="http://www.w3.org/2000/svg" width="25" height="27" viewBox="0 0 25 27" fill="none">
                                             <path d="M24.8594 16.5803H15.8049V26.669H9.12534V16.5803H0.0213013V10.5468H9.12534V0.507568H15.8049V10.5468H24.8594V16.5803Z" fill="#FFD93D" />
                                         </svg>&nbsp;Edits
@@ -46,7 +46,7 @@ function Flow({ type }) {
                         <h2>
                             <span className="flex text-slate-900 text-3xl md:text-5xl font-extrabold mb-2">
                                 <h2 className="ml-4">
-                                    <span className="flex tabular-nums text-white text-3xl md:text-5xl font-extrabold  animate-[counter3_4s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
+                                    <span className="flex tabular-nums text-white text-3xl md:text-5xl font-extrabold  animate-[counter7_4s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">
                                         <span className="sr-only">One Word</span><svg className="mt-3 ml-2 h-4 w-4 sm:h-6 sm:w-6 sm:mt-4 sm:ml-4" xmlns="http://www.w3.org/2000/svg" width="25" height="27" viewBox="0 0 25 27" fill="none">
                                             <path d="M24.8594 16.5803H15.8049V26.669H9.12534V16.5803H0.0213013V10.5468H9.12534V0.507568H15.8049V10.5468H24.8594V16.5803Z" fill="#FFD93D" />
                                         </svg>

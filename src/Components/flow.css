@@ -10,7 +10,7 @@
     }
 
     to {
-        --num: 10;
+        --num: 75023489;
     }
 }
 
@@ -20,7 +20,7 @@
     }
 
     to {
-        --num: 2600;
+        --num: 1000000;
     }
 }
 
@@ -35,6 +35,36 @@
 }
 
 @keyframes counter4 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 700;
+    }
+}
+
+@keyframes counter5 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 10;
+    }
+}
+
+@keyframes counter6 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 2600;
+    }
+}
+
+@keyframes counter7 {
     from {
         --num: 0;
     }

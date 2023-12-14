@@ -7,7 +7,7 @@ import Tw from "../assets/img/tw.png";
 import '../App.css'
 function ContactForm() {
   return (
-    <div className="flex justify-center items-center flex-col bg-[#FFD93D] w-screen section md:pt-12 ">
+    <div id="contactform" className="flex justify-center items-center flex-col bg-[#FFD93D] w-screen section md:pt-12 ">
       <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat rotate-180 h-16 sm:h-28 lg:h-33 w-screen"></div>
       <div className="bg-black shadow w-10/12 h-auto overflow-hidden rounded-xl" >
         <div className='h-1 top-0 md:pt-8' style={{backgroundColor:'#7F00FF'}}></div>
