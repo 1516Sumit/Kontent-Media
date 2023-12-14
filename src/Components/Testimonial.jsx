@@ -12,13 +12,14 @@ function Testimonial() {
                 </div>
                 <div className="mt-5 mb-7 md:mb-7 text-center">
                     <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                        You are not
-                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> alone.</span>
-                        The pain
+                        Attention is the 
+
+                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> new currency,</span>
+                        and it’s hard 
                         <br />
-                        of website
-                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> creation </span>
-                        is real
+                        to get. But,
+                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  we make </span>
+                        it easy…
                     </p>
                 </div>
 
@@ -27,9 +28,9 @@ function Testimonial() {
 
                 <div>
                     <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}>let’s </span>
-                        Case
-                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Study </span>
+                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}>Our </span>
+                        <span className="line-through"> Clients </span> Raving
+                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Fans </span>
                     </p>
                 </div>
 

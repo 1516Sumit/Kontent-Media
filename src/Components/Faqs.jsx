@@ -31,7 +31,7 @@ function Faqs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Where can I watch?</Typography>
+          <Typography>How do I sign up?</Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
@@ -47,24 +47,7 @@ function Faqs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Mauris id nibh eu fermentum mattis purus?</Typography>
-        </AccordionSummary>
-        <AccordionDetails className="h-auto">
-          <Typography style={{ color: "grey" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <hr style={{ borderColor: "gray", borderWidth: 1 }} />
-      <Accordion style={{ backgroundColor: "black", color: "white" }}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon style={{ color: "#7F00FF" }} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Eros imperdiet rhoncus?</Typography>
+          <Typography>Do you offer free trials?</Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
@@ -81,7 +64,24 @@ function Faqs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Fames imperdiet quam fermentum?</Typography>
+          <Typography>Can I cancel if I don't like it?</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="h-auto">
+          <Typography style={{ color: "grey" }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <hr style={{ borderColor: "gray", borderWidth: 1 }} />
+      <Accordion style={{ backgroundColor: "black", color: "white" }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon style={{ color: "#7F00FF" }} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Why don't I just hire a freelancer?</Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
@@ -99,7 +99,7 @@ function Faqs() {
           id="panel1a-header"
         >
           <Typography>
-            Varius vitae, convallis amet lacus sit aliquet nibh?
+          How can you help with content?
           </Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
@@ -117,7 +117,7 @@ function Faqs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Torto nisl pellentesque sit quis orci dolor?</Typography>
+          <Typography>When does my month start?</Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
@@ -134,8 +134,7 @@ function Faqs() {
           id="panel1a-header"
         >
           <Typography>
-            Vestibulum mauris auris elementum proin amet auctor ipsum nibh
-            sollictudin?
+          How many videos can we realistically do in the unlimited plan?
           </Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">

@@ -13,10 +13,10 @@ function Navbarsecond() {
                                     
                                 </li>
                                 <li>
-                                    <Link to="#" className="Kontent block py-1 text-center text-[#FCFCF9] rounded hover:text-[#7F00FF] px-1 sm:px-3 md:text-[#FCFCF9] md:p-0 text-sm md:text-base" style={{ fontFamily: 'Archivo' }}>Kontent Pod</Link>
+                                    <Link to="/Kontentpod" className="Kontent block py-1 text-center text-[#FCFCF9] rounded hover:text-[#7F00FF] px-1 sm:px-3 md:text-[#FCFCF9] md:p-0 text-sm md:text-base" style={{ fontFamily: 'Archivo' }}>Kontent Pod</Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="Kontent block py-1 text-center text-[#FCFCF9] rounded hover:text-[#7F00FF] px-2 sm:px-0 md:text-[#FCFCF9] md:p-0 text-sm md:text-base" style={{ fontFamily: 'Archivo' }}>Kontent S2S</Link>
+                                    <Link to="/Kontents2s" className="Kontent block py-1 text-center text-[#FCFCF9] rounded hover:text-[#7F00FF] px-2 sm:px-0 md:text-[#FCFCF9] md:p-0 text-sm md:text-base" style={{ fontFamily: 'Archivo' }}>Kontent S2S</Link>
                                 </li>
 
                             </ul>

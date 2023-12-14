@@ -5,20 +5,20 @@ import Footer from './Footer.jsx';
 import Navbar from './Navbar.jsx';
 import Faqs from "./Faqs";
 import ContactForm from "./ContactForm.jsx";
-
 import '../App.css'
-function Kontentedit() {
+function Kontents2s() {
     return (
         <div className="full-screen-scroll">
-            <Navbar second={"kontentedit"} />
-            <Hero type={"kontentedit"} />
-            <Flow type={"kontentedit"}/>
-            <Pricingsecond type={"kontentedit"}/>
-            <Faqs />
-            <ContactForm />
+        <Navbar second={"kontentedit"}/>
+            
+            <Hero type={"kontents2s"} />
+            <Flow type={"kontents2s"}/>
+            <Pricingsecond type={"kontents2s"}/>
+            <Faqs/>
+            <ContactForm/> 
             <Footer type={"kontentedit"}/>
         </div>
     )
 }
 
-export default Kontentedit;
+export default Kontents2s;

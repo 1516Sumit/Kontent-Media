@@ -22,7 +22,7 @@ function Wildfire() {
       };
       return (
             <div className='bg-black w-screen sm:pt-44 h-auto section'>
-                  <h1 className='self-center text-center text-2xl sm:text-3xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white' style={{ fontFamily: 'Archivo' }}>Videos that <span style={{ color: '#7F00FF' }}>Makes</span> <br />your<span style={{ color: '#FFD93D' }}> Brand Spread</span> <br />like<span style={{ color: '#7F00FF' }}> Wildfire.</span></h1>
+                  <h1 className='self-center text-center text-2xl sm:text-3xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white' style={{ fontFamily: 'Archivo' }}>Supercharge <span style={{ color: '#7F00FF' }}>your growth </span> <br />with videos <span style={{ color: '#FFD93D' }}>that break </span> <br />the <span style={{ color: '#7F00FF' }}> scroll.</span></h1>
                   <img src={Scissors} className='ceaser w-6 lg:w-12 sm:w-8 md:w-10' />
                   <div
                         className={`rocket-container ${isHovered ? "animate" : ""}`}

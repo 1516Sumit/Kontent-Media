@@ -32,7 +32,7 @@ function Navbar({ second }) {
          </li>
          <li>
            {" "}
-           <Link to="#" className='hover:text-xl'>Solution</Link>
+           <Link to="#" className='hover:text-xl'>How We Help / Our Services</Link>
                
          </li>
          <li>
@@ -64,7 +64,7 @@ function Navbar({ second }) {
                   <Link to="#" className="block py-2 pl-3 pr-4 text-gray-400 text-lg lg:text-2xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" aria-current="page" style={{ fontFamily: 'Archivo' }}>What We Do</Link>
                 </li>
                 <li>
-                  <Link to="#" className="block py-2 pl-3 pr-4 text-gray-400 text-lg lg:text-2xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" style={{ fontFamily: 'Archivo' }}>Solution</Link>
+                  <Link to="#" className="block py-2 pl-3 pr-4 text-gray-400 text-lg lg:text-2xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" style={{ fontFamily: 'Archivo' }}>How We Help / Our Services</Link>
                 </li>
                 <li>
                   <Link to="#" className="block py-2 pl-3 pr-4 text-gray-400 text-lg lg:text-2xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" style={{ fontFamily: 'Archivo' }}>Portfolio</Link>
@@ -72,7 +72,7 @@ function Navbar({ second }) {
               </ul>
             </div>
             <div className="hidden md:flex md:order-2">
-              <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800  border-b-2 border-white-400 hover:border-purple-800" style={{ backgroundColor: '#7F00FF', width: 127, height: 42, fontFamily: 'Archivo' }}>Contact Us</button>
+              <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800  border-b-2 border-white-400 hover:border-purple-800" style={{ backgroundColor: '#7F00FF', width: 127, height: 42, fontFamily: 'Archivo' }}>Let’s Talk</button>
             </div>
           </div>
         </nav>

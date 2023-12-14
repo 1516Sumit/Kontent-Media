@@ -18,15 +18,15 @@ export default function Leverage(props) {
                     </div>
                 </div>
                 <p className="p-2 text-sm text-slate-500">
-                    →Many of these business ideas are home-based.
+                    →Everything in Standard+
                     <br />
-                    →Many of these business ideas are
+                    →24/7 Support
                     <br />
-                    →Many of these business ideas are home-based.
+                    →Unlimted Reels
                     <br />
-                    →Many of these business ideas are
+                    →Faster Delivery
                     <br />
-                    →Many of these business ideas are home-based.
+                    →Bonus Hooks and Templates
 
                 </p>
                 <p className="text1">Unlimited Reels _100 min Youtube Editing</p>

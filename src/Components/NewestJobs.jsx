@@ -15,8 +15,11 @@ function NewestJobs() {
       <div className="bg-black h-0 block relative rotate-180 z-0 right-0" style={{ top: '120px' }}>
         <img className="w-32 sm:w-36 md:w-40" src="./images/Mask group.svg" />
       </div>
-      <div className="flex justify-center items-center heading">Newest&nbsp;<span style={{ color: "#FFD93D" }} > Jobs&nbsp;</span> For&nbsp;<span style={{ color: '#7F00FF' }}> You</span></div>
-      <div className="flex justify-center items-center sub-heading text-center">Get The Fastest Application So That Your Name Is Above Other Application</div>
+      <div className="flex justify-center items-center heading">Open&nbsp;<span style={{ color: "#FFD93D" }} >Positions&nbsp;</span> 
+      {/* For&nbsp; */}
+      {/* <span style={{ color: '#7F00FF' }}> You</span> */}
+      </div>
+      <div className="flex justify-center items-center sub-heading text-center">Your next chapter starts here. Are you up to the challenge?</div>
       {/* <div style={{display:'flex', justifyContent:'space-evenly', marginTop:"2%", marginBottom:'2%'}}>
       <p className='tabs'  style={{color:'white', cursor:'pointer' }} onClick={e=>{setAll(true)}}>All Recent</p>
       <p className='tabs' style={{color:'white', cursor:'pointer'}} onClick={e=>{ setAll(false); setFinance(true)}}>Finance</p>

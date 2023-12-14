@@ -9,7 +9,7 @@ function Career() {
     return (
         <div className="full-screen-scroll">
         <Navbar/>
-            <Hero />
+            <Hero type={"page2"}/>
             <Collage/>
             <NewestJobs/>
             <CareerTestimonials/>

@@ -17,6 +17,25 @@
     right: 3.8%;
     top: 43px;
 }
+.star21 {
+    bottom: 60px;
+    left: 15.1%;
+}
+
+.star22 {
+    left: -8%;
+    top: 60px;
+}
+
+.star23 {
+    bottom: 70px;
+    left: 9%;
+}
+
+.star24 {
+    right: 5.8%;
+    top: 58px;
+}
 
 @media (max-width: 1535px) {
     .star1 {
@@ -37,6 +56,26 @@
     .star4 {
         right: 3.5%;
         top: 36px;
+    }
+
+    .star21 {
+        bottom: 56px;
+        left: 15.1%;
+    }
+    
+    .star22 {
+        left: -6%;
+        top: 57px;
+    }
+    
+    .star23 {
+        bottom: 55px;
+        left: 8%;
+    }
+    
+    .star24 {
+        right: 5.8%;
+        top: 48px;
     }
    
 }
@@ -60,6 +99,25 @@
     .star4 {
         right: 3.7%;
         top: 36px;
+    }
+    .star21 {
+        bottom: 52px;
+        left: 15.1%;
+    }
+    
+    .star22 {
+        left: -6%;
+        top: 54px;
+    }
+    
+    .star23 {
+        bottom: 56px;
+        left: 8%;
+    }
+    
+    .star24 {
+        right: 5.8%;
+        top: 52px;
     }
 }
 
@@ -104,6 +162,26 @@
     .star4 {
         right: 3.6%;
         top: 34px;
+    }
+
+    .star21 {
+        bottom: 46px;
+        left: 15.1%;
+    }
+    
+    .star22 {
+        left: -6%;
+        top: 48px;
+    }
+    
+    .star23 {
+        bottom: 48px;
+        left: 8%;
+    }
+    
+    .star24 {
+        right: 5.8%;
+        top: 46px;
     }
   
 }
@@ -173,6 +251,25 @@
         top: 28px;
     }
 
+    .star21 {
+        bottom: 36px;
+        left: 15.1%;
+    }
+    
+    .star22 {
+        left: -6%;
+        top: 40px;
+    }
+    
+    .star23 {
+        bottom: 40px;
+        left: 8%;
+    }
+    
+    .star24 {
+        right: 5.8%;
+        top: 36px;
+    }
 }
 
 @media (max-width: 950px){
@@ -233,6 +330,26 @@
         right: 4.2%;
         top: 28px;
     }
+
+    .star21 {
+        bottom: 30px;
+        left: 15.1%;
+    }
+    
+    .star22 {
+        left: -6%;
+        top: 32px;
+    }
+    
+    .star23 {
+        bottom: 32px;
+        left: 8%;
+    }
+    
+    .star24 {
+        right: 5.8%;
+        top: 30px;
+    }
    
 }
 
@@ -256,9 +373,29 @@
         right: 3.8%;
         top: 17px;
     }
+
+    .star21 {
+        bottom: 20px;
+        left: 15.1%;
+    }
+    
+    .star22 {
+        left: -6%;
+        top: 20px;
+    }
+    
+    .star23 {
+        bottom: 22px;
+        left: 8%;
+    }
+    
+    .star24 {
+        right: 5.8%;
+        top: 20px;
+    }
    
     .heroText{
-        font-size: 36px!important;
+        font-size: 34px!important;
     }
 }
 

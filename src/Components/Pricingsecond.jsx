@@ -7,7 +7,7 @@ import Leverage from "./Levrage";
 
 import '../App.css'
 
-export default function Pricingsecond() {
+export default function Pricingsecond({ type }) {
   const [eigthClicked, seteightClicked] = useState(false);
   const [tenthClicked, setTenthClicked] = useState(false);
   const [twelveClicked, setTwelveClicked] = useState(false);
@@ -36,25 +36,65 @@ export default function Pricingsecond() {
                     </div>
 
                     <div className="popular w-2/12 text-center relative right-20 top-3 md:top-0 md:-left-24 sm:bottom-0 lg:-left-20 lg:top-0 xl:top-3 xl:-left-18">
-                      <div className="pb-1 w-52 h-6 bg-black rotate-45 text-xl font-bold text-white flex justify-center items-center" style={{ boxShadow:'0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}>
+                      <div className="pb-1 w-52 h-6 bg-black rotate-45 text-xl font-bold text-white flex justify-center items-center" style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}>
                         Popular
                       </div>
                     </div>
                   </div>
-                  <p className="p-2 text-sm text-slate-500">
-                    {" "}
-                    →Many of these business ideas are home-based.
-                    <br />
-                    →Many of these business ideas are
-                    <br />
-                    →Many of these business ideas are home-based.
-                    <br />
-                    →Many of these business ideas are
-                    <br />
-                    →Many of these business ideas are home-based.
-                    <br />
-                    →Many of these business ideas are
-                  </p>
+                  <section className={type === "kontentedit" ? " " : "hidden"}>
+                    <p className="p-2 text-sm text-slate-500">
+                      {" "}
+                      → Best For Reels / Shorts
+                      <br />
+                      → Custom Thumbnails
+                      <br />
+                      → Dedicated Team
+                      <br />
+                      → Content Consultation Calls
+                      <br />
+                      → Unique Edits - Change
+                      <br />
+                      → 2X Revisions
+                      <br />
+                      → X- Distribution
+                      <br />
+                      → X - Personal Manager
+                      <br />
+                      → X - Long Form Video Editing
+                    </p>
+                  </section>
+                  <section className={type === "kontentpod" ? " " : "hidden"}>
+                    <p className="p-2 text-sm text-slate-500">
+                      {" "}
+                      → Best For Reels and Long Form Conten
+                      <br />
+                      → Everything in Klassic +
+                      <br />
+                      → Personal Manager
+                      <br />
+                      → Long Form Video Editing
+                      <br />
+                      → Unlimited Revisions
+                      <br />
+                      → Pause Anytime
+                      <br />
+                      → Distribution Support
+                    </p>
+                  </section>
+                  <section className={type === "kontents2s" ? " " : "hidden"}>
+                    <p className="p-2 text-sm text-slate-500">
+                      {" "}
+                      → Everything in Standard+
+                      <br />
+                      → 24/7 Support
+                      <br />
+                      → Unlimted Reels
+                      <br />
+                      → Faster Delivery
+                      <br />
+                      → Bonus Hooks and Templates
+                    </p>
+                  </section>
                   <div style={{ textAlign: "right", width: "95%" }}>
                     <p style={{ color: "#7F00FF" }}>Videos</p>
                   </div>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
-export default function Pricingboxsecond(props) {
+export default function Pricingboxsecond(props,{type}) {
   const [firstClicked, setFirstClicked] = useState(false);
   const [secondClicked, setSecondClicked] = useState(true);
   const [thirdClicked, setThirdClicked] = useState(false);
@@ -17,19 +17,17 @@ export default function Pricingboxsecond(props) {
             </h3>
           </div>
         </div>
+        {/* <section className={type === "kontentedit" ? " " : "hidden"}> */}
         <p className="p-2 text-sm text-slate-500">
-          →Many of these business ideas are home-based.
+          → No Distribution
           <br />
-          →Many of these business ideas are
+          →No Thumbnails
           <br />
-          →Many of these business ideas are home-based.
+          →Limited Revisions
           <br />
-          →Many of these business ideas are
-          <br />
-          →Many of these business ideas are home-based.
-          <br />
-          →Many of these business ideas are
+          →Podcast Trailer
         </p>
+        {/* </section> */}
         <div className="button-container w-full md:w-11/12">
           <div
             className={`rectangular-button ${firstClicked ? 'clicked' : ''}`}

@@ -5,20 +5,20 @@ import Footer from './Footer.jsx';
 import Navbar from './Navbar.jsx';
 import Faqs from "./Faqs";
 import ContactForm from "./ContactForm.jsx";
-
 import '../App.css'
-function Kontentedit() {
+function Kontentpod() {
     return (
         <div className="full-screen-scroll">
-            <Navbar second={"kontentedit"} />
-            <Hero type={"kontentedit"} />
-            <Flow type={"kontentedit"}/>
-            <Pricingsecond type={"kontentedit"}/>
-            <Faqs />
-            <ContactForm />
+        <Navbar second={"kontentedit"}/>
+            
+            <Hero type={"kontentpod"} />
+            <Flow type={"kontentpod"}/>
+            <Pricingsecond type={"kontentpod"}/>
+            <Faqs/>
+            <ContactForm/> 
             <Footer type={"kontentedit"}/>
         </div>
     )
 }
 
-export default Kontentedit;
+export default Kontentpod;

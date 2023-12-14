@@ -6,27 +6,116 @@ function Hero({ type }) {
         <>
             <section className="bg-black h-auto w-screen overflow-hidden section">
                 <div className="bg-black w-screen mt-4 sm:mt-20 lg:mt-32 pt-24 py-8 px-1 text-center lg:py-16 lg:px-1 flex flex-col">
-                    <Tilt tiltMaxAngleX={3}
-                        tiltMaxAngleY={3}>
-                        <h1 className="heroText mt-10 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                            <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star1 inline-block" alt="star" />
-                            creating
-                            <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Content </span>
-                            that<img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star2 inline-block" alt="star" /></h1>
-                        <h1 className="heroText mt-2 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                            <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star3 inline-block" alt="star" />captures
-                            <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Attention
-                                <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star4 inline-block" alt="star" /></span></h1>
-                    </Tilt>
+                    <section className={type === "page" ? " " : "hidden"}>
+                        <Tilt tiltMaxAngleX={3}
+                            tiltMaxAngleY={3}>
+                            <h1 className="heroText mt-10 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star1 inline-block" alt="star" />
+                                Content
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> That </span>
+                                Moves<img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star2 inline-block" alt="star" /></h1>
+                            <h1 className="heroText mt-2 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star3 inline-block" alt="star" />The
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Needle
+                                    <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star4 inline-block" alt="star" /></span></h1>
+                        </Tilt>
 
-                    <p className="heroDes mt-1 sm:mt-3 lg:mt-0 font-Inter text-xs font-medium text-gray-400 sm:text-base md:text-xl lg:text-2xl xl:text-3xl sm:px-16 xl:px-48">Helping Creators & Brands To Level-up their<br /> content game with creative post-production!</p>
+                        <p className="heroDes mt-1 sm:mt-3 lg:mt-0 font-Inter text-xs font-medium text-gray-400 sm:text-base md:text-xl lg:text-2xl xl:text-3xl sm:px-16 xl:px-48">A video content powerhouse serving brands, creators, and
+                            <br />entrepreneurs worldwide. Reach farther, create better and faster.</p>
+                    </section>
 
-                    <section className={type === "page1" ? " " : "hidden"}>
+                    <section className={type === "kontentedit" ? " " : "hidden"}>
+                        <Tilt tiltMaxAngleX={3}
+                            tiltMaxAngleY={3}>
+                            <h1 className="heroText mt-10 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star1 inline-block" alt="star" />
+                                creating
+                                {/* Hook Your Audience
+                                We’re EditorsStorytellers
+                                Stop sacrificing quality for speed
+                                Scale, Speed, and Quality You Can't Ignore */}
+
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Content </span>
+                                that<img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star2 inline-block" alt="star" /></h1>
+                            <h1 className="heroText mt-2 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star3 inline-block" alt="star" />captures
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Attention
+                                    <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star4 inline-block" alt="star" /></span></h1>
+                        </Tilt>
+
+                        <p className="heroDes mt-1 sm:mt-3 lg:mt-0 font-Inter text-xs font-medium text-gray-400 sm:text-base md:text-xl lg:text-2xl xl:text-3xl sm:px-16 xl:px-48">Your business is unique. Your video content should be, too.
+                            Create and publish<br /> content hyperfast with a dedicated post-production team.
+                            Leverage <br />better-branded videos that sell, engage, and convert.</p>
+
                         <div className="flex justify-center items-center">
                             <button className="m-2 mt-10 h-10 w-46 md:h-14 md:w-56 bg-[#7F00FF] hover:bg-[#6f11cf] text-xs md:text-base text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
-                                Our View Pricing
+                                View Pricing
                             </button>
                         </div>
+                    </section>
+
+                    <section className={type === "kontentpod" ? " " : "hidden"}>
+                        <Tilt tiltMaxAngleX={3}
+                            tiltMaxAngleY={3}>
+                            <h1 className="heroText mt-10 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star1 inline-block" alt="star" />
+                                Videos
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> that </span>
+                                give  your <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star2 inline-block" alt="star" /></h1>
+                            <h1 className="heroText mt-2 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star3 inline-block" alt="star" />podcasts
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  a voice
+                                    <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star4 inline-block" alt="star" /></span></h1>
+                        </Tilt>
+
+                        <p className="heroDes mt-1 sm:mt-3 lg:mt-0 font-Inter text-xs font-medium text-gray-400 sm:text-base md:text-xl lg:text-2xl xl:text-3xl sm:px-16 xl:px-48">We make it easy to produce branded podcasts that deliver rich content consistently.<br /> content hyperfast with a dedicated post-production team.Outsource your<br />  podcast’s video production and distribution, and rest assured. <br /> Shooting, editing, distribution - we’ll take care of it all.</p>
+
+                        <div className="flex justify-center items-center">
+                            <button className="m-2 mt-10 h-10 w-46 md:h-14 md:w-56 bg-[#7F00FF] hover:bg-[#6f11cf] text-xs md:text-base text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
+                            I’m Interested
+                            </button>
+                        </div>
+                    </section>
+
+                    <section className={type === "kontents2s" ? " " : "hidden"}>
+                        <Tilt tiltMaxAngleX={3}
+                            tiltMaxAngleY={3}>
+                            <h1 className="heroText mt-10 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star1 inline-block" alt="star" />
+                                To  
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> goals  </span>
+                                through <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star2 inline-block" alt="star" /></h1>
+                            <h1 className="heroText mt-2 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star3 inline-block" alt="star" />premium
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos
+                                    <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star4 inline-block" alt="star" /></span></h1>
+                        </Tilt>
+
+                        <p className="heroDes mt-1 sm:mt-3 lg:mt-0 font-Inter text-xs font-medium text-gray-400 sm:text-base md:text-xl lg:text-2xl xl:text-3xl sm:px-16 xl:px-48">We make it easy to produce branded podcasts that deliver rich content consistently.<br /> content hyperfast with a dedicated post-production team.Outsource your<br />  podcast’s video production and distribution, and rest assured. <br /> Shooting, editing, distribution - we’ll take care of it all.</p>
+
+                        <div className="flex justify-center items-center">
+                            <button className="m-2 mt-10 h-10 w-46 md:h-14 md:w-56 bg-[#7F00FF] hover:bg-[#6f11cf] text-xs md:text-base text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
+                            I’m Interested
+                            </button>
+                        </div>
+                    </section>
+
+                    <section className={type === "page2" ? " " : "hidden"}>
+                        <Tilt tiltMaxAngleX={3}
+                            tiltMaxAngleY={3}>
+                            <h1 className="heroText mt-10 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star21 inline-block" alt="star" />
+                                Dream.
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Achieve. </span>
+                                Grow<img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star22 inline-block" alt="star" /></h1>
+                            <h1 className="heroText mt-6 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star23 inline-block" alt="star" />Join the
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Squad
+                                    <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star24 inline-block" alt="star" /></span></h1>
+                        </Tilt>
+
+                        <p className="heroDes mt-1 sm:mt-8 lg:mt-10 font-Inter text-xs font-medium text-gray-400 sm:text-base md:text-xl lg:text-2xl xl:text-3xl sm:px-16 xl:px-48">Experience a flexible, remote-friendly, & collaborative<br />  team culture that brings out the best in you. </p>
+
                     </section>
 
                     <section className={type === "page" ? " " : "hidden"}>
@@ -119,7 +208,7 @@ function Hero({ type }) {
             </section>
 
 
-            <div className="inline-block z-10 fixed bottom-10 right-4 sm:bottom-20 md:bottom-16 md:right-10 lg:bottom-10 2xl:bottom-20 2xl:right-10">
+            <div className="inline-block z-20 fixed bottom-10 right-4 sm:bottom-20 md:bottom-16 md:right-10 lg:bottom-10 2xl:bottom-20 2xl:right-10">
                 <a href="https://whatsapp.com/" target="blank">
                     <svg className="w-8 md:w-10 lg:w-12" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
                         <g clipPath="url(#clip0_224_3094)">

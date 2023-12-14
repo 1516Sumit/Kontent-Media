@@ -1,23 +1,31 @@
 import { Link } from 'react-router-dom';
 
-function Footer() {
+function Footer({ type }) {
     return (
         <>
             <footer className="bg-[#FFD93D] w-screen h-auto section">
-            <div className=" bg-[url('./assets/img/BG.png')] bg-cover">
-                {/* <div className=" bg-black clip-path-mypolygon"> */}
+                <div className=" bg-[url('./assets/img/BG.png')] bg-cover">
+                    {/* <div className=" bg-black clip-path-mypolygon"> */}
                     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                         <div className="md:flex md:justify-between mt-24">
                             <div className="mb-2 md:mb-0">
-                                
-                                    <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{fontFamily: 'Archivo'}}>
-                                        Kontent Media is
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{fontFamily: 'Archivo'}}> the best</span>
+                                <section className={type === "kontentedit" ? "hidden" : ""}>
+                                    <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                        Tell us where
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> you are</span>
                                         <br />
-                                        solution for your
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{fontFamily: 'Archivo'}}> startup <br />bussiness</span>
+                                        and where you
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> want <br />to be </span>
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> We’ll help you <br />get there.</span>
                                     </p>
-                               
+                                </section>
+                                <section className={type === "kontentedit" ? "" : "hidden"}>
+                                    <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                        Create your
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> unfair </span>
+                                        <br /> advantage with
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos<br/> that work </span></p>
+                                </section>
                             </div>
                             <div className="grid grid-cols-1 sm:grid-rows-1 md:items-end md:justify-items-end">
                                 <div className="mt-5 grid grid-cols-1 gap-8 sm:gap-4 sm:grid-rows-2  md:items-end md:justify-items-end mb-14">
@@ -48,7 +56,7 @@ function Footer() {
                                     <div>
                                         <ul className="text-sm text-slate-200 font-medium font-Inter">
                                             <li className="mb-2">
-                                            <Link to="/Career" onClick={() => window.scrollTo(0, 0)} className="hover:underline">Career</Link>
+                                                <Link to="/Career" onClick={() => window.scrollTo(0, 0)} className="hover:underline">Career</Link>
                                             </li>
                                         </ul>
                                     </div>
