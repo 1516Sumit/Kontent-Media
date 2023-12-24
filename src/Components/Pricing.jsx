@@ -10,9 +10,9 @@ export default function Pricing() {
                 <div className="fade mt-28 sm:mt-24 md:mt-28 mb-2 md:mb-0 text-center">
                     <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                     Pricing 
-                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  Plans That  </span>
-                        Scale  <br/>
-                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Your Content </span>
+                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  Plans  </span>
+                        tailored to <br/>
+                        <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Your needs. </span>
                     </p>
                     <p className="my-6 sm:my-10 px-12 lg:my-5 font-Inter font-medium text-gray-400 sm:text-sm md:text-base lg:text-lg xl:text-xl sm:px-16 xl:px-48">Custom Plans For different needs , from seamless editing to full-blown <br/> production. Rapidly grow with videos that work.</p>
                 </div>
@@ -32,9 +32,9 @@ export default function Pricing() {
                                             <div className="pb-1 w-52 h-6 bg-black rotate-45 text-xl font-bold text-white flex justify-center items-center" style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}>Popular</div>
                                         </div>
                                     </div>
-                                    <h1 className="p-2 text-2xl lg:text-3xl text-[#323133] font-extrabold">Hit Snooze 
-                                        <br />on Editing.</h1>
-                                    <p className='p-2 text-sm text-slate-500'>No more sleepless nights over long hours of editing videos. </p>
+                                    <h1 className="p-2 text-2xl lg:text-3xl text-[#323133] font-extrabold">Say goodbye to 
+                                        <br />the stress of editing. </h1>
+                                    <p className='p-2 text-sm text-slate-500'>No more sleepless nights and long video editing hours. </p>
                                     <div className='m-1 flex justify-center items-center'>
 
                                         <button className="h-10 w-96 md:h-14 md:w-96 bg-[#7F00FF] hover:bg-[#6f11cf] text-lg md:text-xl text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg" style={{ fontFamily: 'Archivo' }}>

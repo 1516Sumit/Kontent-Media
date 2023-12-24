@@ -11,17 +11,17 @@ function Hero({ type }) {
                             tiltMaxAngleY={3}>
                             <h1 className="heroText mt-10 lg:mt-4 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                                 <img src="./images/StarFour-yellow.png" className="w-5 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star1 inline-block" alt="star" />
-                                Content
-                                <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> That </span>
-                                Moves<img src="./images/StarFour-purple.png" className="w-5 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star2 inline-block" alt="star" /></h1>
-                            <h1 className="heroText mt-4 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                                <img src="./images/StarFour-purple.png" className="w-5 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star3 inline-block" alt="star" />The
-                                <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Needle
+                                Creating    
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Videos </span>
+                                That<img src="./images/StarFour-purple.png" className="w-5 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star2 inline-block" alt="star" /></h1>
+                            <h1 className="heroText mt-4 sm:mt-10 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-purple.png" className="w-5 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star3 inline-block" alt="star" />Stop
+                                <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> The Scroll.
                                     <img src="./images/StarFour-yellow.png" className="w-5 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative star4 inline-block" alt="star" /></span></h1>
                         </Tilt>
 
-                        <p className="heroDes my-6 sm:mt-10 lg:mt-10 font-Inter text-xs font-medium text-gray-400 sm:text-sm md:text-lg lg:text-xl xl:text-2xl sm:px-16 xl:px-48">A video content powerhouse serving brands, creators, and
-                            <br />entrepreneurs worldwide to go big with better videos.</p>
+                        <p className="heroDes my-6 sm:mt-10 lg:mt-10 font-Inter text-xs font-medium text-gray-400 sm:text-sm md:text-lg lg:text-xl xl:text-2xl sm:px-16 xl:px-48">A video content powerhouse elevating brands, creators, and
+                            <br /> entrepreneurs worldwide through engaging videos.</p>
 
                         <div className="flex justify-center items-center">
                             <button className=" h-10 w-32 md:h-14 md:w-56 bg-[#7F00FF] hover:bg-[#6f11cf] text-base md:text-lg text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
@@ -62,9 +62,9 @@ function Hero({ type }) {
                                 End-to-End
                                 <span className="heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> services for </span>
                                 <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative starpod2 inline-block" alt="star" /></h1>
-                            <h1 className="heroTextedit mt-8 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                                <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative starpod3 inline-block" alt="star" />growing
-                                <span className="heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> your podcast.
+                            <h1 className="heroTextedit mt-4 sm:mt-6 md:mt-10 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative starpod3 inline-block" alt="star" />growing your
+                                <span className="heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> podcast by 10x
                                     <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative starpod4 inline-block" alt="star" /></span></h1>
                         </Tilt>
 
@@ -86,13 +86,13 @@ function Hero({ type }) {
                                 To
                                 <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> goals  </span>
                                 through <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative stars2s2 inline-block" alt="star" /></h1>
-                            <h1 className="heroText mt-8 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                            <h1 className="heroText mt-4 md:mt-8 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                                 <img src="./images/StarFour-purple.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative stars2s3 inline-block" alt="star" />premium
                                 <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos
                                     <img src="./images/StarFour-yellow.png" className="w-4 sm:w-6 lg:w-12 sm:w-8 md:w-10 relative stars2s4 inline-block" alt="star" /></span></h1>
                         </Tilt>
 
-                        <p className="heroDes my-10 mt-10 font-Inter text-xs font-medium text-gray-400 sm:text-sm md:text-lg lg:text-xl xl:text-2xl px-10 sm:px-8 xl:px-16">With script to screen, we create premium and tailored videos that align with<br /> your brand goals. From scripting, shoot, storytelling, and editing to <br />everything in between - we take care of it all
+                        <p className="heroDes my-10 mt-10 font-Inter text-xs font-medium text-gray-400 sm:text-sm md:text-lg lg:text-xl xl:text-2xl px-10 sm:px-8 xl:px-16">With Kontent Script To Screen(S2S) We create premium videos that align with <br /> your brand goals. From scripting,shoot, storytelling, and editing <br />to everything in between - we take care of it all.
                         </p>
 
                         <div className="flex justify-center items-center">

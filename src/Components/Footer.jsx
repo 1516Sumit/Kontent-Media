@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom';
+import Fb from "../assets/img/fb.png";
+import Ig from "../assets/img/ig.png";
+import Ln from "../assets/img/ln.png";
+import Tw from "../assets/img/tw.png";
 
 function Footer({ type }) {
     return (
@@ -10,12 +14,14 @@ function Footer({ type }) {
                         <div className="md:flex md:justify-between mt-24">
                             <div className="mb-2 md:mb-0">
                                 <section className={type === "kontentedit" ? "hidden" : ""}>
+                                    <p className="heroDes my-4 mt-10 font-Inter text-xs font-medium text-gray-400 sm:text-sm md:text-lg lg:text-xl xl:text-2xl">Tell us where you are and where <br />you want to be.</p>
+
                                     <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                                        Tell us where
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> you are</span>
+                                        We’ll
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> help you </span>
                                         <br />
-                                        and where you
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> want <br />to be </span>
+                                        get
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  there. </span>
                                     </p>
                                 </section>
                                 <section className={type === "kontentedit" ? "" : "hidden"}>
@@ -23,14 +29,21 @@ function Footer({ type }) {
                                         Create your
                                         <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> unfair </span>
                                         <br /> advantage with
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos<br/> that work </span></p>
+                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos<br /> that work </span></p>
                                 </section>
+
+                                <div style={{ marginTop: 25, width: 162, height: 24, display: "flex", justifyContent: "flex-start" }} className="xs:ml-8 xxs:ml-3">
+                                    <a target='blank' href='https://www.instagram.com/kontentmedia_in/'>
+                                        <img src={Ln} style={{ height: 24, width: 24 }} />
+                                    </a>
+                                    <a target='blank' href='https://www.instagram.com/kontentmedia_in/'>                                      <img src={Ig} style={{ height: 24, width: 24, marginLeft: 35 }} />
+                                    </a>
+                                </div>
                             </div>
                             <div className="grid grid-cols-1 sm:grid-rows-1 md:items-end md:justify-items-end">
                                 <div className="mt-5 grid grid-cols-1 gap-8 sm:gap-4 sm:grid-rows-2  md:items-end md:justify-items-end mb-14">
                                     <button className="h-14 w-36 bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
-                                        Email Now
-                                    </button>
+                                        <a href='#letstalk'>Let’s Talk</a></button>
 
                                     <button className="h-14 w-52 flex justify-center items-center bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
                                         <svg
@@ -44,7 +57,7 @@ function Footer({ type }) {
                                         Whatsapp Now
                                     </button>
                                 </div>
-                                <div className="grid grid-cols-1 gap-0 sm:gap-6 sm:grid-cols-4">
+                                <div className="grid grid-cols-1 gap-0 sm:gap-6 sm:grid-cols-3">
                                     <div>
                                         <ul className="text-sm text-slate-200 font-medium font-Inter">
                                             <li className="mb-2">
@@ -62,14 +75,7 @@ function Footer({ type }) {
                                     <div>
                                         <ul className="text-sm text-slate-200 font-medium font-Inter">
                                             <li className="mb-2">
-                                                <Link href="#" className="hover:underline">Trails</Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <ul className="text-sm text-slate-200 font-medium font-Inter">
-                                            <li className="mb-2">
-                                                <Link href="#" className="hover:underline">Our Solution</Link>
+                                                <Link href="#" className="hover:underline"> email now</Link>
                                             </li>
                                         </ul>
                                     </div>

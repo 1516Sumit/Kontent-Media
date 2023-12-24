@@ -15,7 +15,7 @@ function Kontentedit() {
             <Hero type={"kontentedit"} />
             <Flow type={"kontentedit"} />
             <Pricingsecond type={"kontentedit"} />
-            <Faqs />
+            <Faqs type={"kontentedit"}/>
             <ContactForm />
             <Footer type={"kontentedit"} />
         </>

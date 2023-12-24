@@ -24,7 +24,7 @@ export default function Pricingsecond({ type }) {
             <div>
               <div className="bg-[url('./assets/img/grid2.png')] rotate-180 bg-cover bg-no-repeat h-20 sm:h-36"></div>
               <div className="pricing1 grid grid-cols-1 md:grid-cols-3 justify-items-center items-center gap-10 sm:px-28 md:px-2 lg:px-16 md:gap-1 my-12 sm:m-12 md:m-0">
-                <div className="grow box flex flex-col justify-evenly md:justify-center p-3 w-10/12 md:w-11/12 bg-white rounded-lg xl:p-4 2xl:p-6 overflow-hidden z-5 h-[96%]">
+                <div className="grow box flex flex-col justify-evenly md:justify-center p-3 w-10/12 md:w-11/12 bg-white rounded-lg xl:p-4 2xl:p-6 overflow-hidden z-5 h-[385px] xl:h-[96%]">
                   <div className="flex justify-between items-center">
                     <div className="w-10/12">
                       <h3
@@ -92,7 +92,7 @@ export default function Pricingsecond({ type }) {
                   <div style={{ textAlign: "right", width: "95%" }}>
                     <p style={{ color: "#7F00FF" }}>Videos</p>
                   </div>
-                  <div className="button-container w-full md:w-11/12 2xl:h-auto">
+                  <div className="button-containerKlassic w-full md:w-11/12 2xl:h-auto">
                     <div
                       className={`rectangular-buttonKlasic ${eigthClicked ? 'clicked' : ''}`}
                       onClick={() => {
@@ -196,7 +196,7 @@ export default function Pricingsecond({ type }) {
                     </button>
                   </div>
                 </div>
-                <section style={{ width: "100%" }} className={type === "kontentedit" ? " " : "hidden"}>
+                <section style={{ width: "100%"}} className={type === "kontentedit" ? " " : "hidden"}>
                   <Pricingboxsecond hname="Standard" page={"edit"}/>
                 </section>
                 <section style={{ width: "100%" }} className={type === "kontentedit" ? " " : "hidden"}>

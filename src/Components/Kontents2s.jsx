@@ -15,7 +15,7 @@ function Kontents2s() {
             <Hero type={"kontents2s"} />
             <Flow type={"kontents2s"} />
             <Pricingsecond type={"kontents2s"} />
-            <Faqs />
+            <Faqs type={"kontents2s"}/>
             <ContactForm />
             <Footer type={"kontentedit"} />
         </>

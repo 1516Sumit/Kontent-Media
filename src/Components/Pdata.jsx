@@ -18,16 +18,16 @@ const Pdata = [
         hname:"Leverage"
     },
     {
-        heading:"Hit Record , We Do The Rest."
+        heading:"You Talk , We Do The Rest."
     },
     {
         subheading:"Outsource Everything From Podcast Production to distribution."
     },
     {
-        heading:"Outsource Complete Content Creation & Focus On Your Core Business"
+        heading:"Outsource Complete Content Creation."
     },
     {
-        subheading:"We seamlessly conceptualize, script, shoot, and edit videos for you. Go from script to screen with a team obsessed with videos. "
+        subheading:"We seamlessly conceptualize, script, shoot, and edit videos for you."
     }
 ];
 

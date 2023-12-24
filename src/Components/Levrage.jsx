@@ -8,7 +8,7 @@ export default function Leverage({ hname, page }) {
 
     return (
         <>
-            <div className="grow box flex flex-col justify-evenly md:justify-center p-3 w-10/12 md:w-11/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard">
+            <div className="grow box flex flex-col justify-evenly md:justify-center p-3 ml-4 md:ml-0 w-10/12 md:w-11/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard">
                 <div className="flex justify-between items-center">
                     <div className="lev">
                         <h3 className="p-2 text-2xl lg:text-3xl font-black text-[#7F00FF]">
@@ -28,7 +28,10 @@ export default function Leverage({ hname, page }) {
                         → Faster Delivery
                         <br />
                         → Bonus Hooks and Templates
-
+                        <br />
+                        <p className="text-white hidden md:block">jkjlkjl</p>
+                        <br />
+                        {/* <p className="text1 text-white">jkjlkjl</p> */}
                     </p>
                 </section>
                 <section className={page === "pod" ? " " : "hidden"}>
@@ -41,7 +44,7 @@ export default function Leverage({ hname, page }) {
                     </p>
                 </section>
                 <section className={page === "s2s" ? " " : "hidden"}>
-                <p className="p-2 text-sm text-slate-500">
+                    <p className="p-2 text-sm text-slate-500">
                         → Standard Plan With
                         <br />
                         → Production Stuff

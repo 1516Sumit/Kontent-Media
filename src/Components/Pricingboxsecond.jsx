@@ -9,7 +9,7 @@ export default function Pricingboxsecond({ hname, page }) {
 
   return (
     <>
-      <div className="grow box flex flex-col justify-evenly md:justify-center p-3 w-10/12 md:w-11/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard ">
+      <div className="grow box flex flex-col justify-evenly md:justify-center p-3 ml-4 md:ml-2 w-10/12 md:w-11/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard ">
         <div className="flex justify-between items-center">
           <div>
             <h3 className="p-2 text-2xl lg:text-3xl font-black text-[#7F00FF]">
@@ -31,9 +31,9 @@ export default function Pricingboxsecond({ hname, page }) {
             <br />
             → Distribution Support
             <br />
-            <p className="text-white">jkjlkjl</p>
+            <p className="text-white hidden md:block">jkjlkjl</p>
             <br/>
-            <p className="text1 text-white">jkjlkjl</p>
+            <p className="text1 text-white hidden md:block">jkjlkjl</p>
           </p>
         </section>
         <section className={page === "pod" ? " " : "hidden"}>

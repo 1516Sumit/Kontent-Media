@@ -15,7 +15,7 @@ function Kontentpod() {
             <Hero type={"kontentpod"} />
             <Flow type={"kontentpod"}/>
             <Pricingsecond type={"kontentpod"}/>
-            <Faqs/>
+            <Faqs type={"kontentpod"}/>
             <ContactForm/> 
             <Footer type={"kontentedit"}/>
             </>
