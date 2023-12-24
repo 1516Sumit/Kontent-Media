@@ -1,36 +1,56 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
-export default function Leverage(props) {
+export default function Leverage({ hname, page }) {
     const [firstClicked, setFirstClicked] = useState(false);
     const [secondClicked, setSecondClicked] = useState(true);
     const [thirdClicked, setThirdClicked] = useState(false);
 
     return (
         <>
-            <div className="box flex flex-col p-3 lg:w-10/12 xl:w-9/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard">
+            <div className="grow box flex flex-col justify-evenly md:justify-center p-3 w-10/12 md:w-11/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard">
                 <div className="flex justify-between items-center">
                     <div className="lev">
                         <h3 className="p-2 text-2xl lg:text-3xl font-black text-[#7F00FF]">
                             <div className="pro">Pro</div>
-                            <p style={{ fontFamily: "Archivo" }}>{props.hname}</p>
+                            <p style={{ fontFamily: "Archivo" }}>{hname}</p>
                         </h3>
                     </div>
                 </div>
-                <p className="p-2 text-sm text-slate-500">
-                    →Everything in Standard+
-                    <br />
-                    →24/7 Support
-                    <br />
-                    →Unlimted Reels
-                    <br />
-                    →Faster Delivery
-                    <br />
-                    →Bonus Hooks and Templates
+                <section className={page === "edit" ? " " : "hidden"}>
+                    <p className="p-2 text-sm text-slate-500">
+                        → Everything in Standard+
+                        <br />
+                        → 24/7 Support
+                        <br />
+                        → Unlimted Reels
+                        <br />
+                        → Faster Delivery
+                        <br />
+                        → Bonus Hooks and Templates
 
-                </p>
+                    </p>
+                </section>
+                <section className={page === "pod" ? " " : "hidden"}>
+                    <p className="p-2 text-sm text-slate-500">
+                        → Standard Plan With
+                        <br />
+                        → Production Stuff
+                        <br />
+                        → Price On Discovery Call
+                    </p>
+                </section>
+                <section className={page === "s2s" ? " " : "hidden"}>
+                <p className="p-2 text-sm text-slate-500">
+                        → Standard Plan With
+                        <br />
+                        → Production Stuff
+                        <br />
+                        → Price On Discovery Call
+                    </p>
+                </section>
                 <p className="text1">Unlimited Reels _100 min Youtube Editing</p>
-                <div className="button-container">
+                <div className="button-container w-full md:w-11/12 2xl:h-auto">
                     <div
                         className={`rectangular-button ${firstClicked ? 'clicked' : ''}`}
                         onClick={() => {

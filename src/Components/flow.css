@@ -60,7 +60,7 @@
     }
 
     to {
-        --num: 2600;
+        --num: 500;
     }
 }
 
@@ -70,7 +70,25 @@
     }
 
     to {
-        --num: 700;
+        --num: 2500;
+    }
+}
+@keyframes counter8 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 100;
+    }
+}
+@keyframes counter9 {
+    from {
+        --num: 0;
+    }
+
+    to {
+        --num: 2;
     }
 }
 

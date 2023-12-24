@@ -9,15 +9,17 @@ import ContactForm from "./ContactForm.jsx";
 import '../App.css'
 function Kontentedit() {
     return (
-        <div className="full-screen-scroll">
+        // <div className="full-screen-scroll">
+        <>
             <Navbar second={"kontentedit"} />
             <Hero type={"kontentedit"} />
-            <Flow type={"kontentedit"}/>
-            <Pricingsecond type={"kontentedit"}/>
+            <Flow type={"kontentedit"} />
+            <Pricingsecond type={"kontentedit"} />
             <Faqs />
             <ContactForm />
-            <Footer type={"kontentedit"}/>
-        </div>
+            <Footer type={"kontentedit"} />
+        </>
+        // </div>
     )
 }
 

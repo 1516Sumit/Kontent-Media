@@ -5,13 +5,13 @@ body{
     margin: 0;
 }
 ::-webkit-scrollbar {
-    width: 7px;
-  
+    width: 4px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background-color: black;
+    color: transparent;
+    background-color: transparent;
     border-radius: 10px;
   }
   
@@ -26,22 +26,34 @@ body{
     background: #ad69f1;
   }
 
-  /* styles.css */
-
-  body{
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+  .fade{
+    animation: fade linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
 }
 
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
 
-.full-screen-scroll {
-  overflow-x: hidden;
-  height: 100vh; 
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+    to {
+        opacity: 1;
+    }
 }
-.section{   
-  scroll-snap-align: start;
+  .fadef{
+    animation: fadef linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 50%;
+}
+
+@keyframes fadef {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
 }
 

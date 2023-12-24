@@ -2,201 +2,238 @@
     white-space: wrap;
     overflow: hidden;
     position: relative;
-  }
-  
-.purpleCursor{
-    top: 26px;
-    left: 8%;
 }
 
-.masks{
+.purpleCursor {
+    top: -32px;
+    left: 14%;
+}
+
+.masks {
     margin-top: -40%;
 }
 
-.mask4{
+.mask4 {
     margin-top: -5%;
 }
 
-@media (max-width: 1535px){
-    .purpleCursor{
-        top: 18px;
-        left: 6.5%;
+@media (max-width: 1535px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
     }
 }
 
-@media (max-width: 1374px){
- .purpleCursor{
-        top: 18px;
-        left: 7%;
+@media (max-width: 1374px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
     }
-    .masks{
+
+    .masks {
         margin-top: -40%;
     }
 }
 
-@media (max-width: 1280px){
-    .purpleCursor{
-        top: 15px;
-        left: 5.7%;
+@media (max-width: 1280px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
     }
-    .masks{
+
+    .masks {
         margin-top: -35%;
     }
 }
-@media (max-width: 1176px){
-    .purpleCursor{
-        top: 15px;
-        left: 6.2%;
-    }
-}
-@media (max-width: 1076px){
-    .purpleCursor{
-        top: 15px;
-        left: 6.8%;
-    }
-}
-@media (max-width: 1024px){
-    .purpleCursor{
-        top: 15px;
-        left: 6%;
-    }
-    .masks{
-        margin-top: -45%;
-    }
-}
-@media (max-width: 974px){
-    .purpleCursor{
-        top: 15px;
-        left: 6.3%;
-    }
-}
-@media (max-width: 925px){
-    .purpleCursor{
-        top: 15px;
-        left: 6.8%;
-    }
-}
-@media (max-width: 852px){
-    .purpleCursor{
-        top: 15px;
-        left: 7.3%;
-    }
-}
-@media (max-width: 792px){
-    .purpleCursor{
-        top: 15px;
-        left: 7.7%;
+
+@media (max-width: 1176px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
     }
 }
 
-@media (max-width: 768px){
-    .purpleCursor{
-        top: 12px;
-        left: 6.4%;
+@media (max-width: 1076px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
     }
-    .masks{
+}
+
+@media (max-width: 1024px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
+    }
+
+    .masks {
+        margin-top: -45%;
+    }
+}
+
+@media (max-width: 974px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
+    }
+}
+
+@media (max-width: 925px) {
+    .purpleCursor {
+        top: -32px;
+        left: 14%;
+    }
+}
+
+@media (max-width: 852px) {
+    .purpleCursor {
+        top: -23px;
+        left: 14%;
+    }
+}
+
+@media (max-width: 792px) {
+    .purpleCursor {
+        top: -23px;
+        left: 14%;
+    }
+}
+
+@media (max-width: 768px) {
+    .purpleCursor {
+        top: -23px;
+        left: 14%;
+    }
+
+    .masks {
         margin-top: -60%;
     }
 }
-@media (max-width: 704px){
-    .purpleCursor{
-        top: 12px;
-        left: 7%;
+
+@media (max-width: 704px) {
+    .purpleCursor {
+        top: -23px;
+        left: 14%;
     }
 }
-@media (max-width: 640px){
-    .purpleCursor{
-        top: 11px;
-        left: 5.9%;
+
+@media (max-width: 640px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
-    .masks{
+
+    .masks {
         margin-top: -90%;
     }
-    .mask3{
+
+    .mask3 {
         margin-top: 70%;
     }
 }
-@media (max-width: 604px){
-    .purpleCursor{
-        top: 10px;
-        left: 6.2%;
+
+@media (max-width: 604px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }
-@media (max-width: 569px){
-    .purpleCursor{
-        top: 10px;
-        left: 6.7%;
+
+@media (max-width: 569px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }
-@media (max-width: 535px){
-    .purpleCursor{
-        top: 10px;
-        left: 7%;
+
+@media (max-width: 535px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }
-@media (max-width: 505px){
-    .purpleCursor{
-        top: 10px;
-        left: 7.5%;
+
+@media (max-width: 505px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
-    .masks{
-        margin-top: -100%;
+
+    .masks {
+        margin-top: -107%;
     }
-    .mask3{
+
+    .mask3 {
         margin-top: 80%;
     }
 }
-@media (max-width: 476px){
-    .purpleCursor{
-        top: 10px;
-        left: 7.5%;
+
+
+@media (max-width: 476px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
+    }
+
+}
+
+@media (max-width: 457px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }
-@media (max-width: 457px){
-    .purpleCursor{
-        top: 10px;
-        left: 8.3%;
+
+@media (max-width: 425px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }
-@media (max-width: 425px){
-    .purpleCursor{
-        top: 10px;
-        left: 8.9%;
+
+@media (max-width: 400px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
+    }
+
+    .masks {
+        margin-top: -130%;
+    }
+
+    .mask3 {
+        margin-top: 90%;
     }
 }
-@media (max-width: 400px){
-    .purpleCursor{
-        top: 10px;
-        left: 9.4%;
+
+@media (max-width: 378px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
-    .masks{
-        margin-top: -120%;
-    }
-    .mask3{
-        margin-top: 100%;
-    }
-}
-@media (max-width: 378px){
-    .purpleCursor{
-        top: 10px;
-        left: 9.9%;
+
+    .trustText {
+        font-size: 20px !important;
     }
 }
-@media (max-width: 359px){
-    .purpleCursor{
-        top: 10px;
-        left: 10.7%;
+
+@media (max-width: 359px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }
-@media (max-width: 329px){
-    .purpleCursor{
-        top: 10px;
-        left: 11.5%;
+
+@media (max-width: 329px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }
-@media (max-width: 312px){
-    .purpleCursor{
-        top: 10px;
-        left: 11.8%;
+
+@media (max-width: 312px) {
+    .purpleCursor {
+        top: -13px;
+        left: 14%;
     }
 }

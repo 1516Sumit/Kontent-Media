@@ -5,7 +5,7 @@ import '../App.css'
 function CareerTestimonials() {
   return (
     <>
-     <div className="bg-black md:pt-24 section">
+     <div className="fade bg-black md:pt-24">
         <div className="bg-black h-0 block relative z-0 left-0" style={{ top: '60px' }}>
           <img className="w-32 sm:w-36 md:w-40" src="./images/Mask group.svg" />
         </div>

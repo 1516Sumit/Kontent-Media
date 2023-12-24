@@ -18,16 +18,16 @@ const Pdata = [
         hname:"Leverage"
     },
     {
-        heading:"An easier way to podcast will be your cup of tea. Make your podcast phenomenal."
+        heading:"Hit Record , We Do The Rest."
     },
     {
-        subheading:"Done Recording? We’ll handle the restGrow your podcast 10X faster by outsourcing video production and distribution."
+        subheading:"Outsource Everything From Podcast Production to distribution."
     },
     {
-        heading:"To goals through premium videos Videos that give your brand a voice. Videos that sell so you don’t have to Videos that work so you don’t have to."
+        heading:"Outsource Complete Content Creation & Focus On Your Core Business"
     },
     {
-        subheading:"We seamlessly conceptualize, script, shoot, and edit videos for you. Go from script to screen with a team obsessed with videos."
+        subheading:"We seamlessly conceptualize, script, shoot, and edit videos for you. Go from script to screen with a team obsessed with videos. "
     }
 ];
 

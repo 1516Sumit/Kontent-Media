@@ -1,7 +1,7 @@
 import Pricingboxsecond from './Pricingboxsecond.jsx'
 import { Link } from "react-router-dom";
 import "./pricingsecond.css";
-import Pdata from "./Pdata.jsx";
+// import Pdata from "./Pdata.jsx";
 import { useState } from 'react';
 import Leverage from "./Levrage";
 
@@ -18,13 +18,13 @@ export default function Pricingsecond({ type }) {
 
   return (
     <>
-      <section id='pricing' className="bg-black w-screen h-auto flex justify-center items-center section">
+      <section id='pricingbox' className="fadef bg-black w-screen h-auto flex justify-center items-center">
         <div className="bg-[#FFD93D] my-24 rounded-3xl md:rounded-large flex justify-center items-center h-auto md:h-screen">
           <div className="flex justify-center items-center my-10 sm:my-20 md:my-40 py-0 bg-[#7F00FF] w-screen h-auto md:h-5/6 2xl:h-126 overflow-hidden">
-            <div className="w-screen">
-              <div className="bg-[url('./assets/img/grid2.png')] rotate-180 bg-cover bg-no-repeat h-12 sm:h-24"></div>
+            <div>
+              <div className="bg-[url('./assets/img/grid2.png')] rotate-180 bg-cover bg-no-repeat h-20 sm:h-36"></div>
               <div className="pricing1 grid grid-cols-1 md:grid-cols-3 justify-items-center items-center gap-10 sm:px-28 md:px-2 lg:px-16 md:gap-1 my-12 sm:m-12 md:m-0">
-                <div className="box flex flex-col p-3 lg:w-10/12 xl:w-9/12 scale-105 bg-white rounded-lg xl:p-4 2xl:p-6 overflow-hidden z-5 h-auto">
+                <div className="grow box flex flex-col justify-evenly md:justify-center p-3 w-10/12 md:w-11/12 bg-white rounded-lg xl:p-4 2xl:p-6 overflow-hidden z-5 h-[96%]">
                   <div className="flex justify-between items-center">
                     <div className="w-10/12">
                       <h3
@@ -66,19 +66,13 @@ export default function Pricingsecond({ type }) {
                   <section className={type === "kontentpod" ? " " : "hidden"}>
                     <p className="p-2 text-sm text-slate-500">
                       {" "}
-                      → Best For Reels and Long Form Conten
+                      → No Distribution
                       <br />
-                      → Everything in Klassic +
+                      → No Thumbnails 
                       <br />
-                      → Personal Manager
+                      → Limited Revisions
                       <br />
-                      → Long Form Video Editing
-                      <br />
-                      → Unlimited Revisions
-                      <br />
-                      → Pause Anytime
-                      <br />
-                      → Distribution Support
+                      → Podcast Trailer
                     </p>
                   </section>
                   <section className={type === "kontents2s" ? " " : "hidden"}>
@@ -100,7 +94,7 @@ export default function Pricingsecond({ type }) {
                   </div>
                   <div className="button-container w-full md:w-11/12 2xl:h-auto">
                     <div
-                      className={`circular-button ${eigthClicked ? 'clicked' : ''}`}
+                      className={`rectangular-buttonKlasic ${eigthClicked ? 'clicked' : ''}`}
                       onClick={() => {
                         seteightClicked(!eigthClicked);
                         setTenthClicked(false);
@@ -116,7 +110,7 @@ export default function Pricingsecond({ type }) {
                     <div className="line"></div>
 
                     <div
-                      className={`circular-button ${tenthClicked ? 'clicked' : ''}`}
+                      className={`rectangular-buttonKlasic ${tenthClicked ? 'clicked' : ''}`}
                       onClick={() => {
                         setTenthClicked(!tenthClicked);
                         seteightClicked(false);
@@ -131,7 +125,7 @@ export default function Pricingsecond({ type }) {
                     </div>
                     <div className="line"></div>
                     <div
-                      className={`circular-button ${twelveClicked ? 'clicked' : ''}`}
+                      className={`rectangular-buttonKlasic ${twelveClicked ? 'clicked' : ''}`}
                       onClick={() => {
                         setTwelveClicked(!twelveClicked);
                         seteightClicked(false);
@@ -146,7 +140,7 @@ export default function Pricingsecond({ type }) {
                     </div>
                     <div className="line"></div>
                     <div
-                      className={`circular-button ${fifteenClicked ? 'clicked' : ''}`}
+                      className={`rectangular-buttonKlasic ${fifteenClicked ? 'clicked' : ''}`}
                       onClick={() => {
                         setFifteenClicked(!fifteenClicked);
                         seteightClicked(false);
@@ -161,7 +155,7 @@ export default function Pricingsecond({ type }) {
                     </div>
                     <div className="line"></div>
                     <div
-                      className={`circular-button ${twentyClicked ? 'clicked' : ''}`}
+                      className={`rectangular-buttonKlasic ${twentyClicked ? 'clicked' : ''}`}
                       onClick={() => {
                         setTwentyClicked(!twentyClicked);
                         seteightClicked(false);
@@ -176,7 +170,7 @@ export default function Pricingsecond({ type }) {
                     </div>
                     <div className="line"></div>
                     <div
-                      className={`circular-button ${thirtyClicked ? 'clicked' : ''}`}
+                      className={`rectangular-buttonKlasic ${thirtyClicked ? 'clicked' : ''}`}
                       onClick={() => {
                         setThirtyClicked(!thirtyClicked);
                         seteightClicked(false);
@@ -202,12 +196,26 @@ export default function Pricingsecond({ type }) {
                     </button>
                   </div>
                 </div>
-
-                <Pricingboxsecond hname={Pdata[4].hname} />
-                <Leverage hname={Pdata[5].hname} />
-
+                <section style={{ width: "100%" }} className={type === "kontentedit" ? " " : "hidden"}>
+                  <Pricingboxsecond hname="Standard" page={"edit"}/>
+                </section>
+                <section style={{ width: "100%" }} className={type === "kontentedit" ? " " : "hidden"}>
+                  <Leverage hname="Leverage" page={"edit"}/>
+                </section>
+                <section style={{ width: "100%" }} className={type === "kontentpod" ? " " : "hidden"}>
+                  <Pricingboxsecond hname="Standard" page={"pod"}/>
+                </section>
+                <section style={{ width: "100%" }} className={type === "kontentpod" ? " " : "hidden"}>
+                  <Leverage hname="Leverage" page={"pod"}/>
+                </section>
+                <section style={{ width: "100%" }} className={type === "kontents2s" ? " " : "hidden"}>
+                  <Pricingboxsecond hname="Standard" page={"s2s"}/>
+                </section>
+                <section style={{ width: "100%" }} className={type === "kontents2s" ? " " : "hidden"}>
+                  <Leverage hname="Leverage" page={"s2s"}/>
+                </section>
               </div>
-              <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-12 sm:h-24"></div>
+              <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-20 sm:h-36"></div>
             </div>
           </div>
         </div>

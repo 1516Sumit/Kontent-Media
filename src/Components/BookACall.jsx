@@ -1,15 +1,16 @@
+import Marquee from "react-fast-marquee";
 import { Link } from 'react-router-dom'
 import Circle from '../assets/img/circle.png'
 import '../App.css'
 function BookACall() {
   return (
     <>
-      <div className='flex justify-center items-center flex-col h-auto section' style={{ fontFamily: 'Archivo' }} >
+      <div id='letstalk' className='fade flex justify-center items-center flex-col h-auto' style={{ fontFamily: 'Archivo' }} >
         <div className=" flex justify-center items-center flex-col bg-[#FFD93D] w-screen h-auto lg:h-screen">
           <div className='w-screen flex justify-between flex-col overflow-hidden'>
             <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat rotate-180 h-16 sm:h-28 lg:h-44"></div>
             <div className='w-screen  flex justify-center items-center flex-col'>
-              <div className=" flex justify-evenly items-center flex-col bg-[#7F00FF] rounded-lg shadow w-10/12 h-96 overflow-hidden p-6">
+              <div className=" flex justify-evenly items-center flex-col bg-[#7F00FF] rounded-lg shadow w-10/12 h-[30rem] overflow-hidden p-6">
                 <div className='mt-4'>
                   <p className=" text-lg lg:text-xl xl:text-2xl text-gray-300 text-center">Take your brand to the next level</p>
                 </div>
@@ -26,7 +27,17 @@ function BookACall() {
                 </div>
               </div>
             </div>
-            <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-16 sm:h-28 lg:h-44"></div>
+            <div className="w-screen relative">
+              <div className="absolute top-4 sm:top-20">
+                <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-4">Visuals 60,000X impact than text.</span></Marquee>
+              </div>
+            </div>
+            <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-16 sm:h-28 lg:h-44">
+
+              {/* <div className="mt-16">
+                <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-24">Visuals 60,000X impact than text.</span></Marquee>
+              </div> */}
+            </div>
           </div>
         </div>
       </div>

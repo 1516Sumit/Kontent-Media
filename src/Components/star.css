@@ -1,22 +1,73 @@
 .star1 {
-    bottom: 46px;
-    left: 13.3%;
+    bottom: 56px;
+    left: 10%;
 }
 
 .star2 {
     left: -10.7%;
-    top: 47px;
+    top: 53px;
 }
 
 .star3 {
-    bottom: 50px;
-    left: 6%;
+    bottom: 54px;
+    left: 11%;
 }
 
 .star4 {
     right: 3.8%;
-    top: 43px;
+    top: 48px;
 }
+
+.stars2s1 {
+    bottom: 56px;
+    left: 10%;
+}
+
+.stars2s2 {
+    left: -10.7%;
+    top: 53px;
+}
+
+.stars2s3 {
+    bottom: 54px;
+    left: 11%;
+}
+
+.stars2s4 {
+    right: 3.8%;
+    top: 48px;
+}
+
+.starpod1 {
+    bottom: 56px;
+    left: 11%;
+}
+
+.starpod2 {
+    left: -10.7%;
+    top: 53px;
+}
+
+.starpod3 {
+    bottom: 54px;
+    left: 11%;
+}
+
+.starpod4 {
+    right: 17.8%;
+    top: 50px;
+}
+
+.staredit2 {
+    left: -10.7%;
+    top: 53px;
+}
+
+.staredit4 {
+    right: 15.8%;
+    top: 58px;
+}
+
 .star21 {
     bottom: 60px;
     left: 15.1%;
@@ -39,392 +90,769 @@
 
 @media (max-width: 1535px) {
     .star1 {
-        bottom: 40px;
-        left: 11%;
+        bottom: 50px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -9%;
-        top: 41px;
+        left: -4.7%;
+        top: 53px;
     }
 
     .star3 {
-        bottom: 45px;
-        left: 5.2%;
+        bottom: 54px;
+        left: 10%;
     }
 
     .star4 {
-        right: 3.5%;
-        top: 36px;
+        right: 3.8%;
+        top: 47px;
+    }
+
+    .staredit2 {
+        left: -10.7%;
+        top: 48px;
+    }
+
+    .staredit4 {
+        right: 12.8%;
+        top: 48px;
     }
 
     .star21 {
         bottom: 56px;
         left: 15.1%;
     }
-    
+
     .star22 {
         left: -6%;
         top: 57px;
     }
-    
+
     .star23 {
         bottom: 55px;
         left: 8%;
     }
-    
+
     .star24 {
         right: 5.8%;
         top: 48px;
     }
-   
+
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
     .star1 {
-        bottom: 40px;
-        left: 11.6%;
+        bottom: 50px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -9.4%;
-        top: 41px;
+        left: -4.7%;
+        top: 53px;
     }
 
     .star3 {
-        bottom: 45px;
-        left: 5.7%;
+        bottom: 54px;
+        left: 10%;
     }
 
     .star4 {
-        right: 3.7%;
-        top: 36px;
+        right: 3.8%;
+        top: 47px;
     }
+
+    .staredit2 {
+        left: -10.7%;
+        top: 48px;
+    }
+
+    .staredit4 {
+        right: 12.8%;
+        top: 48px;
+    }
+
     .star21 {
         bottom: 52px;
         left: 15.1%;
     }
-    
+
     .star22 {
         left: -6%;
         top: 54px;
     }
-    
+
     .star23 {
         bottom: 56px;
         left: 8%;
     }
-    
+
     .star24 {
         right: 5.8%;
         top: 52px;
     }
 }
 
-@media (max-width: 1350px){
+@media (max-width: 1350px) {
     .star1 {
-        bottom: 40px;
-        left: 12%;
+        bottom: 50px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -9.8%;
-        top: 41px;
+        left: -4.7%;
+        top: 53px;
     }
 
     .star3 {
-        bottom: 45px;
-        left: 5.9%;
+        bottom: 54px;
+        left: 10%;
     }
 
     .star4 {
-        right: 3.9%;
-        top: 36px;
+        right: 3.8%;
+        top: 47px;
     }
 }
 
 @media (max-width: 1279px) {
     .star1 {
-        bottom: 35px;
-        left: 10.2%;
+        bottom: 50px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -8.2%;
-        top: 40px;
+        left: -4.7%;
+        top: 46px;
     }
 
     .star3 {
-        bottom: 40px;
-        left: 5.2%;
+        bottom: 46px;
+        left: 10%;
     }
 
     .star4 {
-        right: 3.6%;
-        top: 34px;
+        right: 3.8%;
+        top: 47px;
+    }
+
+    .stars2s1 {
+        bottom: 50px;
+        left: 7%;
+    }
+
+    .stars2s2 {
+        left: -11.7%;
+        top: 43px;
+    }
+
+    .stars2s3 {
+        bottom: 44px;
+        left: 12%;
+    }
+
+    .stars2s4 {
+        right: 3.8%;
+        top: 44px;
+    }
+
+    .starpod1 {
+        bottom: 56px;
+        left: 11%;
+    }
+
+    .starpod2 {
+        left: -10.7%;
+        top: 45px;
+    }
+
+    .starpod3 {
+        bottom: 44px;
+        left: 11%;
+    }
+
+    .starpod4 {
+        right: 11.8%;
+        top: 42px;
     }
 
     .star21 {
         bottom: 46px;
         left: 15.1%;
     }
-    
+
     .star22 {
         left: -6%;
         top: 48px;
     }
-    
+
     .star23 {
         bottom: 48px;
         left: 8%;
     }
-    
+
     .star24 {
         right: 5.8%;
         top: 46px;
     }
-  
+
 }
 
-@media (max-width: 1190px){
+@media (max-width: 1190px) {
     .star1 {
-        bottom: 35px;
-        left: 10.8%;
+        bottom: 50px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -8.9%;
-        top: 40px;
+        left: -4.7%;
+        top: 46px;
     }
 
     .star3 {
-        bottom: 40px;
-        left: 5.2%;
+        bottom: 46px;
+        left: 10%;
     }
 
     .star4 {
-        right: 3.6%;
-        top: 34px;
+        right: 3.8%;
+        top: 47px;
     }
 }
 
-@media (max-width: 1101px){
+@media (max-width: 1101px) {
     .star1 {
-        bottom: 35px;
-        left: 11.7%;
+        bottom: 50px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -9.6%;
-        top: 40px;
+        left: -4.7%;
+        top: 46px;
     }
 
     .star3 {
-        bottom: 40px;
-        left: 6%;
+        bottom: 46px;
+        left: 10%;
     }
 
     .star4 {
-        right: 4.2%;
-        top: 34px;
+        right: 3.8%;
+        top: 47px;
     }
 }
 
 @media (max-width: 1024px) {
     .star1 {
-        bottom: 36px;
-        left: 10.6%;
+        bottom: 42px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -8.6%;
+        left: -4.7%;
         top: 40px;
     }
 
     .star3 {
-        bottom: 38px;
-        left: 5.7%;
+        bottom: 46px;
+        left: 10%;
     }
 
     .star4 {
         right: 3.8%;
-        top: 28px;
+        top: 40px;
+    }
+
+    .stars2s1 {
+        bottom: 46px;
+        left: 7%;
+    }
+
+    .stars2s2 {
+        left: -11.7%;
+        top: 43px;
+    }
+
+    .stars2s3 {
+        bottom: 40px;
+        left: 12%;
+    }
+
+    .stars2s4 {
+        right: 3.8%;
+        top: 38px;
+    }
+
+    .starpod1 {
+        bottom: 50px;
+        left: 11%;
+    }
+
+    .staredit2 {
+        left: -10.7%;
+        top: 40px;
+    }
+
+    .staredit4 {
+        right: 12.8%;
+        top: 48px;
     }
 
     .star21 {
         bottom: 36px;
         left: 15.1%;
     }
-    
+
     .star22 {
         left: -6%;
         top: 40px;
     }
-    
+
     .star23 {
         bottom: 40px;
         left: 8%;
     }
-    
+
     .star24 {
         right: 5.8%;
         top: 36px;
     }
-}
 
-@media (max-width: 950px){
-    .star1 {
-        bottom: 36px;
-        left: 11.6%;
+    .contactDes{
+        font-size: 1.35rem !important;
+        line-height: 2rem !important;
     }
-    .star2 {
-        left: -9.3%;
-        top: 40px;
-    }
-    .star3 {
-        bottom: 38px;
-        left: 5.7%;
-    }
-    .star4 {
-        right: 4.2%;
-        top: 35px;
+    .heroDes {
+        padding: 0 120px !important;
+        font-size: 1.35rem !important;
+        line-height: 2rem !important;
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 950px) {
     .star1 {
-        bottom: 36px;
-        left: 12.8%;
+        bottom: 42px;
+        left: 8.3%;
     }
+
     .star2 {
-        left: -10.5%;
+        left: -4.7%;
         top: 40px;
     }
+
     .star3 {
-        bottom: 38px;
-        left: 6.7%;
+        bottom: 46px;
+        left: 10%;
     }
+
     .star4 {
-        right: 4.8%;
-        top: 35px;
+        right: 3.8%;
+        top: 40px;
+    }
+
+    .heroDes {
+        padding: 0 120px !important;
+        font-size: 1.35rem !important;
+        line-height: 2rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 879px) {
+    .heroTextedit {
+        font-size: 3.35rem !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .star1 {
+        bottom: 42px;
+        left: 8.3%;
+    }
+
+    .star2 {
+        left: -4.7%;
+        top: 40px;
+    }
+
+    .star3 {
+        bottom: 46px;
+        left: 10%;
+    }
+
+    .star4 {
+        right: 3.8%;
+        top: 40px;
+    }
+    .heroDes {
+        padding: 0 120px !important;
+        font-size: 1.35rem !important;
+        line-height: 2rem !important;
     }
 }
 
 @media (max-width: 768px) {
     .star1 {
-        bottom: 28px;
-        left: 11.4%;
+        bottom: 32px;
+        left: 8.3%;
     }
 
     .star2 {
-        left: -9.4%;
-        top: 30px;
+        left: -4.7%;
+        top: 34px;
     }
 
     .star3 {
-        bottom: 31px;
-        left: 6.2%;
+        bottom: 38px;
+        left: 10%;
     }
 
     .star4 {
-        right: 4.2%;
-        top: 28px;
+        right: 3.8%;
+        top: 30px;
+    }
+
+    .stars2s1 {
+        bottom: 38px;
+        left: 9%;
+    }
+
+    .stars2s2 {
+        left: -11.7%;
+        top: 40px;
+    }
+
+    .stars2s3 {
+        bottom: 34px;
+        left: 12%;
+    }
+
+    .stars2s4 {
+        right: 3.8%;
+        top: 32px;
+    }
+
+    .starpod1 {
+        bottom: 36px;
+        left: 11%;
+    }
+
+    .starpod2 {
+        left: -10.7%;
+        top: 35px;
+    }
+
+    .starpod3 {
+        bottom: 34px;
+        left: 11%;
+    }
+
+    .starpod4 {
+        right: 11.8%;
+        top: 34px;
+    }
+
+    .staredit2 {
+        left: -10.7%;
+        top: 32px;
+    }
+
+    .staredit4 {
+        right: 12.8%;
+        top: 36px;
     }
 
     .star21 {
         bottom: 30px;
         left: 15.1%;
     }
-    
+
     .star22 {
         left: -6%;
         top: 32px;
     }
-    
+
     .star23 {
         bottom: 32px;
         left: 8%;
     }
-    
+
     .star24 {
         right: 5.8%;
         top: 30px;
     }
-   
+
+    .heroDes {
+        padding: 0 120px !important;
+        font-size: 1.35rem !important;
+        line-height: 2rem !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .heroDes {
+        padding: 0 90px !important;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 690px) {
+    .heroTextedit {
+        font-size: 2.5rem !important;
+    }
 }
 
 @media (max-width: 640px) {
     .star1 {
-        bottom: 18px;
-        left: 11.9%;
+        bottom: 22px;
+        left: 13.3%;
     }
 
     .star2 {
-        left: -9.8%;
-        top: 18px;
+        left: -4.7%;
+        top: 28px;
     }
 
     .star3 {
-        bottom: 18px;
-        left: 5%;
+        bottom: 30px;
+        left: 14%;
     }
 
     .star4 {
         right: 3.8%;
-        top: 17px;
+        top: 25px;
+    }
+
+    .stars2s1 {
+        bottom: 30px;
+        left: 12%;
+    }
+
+    .stars2s2 {
+        left: -11.7%;
+        top: 34px;
+    }
+
+    .stars2s3 {
+        bottom: 24px;
+        left: 12%;
+    }
+
+    .stars2s4 {
+        right: 3.8%;
+        top: 24px;
+    }
+
+    .starpod1 {
+        bottom: 28px;
+        left: 11%;
+    }
+
+    .starpod2 {
+        left: -10.7%;
+        top: 24px;
+    }
+
+    .starpod3 {
+        bottom: 24px;
+        left: 11%;
+    }
+
+    .starpod4 {
+        right: 11.8%;
+        top: 24px;
+    }
+
+    .staredit1 {
+        bottom: 22px;
+        left: 11.3%;
+    }
+
+    .staredit2 {
+        left: -10.7%;
+        top: 26px;
+    }
+
+    .staredit3 {
+        bottom: 22px;
+        left: 14%;
+    }
+
+    .staredit4 {
+        right: 12.8%;
+        top: 28px;
     }
 
     .star21 {
         bottom: 20px;
         left: 15.1%;
     }
-    
+
     .star22 {
         left: -6%;
         top: 20px;
     }
-    
+
     .star23 {
         bottom: 22px;
         left: 8%;
     }
-    
+
     .star24 {
         right: 5.8%;
         top: 20px;
     }
-   
-    .heroText{
-        font-size: 34px!important;
+
+    .heroText {
+        font-size: 48px !important;
+    }
+
+    .heroTextedit {
+        font-size: 38px !important;
+    }
+
+    .heroDes {
+        padding: 0 50px;
+        font-size: 1.35rem !important;
+        line-height: 2rem !important;
     }
 }
 
+@media (max-width: 530px) {
+    .heroDes {
+        padding: 10px 56px !important
+    }
+}
+
+@media (min-width: 480px) and (max-width: 540px) {
+    .heroTextedit {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroText {
+        font-size: 38px !important;
+    }
+
+    .heroTextedit {
+        font-size: 26px !important;
+    }
+
+    .staredit1 {
+        bottom: 22px;
+        left: 11.3%;
+    }
+
+    .staredit2 {
+        left: -10.7%;
+        top: 26px;
+    }
+
+    .staredit3 {
+        bottom: 22px;
+        left: 14%;
+    }
+
+    .staredit4 {
+        right: 12.8%;
+        top: 24px;
+    }
+
+    .heroDes {
+        padding: 10px;
+        font-size: 1.35rem !important;
+        line-height: 2rem !important;
+    }
+
+}
+
+
 @media (max-width: 360px) {
     .star1 {
-        bottom: 12px;
-        left: 11.8%;
+        bottom: 22px;
+        left: 13.3%;
     }
 
     .star2 {
-        left: -10.2%;
-        top: 12px;
+        left: -7.7%;
+        top: 28px;
     }
 
     .star3 {
-        bottom: 14px;
-        left: 5.8%;
+        bottom: 25px;
+        left: 14%;
     }
 
     .star4 {
-        right: 4.2%;
-        top: 11px;
+        right: 6.8%;
+        top: 25px;
     }
 
-    .heroText{
-        font-size: 28px!important;
+
+    .stars2s1 {
+        bottom: 20px;
+        left: 12%;
     }
 
-    .heroDes{
-        font-size: 10px!important;
+    .stars2s2 {
+        left: -14.7%;
+        top: 28px;
+    }
+
+    .stars2s3 {
+        bottom: 24px;
+        left: 12%;
+    }
+
+    .stars2s4 {
+        right: 8.8%;
+        top: 24px;
+    }
+
+    .staredit1 {
+        bottom: 22px;
+        left: 11.3%;
+    }
+
+    .staredit2 {
+        left: -10.7%;
+        top: 26px;
+    }
+
+    .staredit3 {
+        bottom: 22px;
+        left: 14%;
+    }
+
+    .staredit4 {
+        right: 12.8%;
+        top: 22px;
+    }
+
+    .heroText {
+        font-size: 34px !important;
+    }
+
+    .heroTextedit {
+        font-size: 22px !important;
+    }
+
+    .contactDes{
+        font-size: 1.15rem !important;
+        line-height: 2rem !important;
+    }
+
+    .heroDes {
+        font-size: 1.15rem !important;
+        line-height: 2rem !important;
+    }
+}
+
+@media (max-width: 332px) {
+    .heroText {
+        font-size: 31px !important;
+    }
+
+    .heroTextedit {
+        font-size: 19px !important;
     }
 }

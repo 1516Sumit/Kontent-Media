@@ -12,14 +12,14 @@ function Faqs() {
       style={{
         backgroundColor: "black",
         textAlign: "left",
-        paddingLeft:"6%",
-        paddingRight:"8%",
-        paddingBottom:"6%"
-      }} className="w-screen h-auto pb-10 section md:pt-52"
+        paddingLeft: "6%",
+        paddingRight: "8%",
+        paddingBottom: "6%"
+      }} className="fade w-screen h-auto pb-10 md:pt-52"
     >
       <h2
         className="mb-2 text-lg font-semibold text-gray-900 dark:text-white"
-        style={{ color: "#FFD93D", marginBottom: 20, paddingTop:10 }}
+        style={{ color: "#FFD93D", marginBottom: 20, paddingTop: 10 }}
       >
         Frequently Asked Questions
       </h2>
@@ -31,12 +31,11 @@ function Faqs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>How do I sign up?</Typography>
+          <Typography>What level of customization do I have with the KONTENT EDIT plan?</Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            We have a higher degree of customization, You can provide specific instructions, preferences, and even reference materials to ensure that the final edit aligns perfectly with your brand and vision.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -47,28 +46,13 @@ function Faqs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Do you offer free trials?</Typography>
-        </AccordionSummary>
-        <AccordionDetails className="h-auto">
-          <Typography style={{ color: "grey" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography> How long does it take to receive the edited videos?
           </Typography>
-        </AccordionDetails>
-      </Accordion>
-
-      <hr style={{ borderColor: "gray", borderWidth: 1 }} />
-      <Accordion style={{ backgroundColor: "black", color: "white" }}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon style={{ color: "#7F00FF" }} />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Can I cancel if I don't like it?</Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            The turnaround time depends on the complexity and length of your content.We have a general timeline for reel edit is 24hrs and for youtube edits it’s 3 days. Rest assured, our team works efficiently to provide you with the edited videos within a reasonable timeframe.
+            uspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.
           </Typography>
         </AccordionDetails>
@@ -81,12 +65,27 @@ function Faqs() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Why don't I just hire a freelancer?</Typography>
+          <Typography>Can I request revisions after receiving the edited video?</Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Absolutely! Your satisfaction is our priority. The KONTENT EDIT plan includes a revision process according to the sub-plan you choose, where you can provide feedback, and our editors will make the necessary adjustments.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <hr style={{ borderColor: "gray", borderWidth: 1 }} />
+      <Accordion style={{ backgroundColor: "black", color: "white" }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon style={{ color: "#7F00FF" }} />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Why Should I Choose KONTENT EDIT over a freelancer ?</Typography>
+        </AccordionSummary>
+        <AccordionDetails className="h-auto">
+          <Typography style={{ color: "grey" }}>
+          While freelancers are a valuable resource, choosing KONTENT EDIT over hiring an individual freelancer offers consistent quality, scalability, and reliable timelines.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -99,13 +98,12 @@ function Faqs() {
           id="panel1a-header"
         >
           <Typography>
-          How can you help with content?
+          What if I have some custom demand like animated videos, ads, etc.?
           </Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">
           <Typography style={{ color: "grey" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          We cater all the custom demands separately, you can discuss your project with us over a call. 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -134,7 +132,7 @@ function Faqs() {
           id="panel1a-header"
         >
           <Typography>
-          How many videos can we realistically do in the unlimited plan?
+            How many videos can we realistically do in the unlimited plan?
           </Typography>
         </AccordionSummary>
         <AccordionDetails className="h-auto">

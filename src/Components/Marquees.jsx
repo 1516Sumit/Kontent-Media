@@ -1,34 +1,35 @@
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 import './trustby.css'
 import { Link } from 'react-router-dom';
 // export default function Marquees() {
 const Marquees = () => {
-    const [scrollSpeed, setScrollSpeed] = useState(1); // Adjust the speed as needed
-    const [scrollPosition, setScrollPosition] = useState(0);
+    // const [scrollSpeed, setScrollSpeed] = useState(1); // Adjust the speed as needed
+    // const [scrollPosition, setScrollPosition] = useState(0);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            setScrollPosition(window.scrollY);
-        };
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         setScrollPosition(window.scrollY);
+    //     };
 
-        // Attach the scroll event listener when the component mounts
-        window.addEventListener('scroll', handleScroll);
+    //     // Attach the scroll event listener when the component mounts
+    //     window.addEventListener('scroll', handleScroll);
 
-        // Clean up the event listener when the component unmounts
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []); // Empty dependency array means this effect runs once when the component mounts
+    //     // Clean up the event listener when the component unmounts
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []); // Empty dependency array means this effect runs once when the component mounts
 
-    const marqueeStyle = {
-        transform: `translateX(${scrollPosition * scrollSpeed}px)`,
-        transition: 'transform 0.1s ease-in-out', // Adjust the transition duration and timing function
-    };
+    // const marqueeStyle = {
+    //     transform: `translateX(${scrollPosition * scrollSpeed}px)`,
+    //     transition: 'transform 0.1s ease-in-out', // Adjust the transition duration and timing function
+    // };
     return (
         <>
 
-            <section className="flex flex-row marquee" style={marqueeStyle}>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFD93D] text-black font-bold rounded-lg">
+            {/* <section className="flex flex-row marquee" style={marqueeStyle}> */}
+            <section className="fade flex flex-row marquee">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFD93D] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"
@@ -69,7 +70,7 @@ const Marquees = () => {
                         </p>
                     </div>
                 </div>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"
@@ -111,7 +112,7 @@ const Marquees = () => {
                         </p>
                     </div>
                 </div>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#7F00FF] text-black font-bold rounded-lg">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#7F00FF] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"
@@ -153,7 +154,7 @@ const Marquees = () => {
                         </p>
                     </div>
                 </div>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"
@@ -195,7 +196,7 @@ const Marquees = () => {
                         </p>
                     </div>
                 </div>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFD93D] text-black font-bold rounded-lg">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFD93D] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"
@@ -236,7 +237,7 @@ const Marquees = () => {
                         </p>
                     </div>
                 </div>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"
@@ -277,7 +278,7 @@ const Marquees = () => {
                         </p>
                     </div>
                 </div>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#7F00FF] text-black font-bold rounded-lg">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#7F00FF] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"
@@ -318,7 +319,7 @@ const Marquees = () => {
                         </p>
                     </div>
                 </div>
-                <div className="p-1 m-2 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
+                <div className="p-1 m-2 max-[480px]:my-6 h-20 w-68 sm:w-72 xl:h-24 xl:w-80 flex justify-evenly items-center bg-[#FFFFFF] text-black font-bold rounded-lg">
                     <svg className="p-1 w-16 md:w-20 xl:w-24" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 90 90" fill="none">
                         <path
                             d="M89.4528 45C89.4528 20.3419 69.6068 0.352539 45.1251 0.352539C20.6438 0.352539 0.797729 20.3419 0.797729 45C0.797729 69.6581 20.6438 89.6475 45.1251 89.6475C69.6068 89.6475 89.4528 69.6581 89.4528 45Z"

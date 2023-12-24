@@ -11,7 +11,7 @@ function NewestCard(props) {
      setImage(false);
   }
   return (
-    <div className='card' style={{color:'white', border:'1px solid #ffffff', borderRadius:15}}  onMouseOver={MouseOver} onMouseOut={MouseOut}>
+    <div className='fade card' style={{color:'white', border:'1px solid #ffffff', borderRadius:15}}  onMouseOver={MouseOver} onMouseOut={MouseOut}>
         <div className='hash' style={{display:'flex'}}>
         <span className='blocks' style={{border:'0.1px solid #ffffff',  borderRadius:8, textAlign:'center', }}>{props.text1}</span>
         <span className='blocks' style={{border:'0.1px solid #ffffff', borderRadius:8, textAlign:'center', }}>{props.text2}</span>

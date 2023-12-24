@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Footer({ type }) {
     return (
         <>
-            <footer className="bg-[#FFD93D] w-screen h-auto section">
+            <footer className="fadef bg-[#FFD93D] w-screen h-auto">
                 <div className=" bg-[url('./assets/img/BG.png')] bg-cover">
                     {/* <div className=" bg-black clip-path-mypolygon"> */}
                     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -16,7 +16,6 @@ function Footer({ type }) {
                                         <br />
                                         and where you
                                         <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> want <br />to be </span>
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> We’ll help you <br />get there.</span>
                                     </p>
                                 </section>
                                 <section className={type === "kontentedit" ? "" : "hidden"}>

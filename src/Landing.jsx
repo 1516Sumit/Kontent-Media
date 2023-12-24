@@ -8,22 +8,25 @@ import Pricing from './Components/Pricing.jsx';
 import BookACall from './Components/BookACall.jsx';
 import Trustby from './Components/Trustby.jsx'
 import Navbar from './Components/Navbar.jsx';
+import Unveiling from "./Components/Unveiling.jsx";
 import './App.css'
 
 function Landing() {
     return (
-        <div className="full-screen-scroll">
-            <Navbar/>
-            <Hero type={"page"}/>
+        // <div className="full-screen-scroll">
+        <>
+            <Navbar />
+            <Hero type={"page"} />
+            <Unveiling type={"landing"} />
             <Trustby />
             <Keyfeature />
-            <Pricing/>
+            <Pricing />
             <Wildfire />
             <Testimonial />
-            <BookACall/>
+            <BookACall />
             <Footer />
-            
-        </div>
+        </>
+        // </div>
     )
 }
 

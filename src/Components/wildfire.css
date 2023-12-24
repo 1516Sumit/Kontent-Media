@@ -201,6 +201,10 @@
         margin-left: 63%;
         margin-top: -4%; 
     } 
+
+    .reldiv {
+        width: 364px;
+    }
 }
 
 @media (max-width:967px){
@@ -257,6 +261,9 @@
         margin-left: 65%;
         margin-top: -4%; 
     } 
+    .reldiv {
+        width: 352px;
+    }
     .iphone1{
         width: 264px;
     }
@@ -330,11 +337,11 @@
         margin-top: -5%; 
     } 
     .mask1{
-        margin-top: -130%;
+        margin-top: -80%;
     }
 
     .mask2{
-        margin-top: -80%;
+        margin-top: -50%;
     }
 }
 
@@ -447,7 +454,13 @@
     .Hand{
         margin-left: 67%;
         margin-top: -5%; 
-    }  
+    } 
+    
+    .reldiv{
+        width: 300px;
+    }
+    
+   
 }
 
 @media (max-width: 360px){

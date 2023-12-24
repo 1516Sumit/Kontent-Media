@@ -8,16 +8,18 @@ import ContactForm from "./ContactForm.jsx";
 import '../App.css'
 function Kontents2s() {
     return (
-        <div className="full-screen-scroll">
-        <Navbar second={"kontentedit"}/>
-            
+        // <div className="full-screen-scroll">
+        <>
+            <Navbar second={"kontentedit"} />
+
             <Hero type={"kontents2s"} />
-            <Flow type={"kontents2s"}/>
-            <Pricingsecond type={"kontents2s"}/>
-            <Faqs/>
-            <ContactForm/> 
-            <Footer type={"kontentedit"}/>
-        </div>
+            <Flow type={"kontents2s"} />
+            <Pricingsecond type={"kontents2s"} />
+            <Faqs />
+            <ContactForm />
+            <Footer type={"kontentedit"} />
+        </>
+        // </div>
     )
 }
 

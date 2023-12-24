@@ -25,9 +25,9 @@ export default function Slider() {
                 slidesPerView={'auto'}
                 coverflowEffect={{
                     rotate: 10,
-                    stretch: 100,
-                    depth: 500,
-                    modifier: 1.5,
+                    stretch: 80,
+                    depth: 550,
+                    modifier: 1.8,
                     slideShadows: true,
                 }}
                 loop={true}

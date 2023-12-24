@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
-export default function Pricingboxsecond(props,{type}) {
+export default function Pricingboxsecond({ hname, page }) {
   const [firstClicked, setFirstClicked] = useState(false);
   const [secondClicked, setSecondClicked] = useState(true);
   const [thirdClicked, setThirdClicked] = useState(false);
@@ -9,25 +9,60 @@ export default function Pricingboxsecond(props,{type}) {
 
   return (
     <>
-      <div className="box flex flex-col p-3 lg:w-10/12 xl:w-9/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard ">
+      <div className="grow box flex flex-col justify-evenly md:justify-center p-3 w-10/12 md:w-11/12 bg-white rounded-lg border border-gray-100 shadow xl:p-4 2xl:p-6 overflow-hidden standard ">
         <div className="flex justify-between items-center">
           <div>
             <h3 className="p-2 text-2xl lg:text-3xl font-black text-[#7F00FF]">
-              <p style={{ fontFamily: "Archivo" }}>{props.hname}</p>
+              <p style={{ fontFamily: "Archivo" }}>{hname}</p>
             </h3>
           </div>
         </div>
-        {/* <section className={type === "kontentedit" ? " " : "hidden"}> */}
-        <p className="p-2 text-sm text-slate-500">
-          → No Distribution
-          <br />
-          →No Thumbnails
-          <br />
-          →Limited Revisions
-          <br />
-          →Podcast Trailer
-        </p>
-        {/* </section> */}
+        <section className={page === "edit" ? " " : "hidden"}>
+          <p className="p-2 text-sm text-slate-500">
+            → Everything in Klassic +
+            <br />
+            → Personal Manager
+            <br />
+            → Long Form Video Editing
+            <br />
+            → Unlimited Revisions
+            <br />
+            → Pause Anytime
+            <br />
+            → Distribution Support
+            <br />
+            <p className="text-white">jkjlkjl</p>
+            <br/>
+            <p className="text1 text-white">jkjlkjl</p>
+          </p>
+        </section>
+        <section className={page === "pod" ? " " : "hidden"}>
+          <p className="p-2 text-sm text-slate-500">
+            → Distribution
+            <br />
+            → Thumbnails
+            <br />
+            → Upto 3 Revisions
+            <br />
+            → 4 Podcast Trailers
+            <br />
+            <p className="text-white">jkjlkjl</p>
+          </p>
+        </section>
+        <section className={page === "s2s" ? " " : "hidden"}>
+          <p className="p-2 text-sm text-slate-500">
+            → No Distribution
+            <br />
+            → No Thumbnails
+            <br />
+            → Limited Revisions
+            <br />
+            → Podcast Trailer
+            <br />
+            <p className="text-white">jkjlkjl</p>
+          </p>
+        </section>
+        
         <div className="button-container w-full md:w-11/12">
           <div
             className={`rectangular-button ${firstClicked ? 'clicked' : ''}`}

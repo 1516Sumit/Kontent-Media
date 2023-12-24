@@ -4,7 +4,7 @@ import '../App.css'
 function CareerFooter() {
   return (
     <>
-     <footer className="bg-[#FFD93D] w-screen section">
+     <footer className="fadef bg-[#FFD93D] w-screen">
                 <div className="bg-black">
                     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                         <div className="md:flex md:justify-between mt-24">

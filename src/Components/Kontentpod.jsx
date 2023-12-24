@@ -8,7 +8,8 @@ import ContactForm from "./ContactForm.jsx";
 import '../App.css'
 function Kontentpod() {
     return (
-        <div className="full-screen-scroll">
+        // <div className="full-screen-scroll">
+        <>
         <Navbar second={"kontentedit"}/>
             
             <Hero type={"kontentpod"} />
@@ -17,7 +18,8 @@ function Kontentpod() {
             <Faqs/>
             <ContactForm/> 
             <Footer type={"kontentedit"}/>
-        </div>
+            </>
+        // </div>
     )
 }
 
