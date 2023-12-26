@@ -150,7 +150,7 @@
 .text1 {
   font-weight: 700;
   font-size: 15px;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 .pro {
@@ -241,6 +241,7 @@
 
   .text1 {
     font-size: 13px;
+    padding-bottom: 5%;
   }
 
   .box {

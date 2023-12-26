@@ -131,15 +131,15 @@ function Flow({ type }) {
                                     <div className="p-2">
                                         <section className={type === "kontentedit" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Branding</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">We’ll receive the raw footage from you and draft a custom branding for your videos which no one else has on the internet by incorporating your brand colors, fonts, and graphics to create your unique identity.</h4>
+                                            <h4 className="text-sm md:text-base text-white">We’ll receive the raw footage from you and draft a custom branding for your videos which no one else has on the internet by incorporating your brand colors, fonts, and graphics to create your unique identity.</h4>
                                         </section>
                                         <section className={type === "kontentpod" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Discover</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">We’ll meet up, collaborate, and then ideate to put together a narrative that speaks to your audience. </h4>
+                                            <h4 className="text-sm md:text-base text-white">We’ll meet up, collaborate, and then ideate to put together a narrative that speaks to your audience. </h4>
                                         </section>
                                         <section className={type === "kontents2s" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Discovery</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">We’ll meet up, collaborate, and delve deep into your brand, product details, and content goals</h4>
+                                            <h4 className="text-sm md:text-base text-white">We’ll meet up, collaborate, and delve deep into your brand, product details, and content goals</h4>
                                         </section>
                                     </div>
                                 </div>
@@ -167,15 +167,15 @@ function Flow({ type }) {
                                     <div className="p-2">
                                         <section className={type === "kontentedit" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Editing & Storytelling</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">Our editors will add cuts, transitions, and pacing for the best engagement and  leverage animations and motion graphics to bring the focus to the key moments.</h4>
+                                            <h4 className="text-sm md:text-base text-white">Our editors will add cuts, transitions, and pacing for the best engagement and  leverage animations and motion graphics to bring the focus to the key moments.</h4>
                                         </section>
                                         <section className={type === "kontentpod" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Setup & Shoot</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">We’ll set you up in a top-tier studio where you can have passionate conversations. </h4>
+                                            <h4 className="text-sm md:text-base text-white">We’ll set you up in a top-tier studio where you can have passionate conversations. </h4>
                                         </section>
                                         <section className={type === "kontents2s" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Scripting</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">Our skilled scriptwriters will craft a no-fluff, compelling narrative that captures your brand's voice and drives viewers to action. </h4>
+                                            <h4 className="text-sm md:text-base text-white">Our skilled scriptwriters will craft a no-fluff, compelling narrative that captures your brand's voice and drives viewers to action. </h4>
                                         </section>
                                     </div>
                                 </div>
@@ -205,15 +205,15 @@ function Flow({ type }) {
                                     <div className="p-2">
                                         <section className={type === "kontentedit" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}> Feedback & Iterations</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">We’ll maintain open communication and apply your feedback and suggestions to ensure the final video meets your expectations.</h4>
+                                            <h4 className="text-sm md:text-base text-white">We’ll maintain open communication and apply your feedback and suggestions to ensure the final video meets your expectations.</h4>
                                         </section>
                                         <section className={type === "kontentpod" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}> Edit</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">With a captivating episode trailer and eye-catching animations, we’ll create episodes that mesmerize and blow minds.</h4>
+                                            <h4 className="text-sm md:text-base text-white">With a captivating episode trailer and eye-catching animations, we’ll create episodes that mesmerize and blow minds.</h4>
                                         </section>
                                         <section className={type === "kontents2s" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}> Casting</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">Choose from a pool of top-tier orators and performers to be the face of your brand and deliver your message with passion and conviction.</h4>
+                                            <h4 className="text-sm md:text-base text-white">Choose from a pool of top-tier orators and performers to be the face of your brand and deliver your message with passion and conviction.</h4>
                                         </section>
                                     </div>
                                 </div>
@@ -243,15 +243,15 @@ function Flow({ type }) {
                                     <div className="p-2">
                                         <section className={type === "kontentedit" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Delivery & Beyond</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">We’ll seamlessly deliver your final video in various formats optimized for various platforms and distribution channels.</h4>
+                                            <h4 className="text-sm md:text-base text-white">We’ll seamlessly deliver your final video in various formats optimized for various platforms and distribution channels.</h4>
                                         </section>
                                         <section className={type === "kontentpod" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Produce & Distribute</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">Later, we’ll Identify the most engaging moments, those hidden nuggets that go viral.</h4>
+                                            <h4 className="text-sm md:text-base text-white">Later, we’ll Identify the most engaging moments, those hidden nuggets that go viral.</h4>
                                         </section>
                                         <section className={type === "kontents2s" ? " " : "hidden"}>
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Production</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">With State-of-the-art studios, top-notch footage, and sound design, we’ll create immersive and premium video content. </h4>
+                                            <h4 className="text-sm md:text-base text-white">With State-of-the-art studios, top-notch footage, and sound design, we’ll create immersive and premium video content. </h4>
                                         </section>
                                     </div>
                                 </div>
@@ -268,7 +268,7 @@ function Flow({ type }) {
                                         </div>
                                         <div className="p-2">
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Review and Delivery</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">You'll have the opportunity to review the video and provide feedback before we finalize and deliver the content.</h4>
+                                            <h4 className="text-sm md:text-base text-white">You'll have the opportunity to review the video and provide feedback before we finalize and deliver the content.</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -294,7 +294,7 @@ function Flow({ type }) {
                                         </div>
                                         <div className="p-2">
                                             <h3 className="m-1 text-md lg:text-lg xl:text-xl" style={{ fontFamily: 'Archivo' }}>Editing</h3>
-                                            <h4 className="text-sm md:text-base text-slate-400">Our expert editors will get to work and supercharge the raw footage, the right track, graphics, and effects. </h4>
+                                            <h4 className="text-sm md:text-base text-white">Our expert editors will get to work and supercharge the raw footage, the right track, graphics, and effects. </h4>
                                         </div>
                                     </div>
                                 </div>

@@ -89,7 +89,7 @@ export default function Leverage({ hname, page }) {
                 </div>
                 <div className='m-1 flex justify-center items-center'>
 
-                    <button className="flex justify-center items-center m-1 mt-2 h-10 w-96 md:h-14 md:w-96 bg-[#7F00FF] hover:bg-[#6f11cf] text-lg md:text-xl text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg" style={{ fontFamily: 'Archivo' }}>
+                    <button className="flex justify-center items-center m-1 h-10 w-96 md:h-14 md:w-96 bg-[#7F00FF] hover:bg-[#6f11cf] text-lg md:text-xl text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg" style={{ fontFamily: 'Archivo' }}>
                         <Link to="./Kontentedit">
                             Subscribe
                         </Link>

@@ -12,7 +12,7 @@ function BookACall() {
             <div className='w-screen  flex justify-center items-center flex-col'>
               <div className=" flex justify-evenly items-center flex-col bg-[#7F00FF] rounded-lg shadow w-10/12 h-[30rem] overflow-hidden p-6">
                 <div className='mt-4'>
-                  <p className=" text-lg lg:text-xl xl:text-2xl text-gray-300 text-center">Take your brand to the next level</p>
+                  <p className=" text-lg lg:text-xl xl:text-2xl text-white text-center">Take your brand to the next level</p>
                 </div>
                 <div className='mt-4'>
                   <h5 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-center tracking-tight text-white" >Have some questions? <br />Feel free to book a call with us.</h5>

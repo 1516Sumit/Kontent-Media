@@ -1,16 +1,20 @@
+.pricebutton{
+    z-index: 5!important;
+}
+
 .star1 {
     bottom: 56px;
     left: 10%;
 }
 
 .star2 {
-    left: -10.7%;
+    left: -5.7%;
     top: 53px;
 }
 
 .star3 {
     bottom: 54px;
-    left: 11%;
+    left: 0%;
 }
 
 .star4 {
@@ -59,13 +63,16 @@
 }
 
 .staredit2 {
-    left: -10.7%;
+    left: 10.7%;
     top: 53px;
+}
+.staredit3 {
+    bottom: 54px;
+    left: 0%;
 }
 
 .staredit4 {
-    right: 15.8%;
-    top: 58px;
+    top: 18px;
 }
 
 .star21 {
@@ -101,7 +108,7 @@
 
     .star3 {
         bottom: 54px;
-        left: 10%;
+        left: 0%;
     }
 
     .star4 {
@@ -110,14 +117,10 @@
     }
 
     .staredit2 {
-        left: -10.7%;
+        left: 8.7%;
         top: 48px;
     }
 
-    .staredit4 {
-        right: 12.8%;
-        top: 48px;
-    }
 
     .star21 {
         bottom: 56px;
@@ -154,7 +157,7 @@
 
     .star3 {
         bottom: 54px;
-        left: 10%;
+        left: 0%;
     }
 
     .star4 {
@@ -163,13 +166,12 @@
     }
 
     .staredit2 {
-        left: -10.7%;
-        top: 48px;
+        left: 8.7%;
+        top: 53px;
     }
-
-    .staredit4 {
-        right: 12.8%;
-        top: 48px;
+    .staredit3 {
+        bottom: 54px;
+        left: 0%;
     }
 
     .star21 {
@@ -204,9 +206,9 @@
         top: 53px;
     }
 
-    .star3 {
+    .staredit3 {
         bottom: 54px;
-        left: 10%;
+        left: 0%;
     }
 
     .star4 {
@@ -226,9 +228,9 @@
         top: 46px;
     }
 
-    .star3 {
-        bottom: 46px;
-        left: 10%;
+    .staredit3 {
+        bottom: 54px;
+        left: 0%;
     }
 
     .star4 {
@@ -311,7 +313,7 @@
 
     .star3 {
         bottom: 46px;
-        left: 10%;
+        left: 0%;
     }
 
     .star4 {
@@ -333,7 +335,7 @@
 
     .star3 {
         bottom: 46px;
-        left: 10%;
+        left: 0%;
     }
 
     .star4 {
@@ -354,8 +356,8 @@
     }
 
     .star3 {
-        bottom: 46px;
-        left: 10%;
+        bottom: 36px;
+        left: 0%;
     }
 
     .star4 {
@@ -389,13 +391,8 @@
     }
 
     .staredit2 {
-        left: -10.7%;
-        top: 40px;
-    }
-
-    .staredit4 {
-        right: 12.8%;
-        top: 48px;
+        left: 12.7%;
+        top: 38px;
     }
 
     .star21 {
@@ -419,12 +416,16 @@
     }
 
     .contactDes{
-        font-size: 1.35rem !important;
+        font-size: 1.05rem !important;
         line-height: 2rem !important;
     }
-    .heroDes {
-        padding: 0 120px !important;
-        font-size: 1.35rem !important;
+    /* .heroDes {
+        padding: 0 20px !important;
+        font-size: 1.05rem !important;
+        line-height: 2rem !important;
+    } */
+    .footDes{
+        font-size: 1.05rem !important;
         line-height: 2rem !important;
     }
 }
@@ -441,8 +442,8 @@
     }
 
     .star3 {
-        bottom: 46px;
-        left: 10%;
+        bottom: 36px;
+        left: 0%;
     }
 
     .star4 {
@@ -450,18 +451,18 @@
         top: 40px;
     }
 
-    .heroDes {
-        padding: 0 120px !important;
-        font-size: 1.35rem !important;
+    /* .heroDes {
+        padding: 0 20px !important;
+        font-size: 1.05rem !important;
         line-height: 2rem !important;
-    }
+    } */
 }
 
-@media (min-width: 768px) and (max-width: 879px) {
+/* @media (min-width: 768px) and (max-width: 879px) {
     .heroTextedit {
         font-size: 3.35rem !important;
     }
-}
+} */
 
 @media (max-width: 850px) {
     .star1 {
@@ -475,19 +476,19 @@
     }
 
     .star3 {
-        bottom: 46px;
-        left: 10%;
+        bottom: 36px;
+        left: 0%;
     }
 
     .star4 {
         right: 3.8%;
         top: 40px;
     }
-    .heroDes {
-        padding: 0 120px !important;
-        font-size: 1.35rem !important;
+    /* .heroDes {
+        padding: 0 20px !important;
+        font-size: 1.05rem !important;
         line-height: 2rem !important;
-    }
+    } */
 }
 
 @media (max-width: 768px) {
@@ -502,8 +503,8 @@
     }
 
     .star3 {
-        bottom: 38px;
-        left: 10%;
+        bottom: 30px;
+        left: 0%;
     }
 
     .star4 {
@@ -552,13 +553,8 @@
     }
 
     .staredit2 {
-        left: -10.7%;
-        top: 32px;
-    }
-
-    .staredit4 {
-        right: 12.8%;
-        top: 36px;
+        left: 8.7%;
+        top: 33px;
     }
 
     .star21 {
@@ -581,24 +577,24 @@
         top: 30px;
     }
 
-    .heroDes {
-        padding: 0 120px !important;
-        font-size: 1.35rem !important;
+    /* .heroDes {
+        padding: 0 20px !important;
+        font-size: 1.05rem !important;
         line-height: 2rem !important;
-    }
+    } */
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     .heroDes {
-        padding: 0 90px !important;
+        padding: 0 10px !important;
     }
-}
+} */
 
-@media (min-width: 640px) and (max-width: 690px) {
+/* @media (min-width: 640px) and (max-width: 690px) {
     .heroTextedit {
         font-size: 2.5rem !important;
     }
-}
+} */
 
 @media (max-width: 640px) {
     .star1 {
@@ -612,8 +608,8 @@
     }
 
     .star3 {
-        bottom: 30px;
-        left: 14%;
+        bottom: 24px;
+        left: 0%;
     }
 
     .star4 {
@@ -667,18 +663,13 @@
     }
 
     .staredit2 {
-        left: -10.7%;
-        top: 26px;
+        left: 12.7%;
+        top: 33px;
     }
 
     .staredit3 {
         bottom: 22px;
-        left: 14%;
-    }
-
-    .staredit4 {
-        right: 12.8%;
-        top: 28px;
+        left: 1%;
     }
 
     .star21 {
@@ -706,35 +697,35 @@
     }
 
     .heroTextedit {
-        font-size: 38px !important;
+        font-size: 44px !important;
     }
 
-    .heroDes {
-        padding: 0 50px;
-        font-size: 1.35rem !important;
+    /* .heroDes {
+        padding: 0 10px;
+        font-size: 1.05rem !important;
         line-height: 2rem !important;
-    }
+    } */
 }
 
 @media (max-width: 530px) {
-    .heroDes {
-        padding: 10px 56px !important
-    }
+    /* .heroDes {
+        padding: 0px 10px !important
+    } */
 }
 
-@media (min-width: 480px) and (max-width: 540px) {
+/* @media (min-width: 480px) and (max-width: 540px) {
     .heroTextedit {
         font-size: 30px !important;
     }
-}
+} */
 
 @media (max-width: 480px) {
     .heroText {
-        font-size: 38px !important;
+        font-size: 36px !important;
     }
 
     .heroTextedit {
-        font-size: 26px !important;
+        font-size: 36px !important;
     }
 
     .staredit1 {
@@ -743,26 +734,31 @@
     }
 
     .staredit2 {
-        left: -10.7%;
-        top: 26px;
+        left: 13.7%;
+        top: 33px;
     }
 
     .staredit3 {
         bottom: 22px;
-        left: 14%;
+        left: -1%;
     }
 
-    .staredit4 {
-        right: 12.8%;
-        top: 24px;
+    .staredit4 {  
+        top: 14px;
     }
 
-    .heroDes {
-        padding: 10px;
-        font-size: 1.35rem !important;
+    /* .heroDes {
+        padding: 0 10px;
+        font-size: 1.05rem !important;
         line-height: 2rem !important;
-    }
+    } */
 
+}
+
+@media (max-width: 420px){
+    .heroTextedit {
+        font-size: 32px !important;
+    }
 }
 
 
@@ -778,8 +774,8 @@
     }
 
     .star3 {
-        bottom: 25px;
-        left: 14%;
+        bottom: 14px;
+        left: 0%;
     }
 
     .star4 {
@@ -814,26 +810,25 @@
     }
 
     .staredit2 {
-        left: -10.7%;
-        top: 26px;
+        left: 12.7%;
+        top: 33px;
     }
 
     .staredit3 {
         bottom: 22px;
-        left: 14%;
+        left: -1%;
     }
 
     .staredit4 {
-        right: 12.8%;
-        top: 22px;
+        top: 13px;
     }
 
     .heroText {
-        font-size: 34px !important;
+        font-size: 32px !important;
     }
 
     .heroTextedit {
-        font-size: 22px !important;
+        font-size: 28px !important;
     }
 
     .contactDes{
@@ -841,18 +836,18 @@
         line-height: 2rem !important;
     }
 
-    .heroDes {
+    /* .heroDes {
         font-size: 1.15rem !important;
         line-height: 2rem !important;
-    }
+    } */
 }
 
 @media (max-width: 332px) {
     .heroText {
-        font-size: 31px !important;
+        font-size: 29px !important;
     }
 
     .heroTextedit {
-        font-size: 19px !important;
+        font-size: 24px !important;
     }
 }

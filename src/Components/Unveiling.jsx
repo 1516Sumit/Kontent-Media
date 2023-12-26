@@ -1,9 +1,9 @@
 function Unveiling({ type }) {
     return (
         <>
-            <section className="fade -mt-12">
+            <section className="fade">
                 <div className="bg-black flex justify-center sm:justify-start items-center">
-                    <p className="m-5 sm:m-10 lg:ml-42 xl:ml-40 2xl:ml-44 font-bold text-white text-2xl md:text-3xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Unveiling Our Impact</p>
+                    <p className="m-5 sm:m-10 lg:ml-42 xl:ml-40 2xl:ml-44 font-bold text-white text-[1.8rem] md:text-3xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Unveiling Our Impact</p>
                 </div>
                 <div className="flex justify-center items-center sm:block" >
                     <div className="p-2 h-3/4 bg-black flex justify-evenly items-start sm:items-center flex-col sm:flex-row">
@@ -62,7 +62,7 @@ function Unveiling({ type }) {
                                                     </svg>
                                                 </span>
                                             </span>
-                                            <span className="inline-flex font-medium text-lg sm:text-xl text-slate-500 sm:w-56 sm:px-0">Revenue Generated for clients</span>
+                                            <span className="inline-flex font-medium text-lg sm:text-xl text-slate-500 sm:px-0">Revenue Generated for clients</span>
                                         </section>
                                         <section className={type === "kontentedit" ? " " : "hidden"}>
                                             <span className="flex tabular-nums text-white text-3xl md:text-5xl font-extrabold  animate-[counter6_4s_ease-out_forwards] [counter-set:_num_var(--num)] before:content-[counter(num)]">

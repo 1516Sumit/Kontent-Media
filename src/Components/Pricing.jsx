@@ -6,15 +6,15 @@ import '../App.css'
 export default function Pricing() {
     return (
         <>
-            <section id='pricing' className="bg-black w-screen h-auto flex justify-center items-center flex-col">
-                <div className="fade mt-28 sm:mt-24 md:mt-28 mb-2 md:mb-0 text-center">
+            <section id="pricing" className="bg-black w-screen h-auto flex justify-center items-center flex-col">
+                <div className="fade mt-28 sm:mt-24 md:mt-44 mb-2 md:mb-0 text-center">
                     <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                     Pricing 
                         <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  Plans  </span>
                         tailored to <br/>
                         <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Your needs. </span>
                     </p>
-                    <p className="my-6 sm:my-10 px-12 lg:my-5 font-Inter font-medium text-gray-400 sm:text-sm md:text-base lg:text-lg xl:text-xl sm:px-16 xl:px-48">Custom Plans For different needs , from seamless editing to full-blown <br/> production. Rapidly grow with videos that work.</p>
+                    <p className="my-6 sm:my-10 px-12 lg:my-5 font-Inter font-medium text-white sm:text-sm md:text-base lg:text-lg xl:text-xl sm:px-16 xl:px-48">Custom Plans For different needs , from seamless editing to full-blown <br/> production. Rapidly grow with videos that work.</p>
                 </div>
                 <div className="fadef bg-[#FFD93D] my-10 sm:my-14 rounded-3xl md:rounded-large flex justify-center items-center h-auto md:h-screen">
                     <div className="flex justify-center items-center my-10 sm:my-20 md:my-40 py-0 bg-[#7F00FF] w-screen h-auto md:h-128 overflow-hidden">
@@ -28,7 +28,7 @@ export default function Pricing() {
                                                 Kontent Edit
                                             </h3>
                                         </div>
-                                        <div className='popular w-2/12 text-center relative right-20 top-0 md:top-0 md:-left-24 lg:-left-20 lg:top-0 xl:top-3 xl:-left-18'>
+                                        <div className='popular w-2/12 text-center relative right-20 top-0 md:top-0 md:-left-24 lg:-left-20 lg:-top-18 xl:-left-18'>
                                             <div className="pb-1 w-52 h-6 bg-black rotate-45 text-xl font-bold text-white flex justify-center items-center" style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}>Popular</div>
                                         </div>
                                     </div>

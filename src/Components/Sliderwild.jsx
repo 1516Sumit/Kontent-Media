@@ -3,15 +3,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-
+import Slidercompwild from './Slidercompwild.jsx'
 import './sliderwild.css';
-import Video from '../assets/video/video.mp4'
-import iphone from '../assets/img/iphone.png'
+// import Video from '../assets/video/video.mp4'
+// import iphone from '../assets/img/iphone.png'
 
 
-import { EffectCoverflow, Pagination } from 'swiper';
+import { Autoplay, EffectCoverflow } from 'swiper';
 
-export default function App() {
+export default function Sliderwild() {
     return (
         <>
             <div className='w-screen overflow-hidden flex justify-center items-center'>
@@ -32,57 +32,21 @@ export default function App() {
                         slideShadows: true,
                     }}
                     loop={true}
-                    pagination={true}
-                    modules={[EffectCoverflow, Pagination]}
-                    className="mySwiper block md:hidden pt-20"
+                    // pagination={true}
+                    modules={[Autoplay, EffectCoverflow]}
+                    className="mySwiper block md:hidden pt-16"
                 >
                     <SwiperSlide>
-                        <div className='relative flex justify-center items-center rotate-0'>
-                            <img src={iphone} className='iphone2 rotate-0 md:rotate-90 z-1 absolute' />
-                            <div className='reldiv flex justify-center items-center'>
-                                <div className='videodiv videodiv4 overflow-hidden rotate-0 md:rotate-90'>
-                                    <video className='w-64 sm:w-80 md:w-96 z-2' controls muted>
-                                        <source src={Video} type="video/mp4" />
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
+                        <Slidercompwild/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='relative flex justify-center items-center rotate-0'>
-                            <img src={iphone} className='iphone2 z-1 absolute' />
-                            <div className='reldiv flex justify-center items-center'>
-                                <div className='videodiv videodiv4 overflow-hidden'>
-                                    <video className='w-64 sm:w-80 md:w-96 z-2 rotate-0' controls muted>
-                                        <source src={Video} type="video/mp4" />
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
+                        <Slidercompwild/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='mt-5 relative flex justify-center items-center rotate-0'>
-                            <img src={iphone} className='iphone2 z-1 absolute' />
-                            <div className='reldiv flex justify-center items-center'>
-                                <div className='videodiv videodiv4 overflow-hidden'>
-                                    <video className='w-64 sm:w-80 md:w-96 rotate-0' controls muted>
-                                        <source src={Video} type="video/mp4" />
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
+                        <Slidercompwild/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='relative flex justify-center items-center rotate-0'>
-                            <img src={iphone} className='iphone2 z-1 absolute rotate-0 md:rotate-90' />
-                            <div className='reldiv flex justify-center items-center'>
-                                <div className='videodiv videodiv4 overflow-hidden rotate-0 md:rotate-90'>
-                                    <video className='w-64 sm:w-80 md:w-96 z-2' controls muted>
-                                        <source src={Video} type="video/mp4" />
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
+                        <Slidercompwild/>
                     </SwiperSlide>
                 </Swiper>
             </div>

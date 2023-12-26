@@ -61,7 +61,7 @@ function Navbar({ second }) {
         </div>
       ) : (
         <div className='bg-black flex flex-col justify-center w-screen z-20 items-center sticky top-0'>
-          <nav className="bg-black mt-4 w-10/12 z-20 border-[#4d4b4b] rounded-xl border-x-2 border-b-2">
+          <nav className="bg-black mt-4 w-10/12 z-20 border-[#262121] rounded-xl border-x-2 border-b-2">
             <section className={second === "kontentedit" ? "hidden" : ""}>
               <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 px-8">
                 <Link to="/" className="flex items-center">

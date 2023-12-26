@@ -35,7 +35,7 @@ function Faqs({ type }) {
             <Typography>What level of customization do I have with the KONTENT EDIT plan?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               We have a higher degree of customization, You can provide specific instructions, preferences, and even reference materials to ensure that the final edit aligns perfectly with your brand and vision.
             </Typography>
           </AccordionDetails>
@@ -51,7 +51,7 @@ function Faqs({ type }) {
             </Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               The turnaround time depends on the complexity and length of your content.We have a general timeline for reel edit is 24hrs and for youtube edits it’s 3 days. Rest assured, our team works efficiently to provide you with the edited videos within a reasonable timeframe.
               uspendisse
               malesuada lacus ex, sit amet blandit leo lobortis eget.
@@ -69,7 +69,7 @@ function Faqs({ type }) {
             <Typography>Can I request revisions after receiving the edited video?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               Absolutely! Your satisfaction is our priority. The KONTENT EDIT plan includes a revision process according to the sub-plan you choose, where you can provide feedback, and our editors will make the necessary adjustments.
             </Typography>
           </AccordionDetails>
@@ -85,7 +85,7 @@ function Faqs({ type }) {
             <Typography>Why Should I Choose KONTENT EDIT over a freelancer ?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               While freelancers are a valuable resource, choosing KONTENT EDIT over hiring an individual freelancer offers consistent quality, scalability, and reliable timelines.
             </Typography>
           </AccordionDetails>
@@ -103,7 +103,7 @@ function Faqs({ type }) {
             </Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               We cater all the custom demands separately, you can discuss your project with us over a call.
             </Typography>
           </AccordionDetails>
@@ -120,7 +120,7 @@ function Faqs({ type }) {
             <Typography>Where will I find studios for Podcast Shoot?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               If you sign-up with Leverage Pro plan of Kontent Pod, We will assist you with our nearest studio in your city.Currently, This solution is available only in India & UAE.
             </Typography>
           </AccordionDetails>
@@ -136,7 +136,7 @@ function Faqs({ type }) {
             </Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               Podcast editing takes way more time than regular edits as this is lengthy , generally we deliver podcast edits in 3-4 business days and podcast clips after that.
             </Typography>
           </AccordionDetails>
@@ -152,7 +152,7 @@ function Faqs({ type }) {
             <Typography>Can I request revisions after receiving the edited video?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               Absolutely! Your satisfaction is our priority. The KONTENT EDIT plan includes a revision process according to the sub-plan you choose, where you can provide feedback, and our editors will make the necessary adjustments.
             </Typography>
           </AccordionDetails>
@@ -168,7 +168,7 @@ function Faqs({ type }) {
             <Typography>Why Should I Choose KONTENT POD over a normal editor ?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               We have a team of expert podcast editors, storytellers and social media ninjas, they know what will work, what not. We will smartly spot viral clips from your podcast and you will enjoy the fame you never expected.
             </Typography>
           </AccordionDetails>
@@ -186,7 +186,7 @@ function Faqs({ type }) {
             </Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               We cater all the custom demands separately, you can discuss your project with us over a call.
             </Typography>
           </AccordionDetails>
@@ -203,7 +203,7 @@ function Faqs({ type }) {
             <Typography>Why should we go for Kontent S2S if we can also do this all ?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               Purpose of Kontent S2S is to let brands focus on their core business, doing all this will need a full time team of 10 people, expensive equipment, a lot of time of regular employees and your brand will end up spending more with diverted focus from core business as well.
             </Typography>
           </AccordionDetails>
@@ -219,7 +219,7 @@ function Faqs({ type }) {
             </Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               It depends upon the kind of project, but at a minimum we can say it will take 30-45 days to deliver everything from script to screen.
             </Typography>
           </AccordionDetails>
@@ -235,7 +235,7 @@ function Faqs({ type }) {
             <Typography>Can I request revisions after production of the content ?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               You can request as many revisions as you want in the scripting and editing phase but once we finalize the script and are done with shooting then reversing this will cost an additional amount.
             </Typography>
           </AccordionDetails>
@@ -251,7 +251,7 @@ function Faqs({ type }) {
             <Typography>How long will it take to build our organic distribution ?</Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               According to our experience , it takes 4-8 months of consistent posting of quality videos to create a significant base.You shouldn’t expect results in 1 or 2 months of Kontent S2S.
             </Typography>
           </AccordionDetails>
@@ -269,7 +269,7 @@ function Faqs({ type }) {
             </Typography>
           </AccordionSummary>
           <AccordionDetails className="h-auto">
-            <Typography style={{ color: "grey" }}>
+            <Typography style={{ color: "#d6cbcb" }}>
               Instagram Reels, Youtube Videos , In-app Videos, Product Demos, Social Media Ads, A complete show on your youtube channel we do them all. Also,We cater all the custom demands separately, you can discuss your project with us over a call.
             </Typography>
           </AccordionDetails>

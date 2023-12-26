@@ -24,6 +24,8 @@ const Marquees = () => {
     //     transform: `translateX(${scrollPosition * scrollSpeed}px)`,
     //     transition: 'transform 0.1s ease-in-out', // Adjust the transition duration and timing function
     // };
+
+    
     return (
         <>
 

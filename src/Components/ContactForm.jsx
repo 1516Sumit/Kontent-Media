@@ -1,6 +1,10 @@
 // import React from 'react'
 import Marquee from "react-fast-marquee";
-import logos from "../assets/img/Frame.png";
+import logos from "../assets/img/8_1sasa11.jpg";
+import aven from "../assets/img/aven.png";
+import circllogo from "../assets/img/circle logo.png";
+import company from "../assets/img/company.avif";
+import pakshi from "../assets/img/pakshi.jpg";
 
 import '../App.css'
 function ContactForm() {
@@ -11,7 +15,7 @@ function ContactForm() {
         <div className='h-1 top-0 md:pt-8' style={{ backgroundColor: '#7F00FF' }}></div>
         <div className="grid md:grid-cols-2 ">
 
-          <div className="text-gray-50 mx-auto my-auto py-16 md:ml-6">
+          <div className="text-gray-50 mx-auto my-auto pt-16 pb-8 md:pb-16 md:ml-6">
             <h1
               className="px-12 sm:px-0 mb-4 text-4xl leading-none tracking-tight md:text-4xl lg:text-4xl xl:text-5xl xs:ml-8 xxs:ml-3"
               style={{ fontFamily: "Archivo, sans-serif" }}
@@ -30,8 +34,8 @@ function ContactForm() {
             />
             <div
               style={{ textAlign: "left" }}>
-              <p className="contactDes px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-gray-400 sm:text-sm md:text-lg lg:text-xl xl:text-2xl ">We’ll help you get there.</p>
-              <p className="px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-gray-400 sm:text-sm md:text-base lg:text-lg xl:text-xl">You’re in good company:
+              <p className="contactDes px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-white sm:text-sm md:text-lg lg:text-xl xl:text-2xl ">We’ll help you get there.</p>
+              <p className="px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-white sm:text-sm md:text-base lg:text-lg xl:text-xl">You’re in good company:
               </p>
             </div>
             <div
@@ -45,16 +49,16 @@ function ContactForm() {
             >
 
             </div>
-            <div className="flex flex-col justify-between">
-              <div className="flex flex-col sm:flex-row items-center justify-evenly">
-                <img src={logos} className="w-24" />
-                <img src={logos} className="w-24" />
-                <img src={logos} className="w-24" />
+            <div className="flex justify-center md:justify-between flex-row sm:flex-col">
+              <div className="flex flex-col sm:flex-row items-center justify-evenly mr-4 sm:mr-0">
+                <img src={company} className="w-20" />
+                <img src={aven} className="w-20" />
+                <img src={circllogo} className="w-20" />
               </div>
-              <div className="flex flex-col sm:flex-row items-center justify-evenly">
-                <img src={logos} className="w-24" />
-                <img src={logos} className="w-24" />
-                <img src={logos} className="w-24" />
+              <div className="flex flex-col sm:flex-row items-center justify-evenly mx-4 sm:mx-0">
+                <img src={circllogo} className="w-20" />
+                <img src={logos} className="w-20" />
+                <img src={pakshi} className="w-20" />
               </div>
             </div>
           </div>

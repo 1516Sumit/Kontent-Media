@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import Fb from "../assets/img/fb.png";
+// import Fb from "../assets/img/fb.png";
 import Ig from "../assets/img/ig.png";
 import Ln from "../assets/img/ln.png";
-import Tw from "../assets/img/tw.png";
+// import Tw from "../assets/img/tw.png";
 
 function Footer({ type }) {
     return (
@@ -14,14 +14,14 @@ function Footer({ type }) {
                         <div className="md:flex md:justify-between mt-24">
                             <div className="mb-2 md:mb-0">
                                 <section className={type === "kontentedit" ? "hidden" : ""}>
-                                    <p className="heroDes my-4 mt-10 font-Inter text-xs font-medium text-gray-400 sm:text-sm md:text-lg lg:text-xl xl:text-2xl">Tell us where you are and where <br />you want to be.</p>
+                                    <p className="my-4 mt-10 font-Inter font-medium text-white text-xl sm:text-2xl">Tell us where you are and where <br />you want to be.</p>
 
-                                    <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                    <p className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                                         We’ll
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> help you </span>
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> help you </span>
                                         <br />
                                         get
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  there. </span>
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  there. </span>
                                     </p>
                                 </section>
                                 <section className={type === "kontentedit" ? "" : "hidden"}>
@@ -36,16 +36,16 @@ function Footer({ type }) {
                                     <a target='blank' href='https://www.instagram.com/kontentmedia_in/'>
                                         <img src={Ln} style={{ height: 24, width: 24 }} />
                                     </a>
-                                    <a target='blank' href='https://www.instagram.com/kontentmedia_in/'>                                      <img src={Ig} style={{ height: 24, width: 24, marginLeft: 35 }} />
+                                    <a target='blank' href='https://www.instagram.com/kontentmedia_in/'>                                      <img src={Ig} style={{ height: 24, width: 24, marginLeft: 15 }} />
                                     </a>
                                 </div>
                             </div>
                             <div className="grid grid-cols-1 sm:grid-rows-1 md:items-end md:justify-items-end">
-                                <div className="mt-5 grid grid-cols-1 gap-8 sm:gap-4 sm:grid-rows-2  md:items-end md:justify-items-end mb-14">
-                                    <button className="h-14 w-36 bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
+                                <div className="mt-5 grid grid-cols-1 gap-8 sm:gap-4 sm:grid-rows-2  md:items-end md:justify-items-end mb-5 md:mb-14">
+                                    <button className="h-14 w-48 md:w-36 bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
                                         <a href='#letstalk'>Let’s Talk</a></button>
 
-                                    <button className="h-14 w-52 flex justify-center items-center bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
+                                    <button className="h-14 w-48 md:w-52 flex justify-center items-center bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5 relative right-3"

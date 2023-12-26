@@ -4,7 +4,7 @@ import '../App.css'
 function Testimonial() {
     return (
         <>
-            <div className="fade pt-12 bg-black flex items-center justify-between flex-col w-screen h-screen sm:h-auto">
+            <div className="fade pt-12 bg-black flex items-center justify-between flex-col w-screen h-auto">
                 <div className="w-screen my-4 mb-8">
                     <div className="h-2 bg-[#7F00FF]"></div>
                     <div className="h-2 bg-[#FFD93D]"></div>
@@ -33,10 +33,10 @@ function Testimonial() {
                     </p>
                 </div>
 
-                <button type="button" className="mb-16 sm:m-10 w-48 h-12 text-black bg-[#FFD93D] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0  border-b-2 border-white-400 hover:border-purple-800" style={{ fontFamily: 'Archivo' }}><a href='#contactform'>Case Study</a></button>
+                <button type="button" className="my-10 sm:m-10 w-48 h-12 text-black bg-[#FFD93D] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0  border-b-2 border-white-400 hover:border-purple-800" style={{ fontFamily: 'Archivo' }}><a href='#contactform'>Case Study</a></button>
             </div>
-            <div className="bg-black h-0 block relative z-0 left-0" style={{ bottom: '350px' }}>
-                <img className="w-32 sm:w-36 md:w-40" src="./images/Mask group.svg" />
+            <div className="bg-black h-0 block relative z-0 left-0 bottom-[180px] sm:bottom-[350px]">
+                <img className="w-24 sm:w-36 md:w-40" src="./images/Mask group.svg" />
             </div>
         </>
     )
