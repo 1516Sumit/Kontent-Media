@@ -10,7 +10,7 @@ function Testimonial() {
                     <div className="h-2 bg-[#FFD93D]"></div>
                     <div className="h-2 bg-[#7F00FF]"></div>
                 </div>
-                <div className="mt-5 mb-7 md:mb-7 text-center">
+                <div className="mt-5 mb-12 md:mb-12 text-center">
                     <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                         They
 
@@ -26,7 +26,7 @@ function Testimonial() {
 
 
                 <div>
-                    <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                    <p className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white mt-12" style={{ fontFamily: 'Archivo' }}>
                         <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}>Our  </span>
                         Kreators  Who
                         <span className="self-center text-2xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Went Big →</span>

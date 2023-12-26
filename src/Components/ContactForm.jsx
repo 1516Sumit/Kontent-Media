@@ -62,7 +62,7 @@ function ContactForm() {
               </div>
             </div>
           </div>
-          <div className="max-h-498.18 max-w-452.14 mx-auto my-auto py-6 px-4" style={{ width: '70%' }}>
+          <div className="max-h-498.18 max-w-452.14 mx-auto my-auto py-6 pl-4 pr-0 md:pr-4 md:pr-0" style={{ width: '70%' }}>
             <p
               style={{
                 color: "white",

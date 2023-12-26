@@ -152,14 +152,14 @@ function Hero({ type }) {
                     <section className={type === "page2" ? " " : "hidden"}>
                         <Tilt tiltMaxAngleX={3}
                             tiltMaxAngleY={3}>
-                            <h1 className="heroText mt-24 lg:mt-24 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                            <h1 className="heroTextedit mt-24 lg:mt-24 mb-0 sm:mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                                 <img src="./images/StarFour-yellow.png" className="w-5 sm:w-6 md:w-8 relative star21 inline-block" alt="star" />
                                 Dream.
-                                <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Achieve. </span>
+                                <span className="heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Achieve. </span>
                                 Grow<img src="./images/StarFour-purple.png" className="w-5 sm:w-6 md:w-8 relative star22 inline-block" alt="star" /></h1>
-                            <h1 className="heroText mt-8 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                            <h1 className="heroTextedit mt-8 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                                 <img src="./images/StarFour-purple.png" className="w-5 sm:w-6 md:w-8 relative star23 inline-block" alt="star" />Join the
-                                <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Squad
+                                <span className="heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Squad
                                     <img src="./images/StarFour-yellow.png" className="w-5 sm:w-6 md:w-8 relative star24 inline-block" alt="star" /></span></h1>
                         </Tilt>
 

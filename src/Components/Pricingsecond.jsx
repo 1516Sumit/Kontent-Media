@@ -68,7 +68,7 @@ export default function Pricingsecond({ type }) {
                       {" "}
                       → No Distribution
                       <br />
-                      → No Thumbnails 
+                      → No Thumbnails
                       <br />
                       → Limited Revisions
                       <br />
@@ -92,7 +92,7 @@ export default function Pricingsecond({ type }) {
                   <div style={{ textAlign: "right", width: "95%" }}>
                     <p style={{ color: "#7F00FF" }}>Videos</p>
                   </div>
-                  <div className="button-containerKlassic w-full md:w-11/12 2xl:h-auto">
+                  <div className="button-containerKlassic text-black w-full md:w-11/12 2xl:h-auto">
                     <div
                       className={`rectangular-buttonKlasic ${eigthClicked ? 'clicked' : ''}`}
                       onClick={() => {
@@ -196,23 +196,23 @@ export default function Pricingsecond({ type }) {
                     </button>
                   </div>
                 </div>
-                <section style={{ width: "100%"}} className={type === "kontentedit" ? " " : "hidden"}>
-                  <Pricingboxsecond hname="Standard" page={"edit"}/>
+                <section style={{ width: "100%" }} className={type === "kontentedit" ? " " : "hidden"}>
+                  <Pricingboxsecond hname="Standard" page={"edit"} />
                 </section>
                 <section style={{ width: "100%" }} className={type === "kontentedit" ? " " : "hidden"}>
-                  <Leverage hname="Leverage" page={"edit"}/>
+                  <Leverage hname="Leverage" page={"edit"} />
                 </section>
                 <section style={{ width: "100%" }} className={type === "kontentpod" ? " " : "hidden"}>
-                  <Pricingboxsecond hname="Standard" page={"pod"}/>
+                  <Pricingboxsecond hname="Standard" page={"pod"} />
                 </section>
                 <section style={{ width: "100%" }} className={type === "kontentpod" ? " " : "hidden"}>
-                  <Leverage hname="Leverage" page={"pod"}/>
+                  <Leverage hname="Leverage" page={"pod"} />
                 </section>
                 <section style={{ width: "100%" }} className={type === "kontents2s" ? " " : "hidden"}>
-                  <Pricingboxsecond hname="Standard" page={"s2s"}/>
+                  <Pricingboxsecond hname="Standard" page={"s2s"} />
                 </section>
                 <section style={{ width: "100%" }} className={type === "kontents2s" ? " " : "hidden"}>
-                  <Leverage hname="Leverage" page={"s2s"}/>
+                  <Leverage hname="Leverage" page={"s2s"} />
                 </section>
               </div>
               <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-20 sm:h-36"></div>

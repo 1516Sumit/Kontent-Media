@@ -30,7 +30,6 @@
  }
  .fire{
     margin-top: 30%;
-    margin-bottom:-7%;
     height: 76%;
     width: 100%;
  }
@@ -73,6 +72,7 @@
        height: 373%;
        margin-top: -30%;
        margin-left:26%;
+       margin-bottom:-7%;
        width: 70%;
     }
  
@@ -98,7 +98,8 @@
     .fire{
        height: 373%;
        margin-top: -30.3%;
-       margin-left:26%;
+       margin-left:28%;
+       margin-bottom:-8%;
        width: 68%;
     }
  
@@ -124,6 +125,7 @@
        height: 399%;
        margin-top: -31.3%;
        margin-left:26%;
+       margin-bottom:-8%;
        width: 68%;
     }
  

@@ -7,15 +7,15 @@ function CareerFooter() {
      <footer className="fadef bg-[#FFD93D] w-screen">
                 <div className="bg-black">
                     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                        <div className="md:flex md:justify-between mt-24">
+                        <div className="md:flex md:justify-between mt-12">
                             <div className="mb-2 md:mb-0">
                                 
-                                    <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{fontFamily: 'Archivo'}}>
+                                    <p className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{fontFamily: 'Archivo'}}>
                                     We 
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{fontFamily: 'Archivo'}}> create </span>
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{fontFamily: 'Archivo'}}> create </span>
                                          <br />
                                          remarkable
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{fontFamily: 'Archivo'}}> videos</span>
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{fontFamily: 'Archivo'}}> videos</span>
                                     </p>
                                
                             </div>

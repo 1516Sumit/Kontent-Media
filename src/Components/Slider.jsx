@@ -36,96 +36,96 @@ export default function Slider() {
                 modules={[Autoplay, EffectCoverflow, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide className='slider'>
-                <div className="profile-sect">
-                    <div className="profile-sec">
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                        <div className="flex flex-col justify-center items-left gap-1">
-                            <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
-                                Agnes Remi
+                    <SwiperSlide className='slider'>
+                        <div className="profile-sect">
+                            <div className="profile-sec">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                <div className="flex flex-col justify-center items-left gap-1">
+                                    <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
+                                        Agnes Remi
+                                    </div>
+                                    <div className="text-xs sm:text-base md:text-lg">
+                                        President of marketing
+                                    </div>
+                                </div>
                             </div>
-                            <div className="text-xs sm:text-base md:text-lg">
-                                President of marketing
-                            </div>
-                        </div>
-                    </div>
-                    <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
-                        Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
-                    </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='slider'>
-                <div className="profile-sect">
-                    <div className="profile-sec">
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                        <div className="flex flex-col justify-center items-left gap-1">
-                            <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
-                                Agnes Remi
-                            </div>
-                            <div className="text-xs sm:text-base md:text-lg">
-                                President of marketing
+                            <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
+                                Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
                             </div>
                         </div>
-                    </div>
-                    <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
-                        Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
-                    </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='slider'>
-                <div className="profile-sect">
-                    <div className="profile-sec">
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                        <div className="flex flex-col justify-center items-left gap-1">
-                            <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
-                                Agnes Remi
+                    </SwiperSlide>
+                    <SwiperSlide className='slider'>
+                        <div className="profile-sect">
+                            <div className="profile-sec">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                <div className="flex flex-col justify-center items-left gap-1">
+                                    <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
+                                        Agnes Remi
+                                    </div>
+                                    <div className="text-xs sm:text-base md:text-lg">
+                                        President of marketing
+                                    </div>
+                                </div>
                             </div>
-                            <div className="text-xs sm:text-base md:text-lg">
-                                President of marketing
-                            </div>
-                        </div>
-                    </div>
-                    <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
-                        Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
-                    </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='slider'>
-                <div className="profile-sect">
-                    <div className="profile-sec">
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                        <div className="flex flex-col justify-center items-left gap-1">
-                            <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
-                                Agnes Remi
-                            </div>
-                            <div className="text-xs sm:text-base md:text-lg">
-                                President of marketing
+                            <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
+                                Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
                             </div>
                         </div>
-                    </div>
-                    <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
-                        Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
-                    </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide className='slider'>
-                <div className="profile-sect">
-                    <div className="profile-sec">
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                        <div className="flex flex-col justify-center items-left gap-1">
-                            <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
-                                Agnes Remi
+                    </SwiperSlide>
+                    <SwiperSlide className='slider'>
+                        <div className="profile-sect">
+                            <div className="profile-sec">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                <div className="flex flex-col justify-center items-left gap-1">
+                                    <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
+                                        Agnes Remi
+                                    </div>
+                                    <div className="text-xs sm:text-base md:text-lg">
+                                        President of marketing
+                                    </div>
+                                </div>
                             </div>
-                            <div className="text-xs sm:text-base md:text-lg">
-                                President of marketing
+                            <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
+                                Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
                             </div>
                         </div>
-                    </div>
-                    <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
-                        Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
-                    </div>
-                    </div>
-                </SwiperSlide>
+                    </SwiperSlide>
+                    <SwiperSlide className='slider'>
+                        <div className="profile-sect">
+                            <div className="profile-sec">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                <div className="flex flex-col justify-center items-left gap-1">
+                                    <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
+                                        Agnes Remi
+                                    </div>
+                                    <div className="text-xs sm:text-base md:text-lg">
+                                        President of marketing
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
+                                Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='slider'>
+                        <div className="profile-sect">
+                            <div className="profile-sec">
+                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                                <div className="flex flex-col justify-center items-left gap-1">
+                                    <div className="text-base sm:text-xl md:text-2xl font-bold" style={{ fontFamily: 'Archivo' }}>
+                                        Agnes Remi
+                                    </div>
+                                    <div className="text-xs sm:text-base md:text-lg">
+                                        President of marketing
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="profile-content font-semibold text-sm sm:text-lg md:text-xl tracking-wide p-1 md:pl-20">
+                                Dico is finally addressing a long time problem we had when building UIs. It’s ease of use and workflow seems really intuitive. Promising!
+                            </div>
+                        </div>
+                    </SwiperSlide>
             </Swiper>
         </>
     );

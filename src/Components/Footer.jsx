@@ -25,14 +25,21 @@ function Footer({ type }) {
                                     </p>
                                 </section>
                                 <section className={type === "kontentedit" ? "" : "hidden"}>
-                                    <p className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                    <p className="hidden min-[395px]:block self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                                         Create your
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> unfair </span>
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> unfair </span>
                                         <br /> advantage with
-                                        <span className="self-center text-2xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos<br /> that work </span></p>
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos <br />that work </span>
+                                    </p>
+                                    <p className="block min-[395px]:hidden self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
+                                        Create your
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> unfair </span>
+                                        <br /> advantage 
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> with <br />videos</span> that work 
+                                    </p>
                                 </section>
 
-                                <div style={{ marginTop: 25, width: 162, height: 24, display: "flex", justifyContent: "flex-start" }} className="xs:ml-8 xxs:ml-3">
+                                <div style={{ width: 162, height: 24, display: "flex", justifyContent: "flex-start" }} className="xs:ml-8 xxs:ml-3 mt-6">
                                     <a target='blank' href='https://www.instagram.com/kontentmedia_in/'>
                                         <img src={Ln} style={{ height: 24, width: 24 }} />
                                     </a>
