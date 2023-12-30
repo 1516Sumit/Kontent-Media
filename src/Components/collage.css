@@ -1,0 +1,13 @@
+@media (max-width: 800px) {
+    .heading1 {
+        /* text-align: center; */
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading1 {
+        /* text-align: center; */
+        font-size: 30px !important;
+    }
+}

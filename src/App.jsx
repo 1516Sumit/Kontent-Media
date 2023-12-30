@@ -6,6 +6,9 @@ import Career from './Components/Career.jsx';
 import Landing from './Landing';
 import Kontentpod from './Components/Kontentpod.jsx';
 import Kontents2s from './Components/Kontents2s.jsx';
+import Terms from './pages/Terms.jsx';
+import Privacy from './pages/Privacy.jsx';
+import Refund from './pages/Refund.jsx';
 
 function App() {
 
@@ -19,6 +22,9 @@ function App() {
         <Route exact path="/Kontentpod" element={<Kontentpod />} />
         <Route exact path="/Kontents2s" element={<Kontents2s />} />
         <Route exact path="/Career" element={<Career />} />
+        <Route exact path="/Terms" element={<Terms />} />
+        <Route exact path="/Privacy" element={<Privacy />} />
+        <Route exact path="/Refund" element={<Refund />} />
       </Routes>
     </>
     // </div>

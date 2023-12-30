@@ -1,45 +1,22 @@
 // import React from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 import './wildfire.css';
-import Hand from '../assets/img/HandGrabbing.svg'
-import Scissors from '../assets/img/Scissors.svg'
-import Rocket from '../assets/img/RocketLaunch.svg'
-import Vector from '../assets/img/Trash.svg'
-import Video from '../assets/video/video.mp4'
-import Mask from '../assets/img/Mask-group.jpeg'
-import Mask2 from '../assets/img/Mask-group2.jpeg'
+import Hand from '../assets/img/swipehand.gif'
+import Scissors from '../assets/img/Scissorsgif.gif'
+import Rocket from '../assets/img/rocket.gif'
+import dustbin from '../assets/img/dustbingif.gif'
 import iphone from '../assets/img/iphone.png'
 import '../App.css'
 import Sliderwild from './Sliderwild';
 
 function Wildfire() {
-      const [isHovered, setIsHovered] = useState(false);
-
-      const handleMouseEnter = () => {
-            setIsHovered(true);
-      };
-
-      const handleMouseLeave = () => {
-            setIsHovered(false);
-      };
       return (
             <div className='bg-black w-screen pt-16 h-auto'>
-                  <h1 className='fade self-center text-center text-2xl sm:text-3xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white' style={{ fontFamily: 'Archivo' }}>Supercharge <span style={{ color: '#7F00FF' }}>your growth </span> <br />with videos <span style={{ color: '#FFD93D' }}>that break </span> <br />the <span style={{ color: '#7F00FF' }}> scroll.</span></h1>
-                  <img src={Scissors} className='ceaser w-6 lg:w-12 sm:w-8 md:w-10' />
-                  <div
-                        className={`rocket-container ${isHovered ? "animate" : ""}`}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}
-                  >
-                        <img
-                              src={Rocket}
-                              alt="Rocket"
-                              className={`Rocket w-6 lg:w-12 sm:w-8 md:w-10 ${isHovered ? "animate" : ""
-                                    }`}
-                        />
-                  </div>
-                  <img src={Vector} className='Vector w-6 lg:w-12 sm:w-8 md:w-10' />
-                  <img src={Hand} className='Hand w-6 lg:w-12 sm:w-8 md:w-10' />
+                  <h1 className='fade self-center text-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white capitalize' style={{ fontFamily: 'Archivo' }}>Supercharge <span style={{ color: '#7F00FF' }}>your growth </span> <br />with videos <span style={{ color: '#FFD93D' }}>that break </span> <br />the <span style={{ color: '#7F00FF' }}> scroll.</span></h1>
+                  <img src={Scissors} alt='loading...' className='rotate-180 ceaser w-8 lg:w-14 sm:w-10 md:w-12' />
+                        <img src={Rocket} alt="Rocket" className="Rocket w-8 lg:w-14 sm:w-10 md:w-12"/>
+                  <img src={dustbin} className='Vector w-8 lg:w-14 sm:w-10 md:w-12' />
+                  <img src={Hand} className='Hand w-8 lg:w-14 sm:w-10 md:w-12' />
 
                   <div className='fade m-8 md:m-14 hidden md:grid justify-items-center items-center grid-cols-1 gap-0 md:grid-cols-3'>
                         <div className='relative flex justify-center items-center'>
@@ -81,8 +58,8 @@ function Wildfire() {
                   <Sliderwild />
 
                   <div className='flex justify-between flex-row'>
-                        <img src={Mask} className='mask1 w-28 h-56 sm:w-44 sm:h-72' />
-                        <img src={Mask2} className='mask2 w-28 h-56 sm:w-44 sm:h-72' />
+                        <img src="./images/Mask groupnewleft.png" className='mask1 w-28 h-56 sm:w-44 sm:h-72' />
+                        <img src="./images/Mask groupnew.png" className='mask2 w-28 h-56 sm:w-44 sm:h-72' />
                   </div>
             </div>
 

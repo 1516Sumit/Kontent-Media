@@ -13,7 +13,7 @@ function NewestJobs() {
   return (
     <div className='fade flex flex-col w-screen full sm:pt-10' style={{ backgroundColor: 'black' }}>
       <div className="bg-black h-0 block relative rotate-180 z-0 right-0" style={{ top: '120px' }}>
-        <img className="w-32 sm:w-36 md:w-40" src="./images/Mask group.svg" />
+        <img className="w-32 sm:w-36 md:w-40" src="./images/Mask groupnewleft.png" />
       </div>
       <div className="flex justify-center items-center heading">Open&nbsp;<span style={{ color: "#FFD93D" }} >Positions&nbsp;</span> 
       {/* For&nbsp; */}

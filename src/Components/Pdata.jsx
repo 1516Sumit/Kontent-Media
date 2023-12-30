@@ -18,13 +18,13 @@ const Pdata = [
         hname:"Leverage"
     },
     {
-        heading:"You Talk , We Do The Rest."
+        heading:"You Talk ,\n We Do The Rest."
     },
     {
         subheading:"Outsource Everything From Podcast Production to distribution."
     },
     {
-        heading:"Outsource Complete Content Creation."
+        heading:"Outsource Complete \nContent Creation."
     },
     {
         subheading:"We seamlessly conceptualize, script, shoot, and edit videos for you."

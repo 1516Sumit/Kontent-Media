@@ -10,12 +10,12 @@ function CareerFooter() {
                         <div className="md:flex md:justify-between mt-12">
                             <div className="mb-2 md:mb-0">
                                 
-                                    <p className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{fontFamily: 'Archivo'}}>
+                                    <p className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white capitalize" style={{fontFamily: 'Archivo'}}>
                                     We 
-                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{fontFamily: 'Archivo'}}> create </span>
+                                        <span className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{fontFamily: 'Archivo'}}> create </span>
                                          <br />
                                          remarkable
-                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{fontFamily: 'Archivo'}}> videos</span>
+                                        <span className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{fontFamily: 'Archivo'}}> videos</span>
                                     </p>
                                
                             </div>

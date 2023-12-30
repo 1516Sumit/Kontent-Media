@@ -12,45 +12,254 @@
     color: #00618E;
   }
 
-@media (min-width: 910px) {
-    .popular {
-        left: -22%;
+
+  @media (min-width: 640px){
+    .pricingheight{
+        height: 23rem;
+    }
+    .pricingheading {
+        font-size: 1.5rem!important;
+        line-height: 1.6rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 1.2rem!important;
+        line-height: 1.8rem!important;
+    }
+
+    .pricingsub{
+        font-size: 1rem;
+    }
+   }
+
+  @media (min-width: 768px){
+    .pricingheight{
+        height: 22rem;
+    }
+    .pricingheading {
+        font-size: 1.5rem!important;
+        line-height: 1.6rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 1.2rem!important;
+        line-height: 1.8rem!important;
+    }
+    .pricingsub{
+        font-size: 1rem;
+    }
+   }
+
+  @media (min-width: 860px){
+    .pricingheight{
+        height: 29rem;
+    }
+    .pricingheading {
+        font-size: 2rem!important;
+        line-height: 1.6rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 1.6rem!important;
+        line-height: 1.8rem!important;
+    }
+    .pricingsub{
+        font-size: 1.2rem;
+    }
+   }
+
+   @media (min-width: 926px){
+    .pricingheight{
+        height: 29rem;
+    }
+    .pricingheading {
+        font-size: 2.3rem!important;
+        line-height: 1.8rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 2rem!important;
+        line-height: 2.2rem!important;
+    }
+   }
+
+
+
+  @media (min-width: 1465px){
+    .pricingheight{
+        height: 20rem;
+    }
+  }
+
+
+@media (max-width: 1465px) {
+    .pricingheight{
+        height: 20rem;
+    }
+    .pricingheading {
+        font-size: 2rem!important;
+        line-height: 1.6rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 1.6rem!important;
+        line-height: 1.8rem!important;
+    }
+    .pricingsub{
+        font-size: 1.2rem;
     }
 }
 
-@media (min-width: 840px) {
+@media (max-width: 1228px){
+    .pricingheight{
+        height: 22rem;
+    }
     .popular {
-        left: -26%;
+        top: 3%!important;
+        left: -48%!important;
+    }
+}
+@media (max-width: 1158px){
+    .pricingheight{
+        height: 20rem;
+    }
+    .popular {
+        top: 3%!important;
+        left: -48%!important;
+    }
+    .pricingheading {
+        font-size: 1.7rem!important;
+        line-height: 1.5rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 1.4rem!important;
+        line-height: 1.6rem!important;
+    }
+    .pricingsub{
+        font-size: 1.1rem;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1088px){
+    .pricingheight{
+        height: 22rem;
+    }
+}
+
+@media (max-width: 962px){
     .popular {
-        left: -42%;
-        bottom: 10px;
+        top: 0%!important;
+        left: -52%!important;
+    }
+}
+
+@media (max-width: 882px){
+    .pricingheight{
+        height: 25rem;
+    }
+    .popular {
+        top: -38%!important;
+        left: -55%!important;
+    }
+    .pricingheading {
+        font-size: 2rem!important;
+        line-height: 2.1rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 1.5rem!important;
+        line-height: 1.8rem!important;
+    }
+    .pricingsub{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 837px){
+    .pop {
+        height: 1rem!important;
+        font-size: 0.875rem!important;
+    }
+    .popular {
+        top: -30%!important;
+        left: -70%!important;
+    }
+}
+
+@media (max-width: 685px) {
+    .popular {
+        top: -30%!important;
+        left: -75%!important;
     }
 }
 
 @media (max-width: 640px) {
     .pricing {
-        padding: 0 56px!important;
+        padding: 0 16px!important;
+    }
+    .pricingheight{
+        height: auto;
+    }
+    .pricingheading {
+        font-size: 1.5rem!important;
+        line-height: 1.6rem!important;
+    }
+
+    .pricingdesc{
+        font-size: 1.5rem!important;
+        line-height: 1.8rem!important;
+    }
+
+    .pricingsub{
+        font-size: 1rem;
+    }
+    .popular {
+        top: 0rem!important;
+        left: -30%!important;
+    }
+}
+
+@media (max-width: 556px) {
+    .popular {
+        top: 1rem!important;
+        left: -38%!important;
     }
 }
 
 @media (max-width: 490px) {
     .pricing {
-        padding: 0 56px!important;
+        padding: 0 16px!important;
+    }
+
+    .pricingheight{
+      width: 90%!important;
+    }
+    .popular {
+        top: 0rem!important;
+        left: -32%!important;
+    }
+}
+
+@media (max-width: 411px){
+    .popular {
+        top: 1rem!important;
+        left: -42%!important;
     }
 }
 
 @media (max-width: 400px) {
     .pricing {
-        padding: 0 16px!important;
+        padding: 0 4px!important;
     }
 }
 
 @media (max-width: 360px){
     .pricingheight{
         height: auto!important;
+    }
+    .popular {
+        top: 0rem!important;
+        left: -56%!important;
     }
 }

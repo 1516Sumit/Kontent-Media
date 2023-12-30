@@ -57,3 +57,25 @@ body{
     }
 }
 
+  .roadfadeani{
+    animation: roadfadeani linear both;
+    animation-timeline: view();
+    animation-range: entry 30% cover 70%;
+}
+
+@keyframes roadfadeani {
+    0% {
+        background-color: transparent;
+        color: white;
+    }
+
+    80% {
+       background-color: #FFD93D;
+       color: black;
+    }
+    100%{
+      background-color:transparent;
+      color: white;
+    }
+}
+

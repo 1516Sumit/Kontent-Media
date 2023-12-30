@@ -92,6 +92,32 @@
     }
 }
 
+@media (max-width: 640px){
+    .roadcon {
+        margin-left: 4rem;
+    }
+    .roadhead {
+        margin-right: 4rem;
+    }
+    .road{
+        width: 4rem;
+    }
+
+}
+
+@media (max-width: 460px){
+    .roadcon {
+        margin-left: 2rem;
+    }
+    .roadhead {
+        margin-right: 2rem;
+    }
+    .road{
+        width: 2rem;
+    }
+
+}
+
 /* .sparkWraper {
     margin-top: -23%;
     animation: sparkAnimation-y 2s linear infinite;

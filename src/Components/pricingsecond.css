@@ -256,11 +256,35 @@
   }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 972px) {
   .box {
     width: 92% !important;
   }
+  .pricing1{
+    padding-left: 2.2rem!important;
+  }
 }
+
+@media (max-width: 903px) {
+  .box {
+    width: 68% !important;
+    height: auto !important;
+  }
+  .pricing1{
+    padding-left: 11.2rem!important;
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important;
+    gap: 2.5rem !important;
+  }
+  .pricingsecond{
+    height: auto!important;
+  }
+  .popular1{
+    top: 20px!important;
+    left: -80px!important;
+  }
+}
+
+
 
 @media (max-width: 780px) {
   .price {
@@ -282,34 +306,60 @@
 }
 
 @media (max-width: 640px) {
-  .pricing1 {
-    padding: 0 56px !important;
+  .box {
+    width: 80% !important;
+    height: auto !important;
   }
-
-  .standard {
-    height: 50vh;
+  .pricing1{
+    padding-left: 6.2rem!important;
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important;
+    gap: 2.5rem !important;
+  }
+  .pricingsecond{
+    height: auto!important;
+  }
+  .popular1{
+    top: 20px!important;
+    left: -80px!important;
   }
 }
 
-@media (max-width: 563px) {
-  .standard {
-    height: 48vh;
-  }
-}
 
 @media (max-width: 484px) {
-  .pricing1 {
-    padding: 0 56px !important;
+  .box {
+    width: 85% !important;
+    height: auto !important;
   }
-
-  .standard {
-    height: 48vh;
+  .pricing1{
+    padding-left: 4.2rem!important;
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important;
+    gap: 2.5rem !important;
+  }
+  .pricingsecond{
+    height: auto!important;
+  }
+  .popular1{
+    top: 20px!important;
+    left: -80px!important;
   }
 }
 
 @media (max-width: 400px) {
-  .pricing1 {
-    padding: 0 16px !important;
+  .box {
+    width: 90% !important;
+    height: auto !important;
+  }
+  .pricing1{
+    padding-left: 2.2rem!important;
+    grid-template-columns: repeat(1, minmax(0, 1fr))!important;
+    gap: 2.5rem !important;
+  }
+  .pricingsecond{
+    height: auto!important;
+  }
+  .popular1{
+    top: 20px!important;
+    left: -80px!important;
   }
 }
 

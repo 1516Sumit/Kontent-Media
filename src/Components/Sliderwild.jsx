@@ -9,44 +9,46 @@ import './sliderwild.css';
 // import iphone from '../assets/img/iphone.png'
 
 
-import { Autoplay, EffectCoverflow } from 'swiper';
+import { Pagination, EffectCoverflow } from 'swiper';
+import Sliderupdown from './Sliderupdown.jsx';
 
 export default function Sliderwild() {
     return (
         <>
             <div className='w-screen overflow-hidden flex justify-center items-center'>
-                <Swiper
+                <Swiper style={{
+                    "--swiper-pagination-color": "#FFBA08",
+                    "--swiper-pagination-bullet-inactive-color": "#999999",
+                    "--swiper-pagination-bullet-width": "30px",
+                    "--swiper-pagination-bullet-border-radius": "30px",
+                }}
                     effect={'coverflow'}
                     grabCursor={true}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
                     centeredSlides={true}
                     slidesPerView={'auto'}
                     coverflowEffect={{
                         rotate: 50,
                         stretch: 0,
-                        depth: 550,
+                        depth: 700,
                         modifier: 1,
-                        slideShadows: true,
+                        slideShadows: false,
                     }}
                     loop={true}
-                    // pagination={true}
-                    modules={[Autoplay, EffectCoverflow]}
+                    pagination={true}
+                    modules={[Pagination, EffectCoverflow]}
                     className="mySwiper block md:hidden pt-16"
                 >
-                    <SwiperSlide>
-                        <Slidercompwild/>
+                    <SwiperSlide className='w-[350px] h-[450px] mt-4'>
+                        <Slidercompwild />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <Slidercompwild/>
+                    <SwiperSlide className='w-[350px] h-[450px] mt-4'>
+                        <Sliderupdown />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <Slidercompwild/>
+                    <SwiperSlide className='w-[350px] h-[450px] mt-4'>
+                        <Slidercompwild />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <Slidercompwild/>
+                    <SwiperSlide className='w-[350px] h-[450px] mt-4'>
+                        <Sliderupdown />
                     </SwiperSlide>
                 </Swiper>
             </div>

@@ -5,8 +5,8 @@
 }
 
 .purpleCursor {
-    top: -32px;
-    left: 14%;
+    top: -3px;
+    left: 34%;
 }
 
 .masks {
@@ -19,15 +19,15 @@
 
 @media (max-width: 1535px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 }
 
 @media (max-width: 1374px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 
     .masks {
@@ -37,8 +37,8 @@
 
 @media (max-width: 1280px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 
     .masks {
@@ -48,22 +48,22 @@
 
 @media (max-width: 1176px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 }
 
 @media (max-width: 1076px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 }
 
 @media (max-width: 1024px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 
     .masks {
@@ -73,36 +73,36 @@
 
 @media (max-width: 974px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 }
 
 @media (max-width: 925px) {
     .purpleCursor {
-        top: -32px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 }
 
 @media (max-width: 852px) {
     .purpleCursor {
-        top: -23px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 }
 
 @media (max-width: 792px) {
     .purpleCursor {
-        top: -23px;
-        left: 14%;
+        top: -3px;
+        left: 34%;
     }
 }
 
 @media (max-width: 768px) {
     .purpleCursor {
-        top: -23px;
-        left: 14%;
+        top: -3px;
+        left: 24%;
     }
 
     .masks {
@@ -112,15 +112,15 @@
 
 @media (max-width: 704px) {
     .purpleCursor {
-        top: -23px;
-        left: 14%;
+        top: -3px;
+        left: 24%;
     }
 }
 
 @media (max-width: 640px) {
     .purpleCursor {
-        top: -13px;
-        left: 14%;
+        top: -3px;
+        left: 24%;
     }
 
     .masks {
@@ -134,28 +134,28 @@
 
 @media (max-width: 604px) {
     .purpleCursor {
-        top: -13px;
-        left: 14%;
+        top: -3px;
+        left: 24%;
     }
 }
 
 @media (max-width: 569px) {
     .purpleCursor {
-        top: -13px;
-        left: 14%;
+        top: -3px;
+        left: 24%;
     }
 }
 
 @media (max-width: 535px) {
     .purpleCursor {
-        top: -13px;
-        left: 14%;
+        top: -3px;
+        left: 24%;
     }
 }
 
 @media (max-width: 505px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
     }
 
@@ -171,29 +171,36 @@
 
 @media (max-width: 476px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
+    }
+
+    .trustText {
+        font-size: 1.85rem !important;
     }
 
 }
 
 @media (max-width: 457px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
     }
 }
 
 @media (max-width: 425px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
+    }
+    .trustText {
+        font-size: 1.55rem !important;
     }
 }
 
 @media (max-width: 400px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
     }
 
@@ -204,36 +211,41 @@
     .mask3 {
         margin-top: 90%;
     }
+   
 }
 
 @media (max-width: 378px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
     }
 
-    .trustText {
-        font-size: 20px !important;
-    }
+   
 }
 
 @media (max-width: 359px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
+    }
+    .trustText {
+        font-size: 1.35rem !important;
     }
 }
 
 @media (max-width: 329px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
+    }
+    .trustText {
+        font-size: 1.35rem !important;
     }
 }
 
 @media (max-width: 312px) {
     .purpleCursor {
-        top: -13px;
+        top: -3px;
         left: 14%;
     }
 }

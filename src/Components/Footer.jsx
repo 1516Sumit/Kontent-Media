@@ -34,8 +34,8 @@ function Footer({ type }) {
                                     <p className="block min-[395px]:hidden self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                                         Create your
                                         <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> unfair </span>
-                                        <br /> advantage 
-                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> with <br />videos</span> that work 
+                                        <br /> advantage
+                                        <span className="self-center text-4xl sm:text-5xl tracking-tight font-semibold font-Archivo whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> with <br />videos</span> that work
                                     </p>
                                 </section>
 
@@ -50,7 +50,7 @@ function Footer({ type }) {
                             <div className="grid grid-cols-1 sm:grid-rows-1 md:items-end md:justify-items-end">
                                 <div className="mt-5 grid grid-cols-1 gap-8 sm:gap-4 sm:grid-rows-2  md:items-end md:justify-items-end mb-5 md:mb-14">
                                     <button className="h-14 w-48 md:w-36 bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
-                                        <a href='#letstalk'>Let’s Talk</a></button>
+                                        <Link href='/#letstalk'>Let’s Talk</Link></button>
 
                                     <button className="h-14 w-48 md:w-52 flex justify-center items-center bg-[#7F00FF] hover:bg-[#6f11cf] text-white font-bold py-2 px-4 border-b-2 border-white-400 hover:border-purple-800 rounded-lg">
                                         <svg
@@ -92,11 +92,14 @@ function Footer({ type }) {
                         <hr className="my-2 border-white-800 sm:mx-auto lg:my-8" />
                         <div className="sm:flex sm:items-center sm:justify-between mb-12">
                             <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                                <a href="#" className="text-sm text-slate-200 dark:hover:text-white font-Inter">
+                                <a href="/Terms" className="text-sm text-slate-200 dark:hover:text-white font-Inter">
                                     Terms & Conditions
                                 </a>
-                                <a href="#" className="text-sm text-slate-200 dark:hover:text-white font-Inter">
+                                <a href="/Privacy" className="text-sm text-slate-200 dark:hover:text-white font-Inter">
                                     Privacy Policy
+                                </a>
+                                <a href="/Refund" className="text-sm text-slate-200 dark:hover:text-white font-Inter">
+                                    Refund/Cancellation Policy
                                 </a>
                             </div>
                             <span className="text-sm text-slate-200 sm:text-center font-Inter">© Copyright 2022 <a href="https://flowbite.com/" className="hover:underline"></a>. All Rights Reserved.

@@ -5,19 +5,23 @@ import aven from "../assets/img/aven.png";
 import circllogo from "../assets/img/circle logo.png";
 import company from "../assets/img/company.avif";
 import pakshi from "../assets/img/pakshi.jpg";
+import grid6 from '../assets/img/gridnew2.png';
 
 import '../App.css'
 function ContactForm() {
   return (
-    <div id="contacform" className="fade flex justify-center items-center flex-col bg-[#FFD93D] w-screen md:pt-12 overflow-hidden">
-      <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat rotate-180 h-16 sm:h-28 lg:h-33 w-screen"></div>
-      <div className="bg-black shadow w-10/12 h-auto overflow-hidden rounded-xl" >
-        <div className='h-1 top-0 md:pt-8' style={{ backgroundColor: '#7F00FF' }}></div>
+    <div id="contacform" className="fade flex justify-center items-center flex-col bg-[#FFD93D] w-screen overflow-hidden">
+      <div className="w-screen relative">
+        <img className="w-screen rotate-180 h-60 -mt-20 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
+      </div>
+      {/* <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat rotate-180 h-16 sm:h-28 lg:h-33 w-screen"></div> */}
+      <div className="bg-black shadow flex flex-col justify-between w-11/12 h-auto overflow-hidden rounded-xl" >
+        <div className='h-1 top-0 md:pt-2' style={{ backgroundColor: '#7F00FF' }}></div>
         <div className="grid md:grid-cols-2 ">
 
-          <div className="text-gray-50 mx-auto my-auto pt-16 pb-8 md:pb-16 md:ml-6">
+          <div className="text-gray-50 mx-auto my-auto pt-16 pb-8 md:pb-16">
             <h1
-              className="px-12 sm:px-0 mb-4 text-4xl leading-none tracking-tight md:text-4xl lg:text-4xl xl:text-5xl xs:ml-8 xxs:ml-3"
+              className="px-12 sm:px-0 mb-4 leading-none tracking-tight text-4xl md:text-3xl lg:text-3xl xl:text-4xl xs:ml-8 xxs:ml-3"
               style={{ fontFamily: "Archivo, sans-serif" }}
             >
               Tell us where you are and <br />
@@ -34,35 +38,25 @@ function ContactForm() {
             />
             <div
               style={{ textAlign: "left" }}>
-              <p className="contactDes px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-white sm:text-sm md:text-lg lg:text-xl xl:text-2xl ">We’ll help you get there.</p>
-              <p className="px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-white sm:text-sm md:text-base lg:text-lg xl:text-xl">You’re in good company:
+              <p className="contactDes px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-white text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl ">We’ll help you get there.</p>
+              <p className="py-4 px-12 sm:px-0 pt-4 lg:my-5 font-Inter font-medium text-white text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">You’re in good company:
               </p>
             </div>
-            <div
-              style={{
-                width: 162,
-                height: 24,
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-              className="xs:ml-8 xxs:ml-3 ml-12 sm:ml-0"
-            >
 
-            </div>
-            <div className="flex justify-center md:justify-between flex-row sm:flex-col">
-              <div className="flex flex-col sm:flex-row items-center justify-evenly mr-4 sm:mr-0">
+            <div className="flex justify-start md:justify-between items-start flex-row sm:flex-col gap-10 ml-14 sm:ml-2 md:ml-1">
+              <div className="flex flex-col sm:flex-row items-center justify-evenly gap-10">
                 <img src={company} className="w-20" />
                 <img src={aven} className="w-20" />
                 <img src={circllogo} className="w-20" />
               </div>
-              <div className="flex flex-col sm:flex-row items-center justify-evenly mx-4 sm:mx-0">
+              <div className="flex flex-col sm:flex-row items-center justify-evenly gap-10">
                 <img src={circllogo} className="w-20" />
                 <img src={logos} className="w-20" />
                 <img src={pakshi} className="w-20" />
               </div>
             </div>
           </div>
-          <div className="max-h-498.18 max-w-452.14 mx-auto my-auto py-6 pl-4 pr-0 md:pr-4 md:pr-0" style={{ width: '70%' }}>
+          <div className="max-h-498.18 max-w-452.14 mx-auto my-auto py-6 pl-8 pr-0 md:pr-4 md:pr-0 w-11/12 sm:w-[70%]">
             <p
               style={{
                 color: "white",
@@ -161,7 +155,10 @@ function ContactForm() {
           <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-4">Visuals 60,000X impact than text.</span></Marquee>
         </div>
       </div>
-      <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-16 sm:h-28 lg:h-36 w-screen"></div>
+      <div className="w-screen relative">
+        <img className="w-screen h-60 -mt-20 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
+      </div>
+      {/* <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-16 sm:h-28 lg:h-36 w-screen"></div> */}
     </div>
 
   );
