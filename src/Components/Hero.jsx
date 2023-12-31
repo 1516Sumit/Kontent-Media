@@ -2,7 +2,7 @@ import "./star.css";
 import Tilt from 'react-parallax-tilt';
 import grid6 from '../assets/img/gridnew2.png';
 import star from '../assets/img/stargif.gif';
-import star2 from '../assets/img/stargif(1).gif';
+// import star2 from '../assets/img/stargif(1).gif';
 import "../App.css"
 function Hero({ type }) {
     return (
@@ -16,9 +16,12 @@ function Hero({ type }) {
                                 <img src={star} className="w-5 sm:w-6 md:w-8 relative star1 inline-block" alt="star" />
                                 Creating
                                 <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Videos </span>
-                                That<img src={star2} className="w-5 sm:w-6 md:w-8 relative star2 inline-block" alt="star" /></h1>
+                                That
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative star2 inline-block" alt="star" /> */}
+                                </h1>
                             <h1 className="heroText mt-4 lg:my-0 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
-                                <img src={star2} className="w-5 sm:w-6 md:w-8 relative star3 inline-block" alt="star" />Stop
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative star3 inline-block" alt="star" /> */}
+                                Stop
                                 <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> The Scroll
                                     <img src={star} className="w-5 sm:w-6 md:w-8 relative star4 inline-block" alt="star" /></span></h1>
                         </Tilt>
@@ -51,7 +54,8 @@ function Hero({ type }) {
                                     <span className="heroText heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> edits in </span>
                                 </h1>
                                 <h1 className="heroText heroTextedit mt-2 mb-0 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white capitalize" style={{ fontFamily: 'Archivo' }}>
-                                    <img src={star2} className="w-5 sm:w-6 md:w-8 relative staredit2 inline-block" alt="star" />minimal
+                                    {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative staredit2 inline-block" alt="star" /> */}
+                                    minimal
                                     <span className="heroText heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> time </span> with <span className="heroText heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>your</span><img src={star2} className="w-5 sm:w-6 md:w-8 relative staredit3 inline-block" alt="star" />
                                 </h1>
                                 <h1 className="heroText heroTextedit mt-2 sm:mt-0 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white capitalize" style={{ fontFamily: 'Archivo' }}>
@@ -96,9 +100,11 @@ function Hero({ type }) {
                                 <img src={star} className="w-5 sm:w-6 md:w-8 relative starpod1 inline-block" alt="star" />
                                 End-to-End
                                 <span className="heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> services for </span>
-                                <img src={star2} className="w-5 sm:w-6 md:w-8 relative starpod2 inline-block" alt="star" /></h1>
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative starpod2 inline-block" alt="star" /> */}
+                                </h1>
                             <h1 className="heroTextedit mt-4 sm:mt-6 md:mt-6 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white capitalize" style={{ fontFamily: 'Archivo' }}>
-                                <img src={star2} className="w-5 sm:w-6 md:w-8 relative starpod3 inline-block" alt="star" />growing your
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative starpod3 inline-block" alt="star" /> */}
+                                growing your
                                 <span className="heroTextedit sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> podcast
                                     <img src={star} className="w-5 sm:w-6 md:w-8 relative starpod4 inline-block" alt="star" /></span></h1>
                             <h1 className="heroTextedit mt-4 sm:mt-6 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white capitalize" style={{ fontFamily: 'Archivo' }}>
@@ -133,9 +139,12 @@ function Hero({ type }) {
                                 <img src={star} className="w-5 sm:w-6 md:w-8 relative stars2s1 inline-block" alt="star" />
                                 To
                                 <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> goals  </span>
-                                through <img src={star2} className="w-5 sm:w-6 md:w-8 relative stars2s2 inline-block" alt="star" /></h1>
+                                through 
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative stars2s2 inline-block" alt="star" /> */}
+                                </h1>
                             <h1 className="heroText mt-4 md:mt-8 mb-4 font-semibold tracking-tight leading-none sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white capitalize" style={{ fontFamily: 'Archivo' }}>
-                                <img src={star2} className="w-5 sm:w-6 md:w-8 relative stars2s3 inline-block" alt="star" />premium
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative stars2s3 inline-block" alt="star" /> */}
+                                premium
                                 <span className="heroText sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> videos
                                     <img src={star} className="w-5 sm:w-6 md:w-8 relative stars2s4 inline-block" alt="star" /></span></h1>
                         </Tilt>
@@ -169,9 +178,12 @@ function Hero({ type }) {
                                 <img src={star} className="w-5 sm:w-6 md:w-8 relative star21 inline-block" alt="star" />
                                 Dream.
                                 <span className="heroTextedit sm:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Achieve. </span>
-                                Grow<img src={star2} className="w-5 sm:w-6 md:w-8 relative star22 inline-block" alt="star" /></h1>
+                                Grow
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative star22 inline-block" alt="star" /> */}
+                                </h1>
                             <h1 className="heroTextedit mt-4 mb-4 font-semibold tracking-tight leading-none sm:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl whitespace-nowrap text-white capitalize" style={{ fontFamily: 'Archivo' }}>
-                                <img src={star2} className="w-5 sm:w-6 md:w-8 relative star23 inline-block" alt="star" />Join the
+                                {/* <img src={star2} className="w-5 sm:w-6 md:w-8 relative star23 inline-block" alt="star" /> */}
+                                Join the
                                 <span className="heroTextedit sm:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}> Squad
                                     <img src={star} className="w-5 sm:w-6 md:w-8 relative star24 inline-block" alt="star" /></span></h1>
                         </Tilt>
