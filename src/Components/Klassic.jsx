@@ -301,7 +301,7 @@ export default function Klassic({ hname, page }) {
                             className="flex items-center justify-center h-10 w-2/4 xl:h-12 2xl:h-14 md:w-2/4 bg-[#7F00FF] hover:bg-[#6f11cf] text-base xl:text-lg 2xl:text-xl text-white font-bold py-2 px-1 border-b-2 border-white-400 hover:border-purple-800 rounded-lg"
                             style={{ fontFamily: "Archivo" }}
                         >
-                            <Link to="./Kontentedit">Subscribe</Link>
+                            <Link to="#">Subscribe</Link>
                         </button>
                     </div>
                 </div>
