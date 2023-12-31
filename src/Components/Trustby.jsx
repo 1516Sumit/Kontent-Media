@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
-import globe from '../assets/img/globe.gif'
-import growth from '../assets/img/video.gif'
+// import globe from '../assets/img/globe.gif'
+// import growth from '../assets/img/video.gif'
 import gradient from '../assets/img/gradient.png'
 import gradientright from '../assets/img/gradientright.png'
 
@@ -15,9 +15,11 @@ export default function Trustby() {
         <>
             <section className="fade bg-black w-screen h-auto lg:h-screen pt-20">
                 <div className="flex flex-col justify-center align-center bg-black w-screen text-center">
-                    <img className="purpleCursor w-8 relative inline-block" src={growth} />
+                    {/* <img className="purpleCursor w-8 relative inline-block" src={growth} /> */}
                     <p className="trustText self-center text-3xl leading-[2.2rem] sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white z-10" style={{ fontFamily: 'Archivo' }}>Our Clients <span className="trustText text-[#7F00FF]">Rocking With
-                    </span> Crazy <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Videos <span className="trustText text-[#FFD93D]">Across The Globe <img className="purpleCursor w-10 -left-0 top-4 relative inline-block" src={globe} /></span>
+                    </span> Crazy <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Videos <span className="trustText text-[#FFD93D]">Across The Globe 
+                    {/* <img className="purpleCursor w-10 -left-0 top-4 relative inline-block" src={globe} /> */}
+                    </span>
                     </p>
                     <p className="my-1 sm:my-2 font-Inter font-medium text-white text-[1.15rem] md:text-[2.3rem] sm:px-16 xl:px-48 z-10 capitalize">You can be the next </p>
                 </div>

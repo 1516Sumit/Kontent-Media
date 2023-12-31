@@ -1,7 +1,7 @@
 import Slider from "./Slider"
 import '../App.css'
 
-import dustbin from '../assets/img/shieldtickgif.gif'
+// import dustbin from '../assets/img/shieldtickgif.gif'
 
 function Testimonial() {
     return (
@@ -17,7 +17,7 @@ function Testimonial() {
 
                         <span className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  Transformed </span>
                     </p>
-                        <img src={dustbin} className="w-12 md:w-16 -mt-20 md:-mt-24 -ml-64 md:-ml-96 inline-block" alt="star" />
+                        {/* <img src={dustbin} className="w-12 md:w-16 -mt-20 md:-mt-24 -ml-64 md:-ml-96 inline-block" alt="star" /> */}
                 </div>
 
                 <Slider />
