@@ -13,7 +13,7 @@ export default function Trustby() {
 
     return (
         <>
-            <section className="fade bg-black w-screen h-auto lg:h-screen pt-20">
+            <section className="fade bg-black w-screen h-screen lg:h-screen pt-20">
                 <div className="flex flex-col justify-center align-center bg-black w-screen text-center">
                     <img className="purpleCursor w-8 relative inline-block" src={growth} />
                     <p className="trustText self-center text-3xl leading-[2.2rem] sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white z-10" style={{ fontFamily: 'Archivo' }}>Our Clients <span className="trustText text-[#7F00FF]">Rocking With
@@ -23,7 +23,7 @@ export default function Trustby() {
                 </div>
 
                 <div className="flex flex-row">
-                    <img className="absolute z-10 w-12 sm:w-40 lg:w-56 h-full" src={gradient} />
+                    {/* <img className="absolute z-10 w-12 sm:w-40 lg:w-56 h-96" src={gradient} /> */}
                     <div className="fade text-white pt-6 sm:pt-16 w-screen flex flex-col justify-center items-center h-auto">
                         <Marquee pauseOnHover autoFill={true} speed={50}>
                             <Marquees />
@@ -41,7 +41,7 @@ export default function Trustby() {
                             <Marquees />
                         </Marquee>
                     </div>
-                    <img className="absolute z-10 -right-1 w-12 sm:w-40 lg:w-56 h-full" src={gradientright} />
+                    {/* <img className="absolute z-10 -right-1 w-12 sm:w-40 lg:w-56 h-full" src={gradientright} /> */}
                 </div>
 
                 <div className='flex justify-between flex-row masks'>

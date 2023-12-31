@@ -9,7 +9,7 @@ function Unveiling({ type }) {
                     <div className="flex justify-center items-center sm:block" >
                         <div className="p-2 h-3/4 bg-black flex justify-between items-start sm:items-center flex-col sm:flex-row">
                             {/* <div className="grid gap-12 md:grid-cols-3 md:gap-16 "> */}
-                            <div className="pl-10 sm:pl-0 mt-10 sm:mt-0 flex justify-center items-center">
+                            <div className="pl-2 sm:pl-0 mt-10 sm:mt-0 flex justify-center items-center">
                                 <div className="h-24 text-white border-[#7F00FF] border-t-0 border-l-4 border-r-0 border-b-0"></div>
                                 <h2>
                                     <span className="flex justify-evenly items-center text-slate-900 text-3xl md:text-5xl font-extrabold mb-2">
@@ -26,7 +26,7 @@ function Unveiling({ type }) {
                                     </span>
                                 </h2>
                             </div>
-                            <div className="pl-10 sm:pl-0 mt-20 sm:mt-0 flex justify-center items-center">
+                            <div className="pl-2 sm:pl-0 mt-20 sm:mt-0 flex justify-center items-center">
                                 <div className="h-24 text-white border-[#7F00FF] border-t-0 border-l-4 border-r-0 border-b-0"></div>
                                 <h2>
                                     <span className="flex text-slate-900 text-3xl md:text-5xl font-extrabold mb-2">
@@ -45,7 +45,7 @@ function Unveiling({ type }) {
                                     </span>
                                 </h2>
                             </div>
-                            <div className="pl-10 sm:pl-0 mt-20 sm:mt-0 flex justify-center items-center">
+                            <div className="pl-2 sm:pl-0 mt-20 sm:mt-0 flex justify-center items-center">
                                 <div className="h-24 text-white border-[#7F00FF] border-t-0 border-l-4 border-r-0 border-b-0"></div>
                                 <h2>
                                     <span className="flex text-slate-900 text-3xl md:text-5xl font-extrabold mb-2">
