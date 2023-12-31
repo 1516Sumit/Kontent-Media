@@ -1,5 +1,5 @@
 import Hero from "./Hero.jsx";
-import Flow from "./Flow.jsx";
+// import Flow from "./Flow.jsx";
 import Pricingsecond from "./Pricingsecond.jsx";
 import Footer from './Footer.jsx';
 import Navbar from './Navbar.jsx';
