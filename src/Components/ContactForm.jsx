@@ -1,10 +1,10 @@
 // import React from 'react'
 import Marquee from "react-fast-marquee";
-// import logos from "../assets/img/8_1sasa11.jpg";
-// import aven from "../assets/img/aven.png";
-// import circllogo from "../assets/img/circle logo.png";
-// import company from "../assets/img/company.avif";
-// import pakshi from "../assets/img/pakshi.jpg";
+import logos from "../assets/img/8_1sasa11.jpg";
+import aven from "../assets/img/aven.png";
+import circllogo from "../assets/img/circle logo.png";
+import company from "../assets/img/company.avif";
+import pakshi from "../assets/img/pakshi.jpg";
 import grid6 from '../assets/img/gridnew2.png';
 
 import '../App.css'
@@ -43,7 +43,7 @@ function ContactForm() {
               </p>
             </div>
 
-            {/* <div className="flex justify-start md:justify-between items-start flex-row sm:flex-col gap-10 ml-14 sm:ml-2 md:ml-1">
+            <div className="flex justify-start md:justify-between items-start flex-row sm:flex-col gap-10 ml-14 sm:ml-2 md:ml-1">
               <div className="flex flex-col sm:flex-row items-center justify-evenly gap-10">
                 <img src={company} className="w-20" />
                 <img src={aven} className="w-20" />
@@ -54,7 +54,7 @@ function ContactForm() {
                 <img src={logos} className="w-20" />
                 <img src={pakshi} className="w-20" />
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="max-h-498.18 max-w-452.14 mx-auto my-auto py-6 pl-8 pr-0 md:pr-4 md:pr-0 w-11/12 sm:w-[70%]">
             <p

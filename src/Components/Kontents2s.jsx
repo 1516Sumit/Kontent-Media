@@ -1,5 +1,5 @@
 import Hero from "./Hero.jsx";
-// import Flow from "./Flow.jsx";
+import Flow from "./Flow.jsx";
 import Footer from './Footer.jsx';
 import Navbar from './Navbar.jsx';
 import Faqs from "./Faqs";
@@ -12,7 +12,7 @@ function Kontents2s() {
             <Navbar second={"kontentedit"} />
 
             <Hero type={"kontents2s"} />
-            {/* <Flow type={"kontents2s"} /> */}
+            <Flow type={"kontents2s"} />
             <Faqs type={"kontents2s"}/>
             <ContactForm />
             <Footer type={"kontentedit"} />
