@@ -13,7 +13,7 @@ function Kontentpod() {
         <Navbar second={"kontentedit"}/>
             
             <Hero type={"kontentpod"} />
-            <Flow type={"kontentpod"}/>
+            {/* <Flow type={"kontentpod"}/> */}
             <Pricingsecond type={"kontentpod"}/>
             <Faqs type={"kontentpod"}/>
             <ContactForm/> 

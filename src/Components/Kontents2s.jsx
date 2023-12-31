@@ -12,7 +12,7 @@ function Kontents2s() {
             <Navbar second={"kontentedit"} />
 
             <Hero type={"kontents2s"} />
-            <Flow type={"kontents2s"} />
+            {/* <Flow type={"kontents2s"} /> */}
             <Faqs type={"kontents2s"}/>
             <ContactForm />
             <Footer type={"kontentedit"} />

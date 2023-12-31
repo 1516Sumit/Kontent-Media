@@ -13,7 +13,7 @@ function Kontentedit() {
         <>
             <Navbar second={"kontentedit"} />
             <Hero type={"kontentedit"} />
-            <Flow type={"kontentedit"} />
+            {/* <Flow type={"kontentedit"} /> */}
             <Pricingsecond type={"kontentedit"} />
             <Faqs type={"kontentedit"}/>
             <ContactForm />
