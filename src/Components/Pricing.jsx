@@ -22,7 +22,7 @@ export default function Pricing() {
                     <div className="flex justify-center items-center my-10 sm:my-20 md:my-40 py-0 bg-[#7F00FF] w-screen h-auto md:h-128 overflow-hidden">
                         <div className='w-screen'>
                             <div className="w-screen relative">
-                                <img className="absolute w-screen rotate-180 h-60 -mt-20 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
+                                <img className="w-screen rotate-180 h-60 -mt-20 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
                             </div>
                             {/* <div className="bg-[url('./assets/img/gird6.png')] rotate-180 bg-cover bg-no-repeat h-12 sm:h-28 md:h-36"></div> */}
                             <div className="pricing grid grid-cols-1 sm:grid-cols-3 justify-items-center items-center gap-10 px-12 sm:px-2 lg:px-16 sm:gap-1 my-12 m-6 sm:m-0 z-10">
@@ -55,7 +55,7 @@ export default function Pricing() {
                                 <Pricingbox hname={Pdata[2].hname} heading={Pdata[8].heading} subheading={Pdata[9].subheading} />
                             </div>
                             <div className="w-screen relative">
-                                <img className="absolute w-screen h-60 -mt-52 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
+                                <img className="w-screen h-60 -mt-20 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
                             </div>
                             {/* <div className="bg-[url('./assets/img/gird6.png')] bg-cover bg-no-repeat h-12 sm:h-28 md:h-36"></div> */}
                         </div>
