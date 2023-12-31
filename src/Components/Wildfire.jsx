@@ -7,7 +7,7 @@ import './wildfire.css';
 // import dustbin from '../assets/img/dustbingif.gif'
 import iphone from '../assets/img/iphone.png'
 import '../App.css'
-import Sliderwild from './Sliderwild';
+// import Sliderwild from './Sliderwild';
 
 function Wildfire() {
       return (
@@ -23,7 +23,7 @@ function Wildfire() {
                               <img src={iphone} className='iphone1 rotate-0 md:rotate-90 z-1 absolute' />
                               <div className='reldiv flex justify-center items-center'>
                                     <div className='videodiv videodiv1 flex justify-center items-center overflow-hidden rotate-0'>
-                                    <iframe className='w-64 sm:w-80 md:w-[8rem] min-[860px]:w-[9rem] min-[980px]:w-[10.5rem] lg:w-40 xl:w-48 md:h-[16rem] min-[860px]:h-[18rem] min-[980px]:h-[20rem] lg:h-[20rem] xl:h-96 z-2 rounded-[30px] lg:rounded-[50px]' src="https://www.youtube.com/embed/kWT6RrttjfE?si=mONtk4MPEKsEzPV-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    {/* <iframe className='w-64 sm:w-80 md:w-[8rem] min-[860px]:w-[9rem] min-[980px]:w-[10.5rem] lg:w-40 xl:w-48 md:h-[16rem] min-[860px]:h-[18rem] min-[980px]:h-[20rem] lg:h-[20rem] xl:h-96 z-2 rounded-[30px] lg:rounded-[50px]' src="https://www.youtube.com/embed/kWT6RrttjfE?si=mONtk4MPEKsEzPV-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                                     </div>
                               </div>
                         </div>
@@ -32,7 +32,7 @@ function Wildfire() {
                                     <img src={iphone} className='iphone1 z-1 absolute' />
                                     <div className='reldiv flex justify-center items-center'>
                                     <div className='videodiv videodiv1 flex justify-center items-center overflow-hidden rotate-0'>
-                                    <iframe className='w-64 sm:w-80 md:w-96 md:h-32 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/IUEyGJGLMcM?si=usq1RU6ypEVyFBed" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    {/* <iframe className='w-64 sm:w-80 md:w-96 md:h-32 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/IUEyGJGLMcM?si=usq1RU6ypEVyFBed" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                                     </div>
                                     </div>
                               </div>
@@ -40,7 +40,7 @@ function Wildfire() {
                                     <img src={iphone} className='iphone1 z-1 absolute' />
                                     <div className='reldiv flex justify-center items-center'>
                                     <div className='videodiv videodiv1 flex justify-center items-center overflow-hidden rotate-0'>
-                                    <iframe className='w-64 sm:w-80 md:w-96 md:h-32 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/iacJorVqSFI?si=YozaspqPipV-YXYl" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    {/* <iframe className='w-64 sm:w-80 md:w-96 md:h-32 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/iacJorVqSFI?si=YozaspqPipV-YXYl" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                                     </div>
                                     </div>
                               </div>
@@ -49,13 +49,13 @@ function Wildfire() {
                               <img src={iphone} className='iphone1 z-1 absolute rotate-0 md:rotate-90' />
                               <div className='reldiv flex justify-center items-center'>
                                     <div className='videodiv videodiv1 flex justify-center items-center overflow-hidden rotate-0'>
-                                    <iframe className='w-64 sm:w-80 md:w-[8rem] min-[860px]:w-[9rem] min-[980px]:w-[10.5rem] lg:w-40 xl:w-48 md:h-[16rem] min-[860px]:h-[18rem] min-[980px]:h-[20rem] lg:h-[20rem] xl:h-96 z-2 rounded-[30px] lg:rounded-[50px]' src="https://www.youtube.com/embed/Uv5grJAidHs?si=Q8taju90ALr77QiT" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    {/* <iframe className='w-64 sm:w-80 md:w-[8rem] min-[860px]:w-[9rem] min-[980px]:w-[10.5rem] lg:w-40 xl:w-48 md:h-[16rem] min-[860px]:h-[18rem] min-[980px]:h-[20rem] lg:h-[20rem] xl:h-96 z-2 rounded-[30px] lg:rounded-[50px]' src="https://www.youtube.com/embed/Uv5grJAidHs?si=Q8taju90ALr77QiT" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                                     </div>
                               </div>
                         </div>
                   </div>
 
-                  <Sliderwild />
+                  {/* <Sliderwild /> */}
 
                   <div className='flex justify-between flex-row'>
                         <img src="./images/Mask groupnewleft.png" className='mask1 w-28 h-56 sm:w-44 sm:h-72' />
