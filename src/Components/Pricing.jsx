@@ -34,7 +34,7 @@ export default function Pricing() {
                                             </h3>
                                         </div>
                                         <div className='popular w-3/12 text-center relative right-20 top-0 sm:top-0 sm:-left-24 lg:-left-28 lg:-top-4 xl:-top-2 xl:-left-20'>
-                                            <div className="pop pb-1 w-72 h-6 sm:h-4 md:h-6 bg-black rotate-45 text-sm sm:text-sm md:text-xl font-bold text-white flex justify-center items-center" style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}>Popular</div>
+                                            <div className="pop pb-0 sm:pb-1 w-72 h-6 sm:h-4 md:h-6 bg-black rotate-45 text-sm sm:text-sm md:text-xl font-bold text-white flex justify-center items-center" style={{ boxShadow: '0px 4px 4px 0px rgba(0, 0, 0, 0.25)' }}>Popular</div>
                                         </div>
                                     </div>
                                     <h1 className="px-2 py-1 pricingdesc text-[#323133] font-[750]">Say Goodbye To<br />
