@@ -93,11 +93,11 @@
 }
 
 @media (max-width: 640px){
-    .roadcon {
+    /* .roadcon {
         margin-left: 4rem;
-    }
+    } */
     .roadhead {
-        margin-right: 4rem;
+        margin-right: 5rem;
     }
     .road{
         width: 4rem;

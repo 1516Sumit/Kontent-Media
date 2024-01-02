@@ -11,13 +11,13 @@ function Testimonial() {
                     <p className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white" style={{ fontFamily: 'Archivo' }}>
                         They
 
-                        <span className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Trusted, </span>
+                        <span className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#7F00FF]" style={{ fontFamily: 'Archivo' }}> Trusted<img src={dustbin} className="w-12 md:w-16 inline-block" alt="star" />,</span>
                         They
                         <br />
 
                         <span className="self-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-[#FFD93D]" style={{ fontFamily: 'Archivo' }}>  Transformed </span>
                     </p>
-                        <img src={dustbin} className="w-12 md:w-16 -mt-20 md:-mt-24 -ml-64 md:-ml-96 inline-block" alt="star" />
+                        
                 </div>
 
                 <Slider />

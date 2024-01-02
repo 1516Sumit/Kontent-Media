@@ -11,10 +11,10 @@ function Flow({ type }) {
                 <div className="flex flex-col justify-center items-center">
                     <div className="w-10/12">
                         <div className="fade m-1 bg-black flex justify-center sm:justify-start items-center">
-                            <p className="mb-6 font-bold text-white text-[1.8rem] md:text-3xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Unveiling Our Impact</p>
+                            <p className="mt-12 sm:mt-12 mb-6 font-bold text-white text-[1.8rem] md:text-3xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Unveiling Our Impact</p>
                         </div>
                         <div className="flex justify-center items-center sm:block" >
-                            <div className="fade p-2 h-3/4 bg-black flex justify-between items-start sm:items-center flex-col sm:flex-row">
+                            <div className="fade px-0 sm:p-2 h-3/4 bg-black flex justify-between items-start sm:items-center flex-col sm:flex-row">
                                 {/* <div className="grid gap-12 md:grid-cols-3 md:gap-16 "> */}
                                 <div className=" mt-10 sm:mt-0 flex justify-center items-center">
                                     <div className="h-24 text-white border-[#7F00FF] border-t-0 border-l-4 border-r-0 border-b-0"></div>
@@ -130,7 +130,7 @@ function Flow({ type }) {
                 <div className="h-[96rem] flex flex-col justify-evenly items-center m-o sm:m-10">
                     <div className="-mt-16 sm:mt-24 flex flex-row justify-center items-center text-white">
                         
-                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-3/12 flex justify-end">
+                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-[35%] sm:w-3/12 flex justify-end">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
                                 <button className="roadfadeani h-auto w-auto text-base md:text-lg font-bold flex justify-center items-center px-2">
                                     <h3 className="m-1 text-xl sm:text-2xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Branding</h3>
@@ -153,7 +153,7 @@ function Flow({ type }) {
                             <img src={road} className="road h-[96rem] sm:w-[7rem]" />
                         </div>
 
-                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-3/12">
+                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-[35%] sm:w-3/12">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
 
                                 <h4 className="text-sm md:text-xl text-white">We’ll receive the raw footage from you and draft a custom branding for your videos which no one else has on the internet by incorporating your brand colors, fonts, and graphics to create your unique identity.</h4>
@@ -170,7 +170,7 @@ function Flow({ type }) {
                     </div>
                     <div className=" flex flex-row justify-center items-center text-white">
                         
-                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-3/12 flex justify-end">
+                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-[35%] sm:w-3/12 flex justify-end">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
                                 <button className="roadfadeani h-auto w-auto text-base md:text-lg font-bold flex justify-center items-center px-2">
                                     <h3 className="m-1 text-xl sm:text-2xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Editing & Storytelling</h3>
@@ -198,7 +198,7 @@ function Flow({ type }) {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-3/12">
+                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-[35%] sm:w-3/12">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
 
                                 <h4 className="text-sm md:text-xl text-white">Our editors will add cuts, transitions, and pacing for the best engagement and  leverage animations and motion graphics to bring the focus to the key moments.</h4>
@@ -215,7 +215,7 @@ function Flow({ type }) {
                     </div>
                     <div className=" flex flex-row justify-center items-center text-white">
                         
-                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-3/12 flex justify-end">
+                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-[35%] sm:w-3/12 flex justify-end">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
                                 <button className="roadfadeani h-auto w-auto text-base md:text-lg font-bold flex justify-center items-center px-2">
                                     <h3 className="m-1 text-xl sm:text-2xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Feedback & Iterations</h3>
@@ -242,7 +242,7 @@ function Flow({ type }) {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-3/12">
+                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-[35%] sm:w-3/12">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
 
                                 <h4 className="text-sm md:text-xl text-white">We’ll maintain open communication and apply your feedback and suggestions to ensure the final video meets your expectations..</h4>
@@ -258,7 +258,7 @@ function Flow({ type }) {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center items-center text-white">
-                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-3/12 flex justify-end">
+                        <div className="road roadhead sm:m-10 sm:mr-28 z-10 w-[35%] sm:w-3/12 flex justify-end">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
                                 <button className="roadfadeani h-auto w-auto text-base md:text-lg font-bold flex justify-center items-center px-2">
                                     <h3 className="m-1 text-xl sm:text-2xl lg:text-4xl" style={{ fontFamily: 'Archivo' }}>Delivery & Beyond</h3>
@@ -285,7 +285,7 @@ function Flow({ type }) {
                                 </div>
                             </div>
                         </div> */}
-                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-3/12">
+                        <div className="roadcon fade sm:m-10 sm:ml-28 z-10 w-[35%] sm:w-3/12">
                             <section className={type === "kontentedit" ? " " : "hidden"}>
 
                                 <h4 className="text-sm md:text-xl text-white">We’ll receive the raw footage from you and draft a custom branding for your videos which no one else has on the internet by incorporating your brand colors, fonts, and graphics to create your unique identity.</h4>

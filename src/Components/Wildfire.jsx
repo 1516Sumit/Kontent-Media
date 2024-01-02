@@ -11,7 +11,7 @@ import Sliderwild from './Sliderwild';
 
 function Wildfire() {
       return (
-            <div className='bg-black w-screen pt-16 h-auto'>
+            <div id='portfolio' className='bg-black w-screen pt-16 h-auto'>
                   <h1 className='fade self-center text-center text-3xl sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white capitalize' style={{ fontFamily: 'Archivo' }}>Supercharge <span style={{ color: '#7F00FF' }}>your growth </span> <br />with videos <span style={{ color: '#FFD93D' }}>that break </span> <br />the <span style={{ color: '#7F00FF' }}> scroll.</span></h1>
                   <img src={Scissors} alt='loading...' className='rotate-180 ceaser w-8 lg:w-14 sm:w-10 md:w-12' />
                         <img src={Rocket} alt="Rocket" className="Rocket w-8 lg:w-14 sm:w-10 md:w-12"/>
@@ -32,7 +32,7 @@ function Wildfire() {
                                     <img src={iphone} className='iphone1 z-1 absolute' />
                                     <div className='reldiv flex justify-center items-center'>
                                     <div className='videodiv videodiv1 flex justify-center items-center overflow-hidden rotate-0'>
-                                    <iframe className='w-64 sm:w-80 md:w-96 md:h-32 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/IUEyGJGLMcM?si=usq1RU6ypEVyFBed" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe className='iframe w-64 sm:w-80 md:w-96 md:h-40 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/IUEyGJGLMcM?si=usq1RU6ypEVyFBed" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                     </div>
                                     </div>
                               </div>
@@ -40,7 +40,7 @@ function Wildfire() {
                                     <img src={iphone} className='iphone1 z-1 absolute' />
                                     <div className='reldiv flex justify-center items-center'>
                                     <div className='videodiv videodiv1 flex justify-center items-center overflow-hidden rotate-0'>
-                                    <iframe className='w-64 sm:w-80 md:w-96 md:h-32 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/iacJorVqSFI?si=YozaspqPipV-YXYl" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe className='iframe w-64 sm:w-80 md:w-96 md:h-40 lg:h-44 xl:h-48 z-2 rounded-[40px] lg:rounded-[50px]' src="https://www.youtube.com/embed/iacJorVqSFI?si=YozaspqPipV-YXYl" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                     </div>
                                     </div>
                               </div>

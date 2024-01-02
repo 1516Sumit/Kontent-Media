@@ -55,10 +55,10 @@ function Navbar({ second }) {
             <li>
               <Link to="/Kontents2s" className='hover:text-xl'>Kontent S2S</Link>
             </li>
-            {" "}
+           
             <button type="button" className="m-2 mt-20 w-32 h-10 text-black bg-[#FFD93D] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-0 border-b-2 border-white-400 hover:border-purple-800" style={{ fontFamily: 'Archivo' }}>
-            
-            <Link to='/#contactform'>Let’s Talk</Link>
+            {" "}
+            <a href='#contactform'>Let’s Talk</a>
             </button>
           </section>
         </div>
@@ -86,7 +86,7 @@ function Navbar({ second }) {
                       <Link to="#" className="block py-2 pl-1 pr-2 lg:pl-3 lg:pr-4 text-gray-400 text-[0.9rem] lg:text-xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" aria-current="page" style={{ fontFamily: 'Archivo' }}>About Us</Link>
                     </li>
                     <li>
-                      <Link to="#" className="block py-2 pl-1 pr-2 lg:pl-3 lg:pr-4 text-gray-400 text-[0.9rem] lg:text-xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" style={{ fontFamily: 'Archivo' }}>Portfolio</Link>
+                      <a href="#portfolio" className="block py-2 pl-1 pr-2 lg:pl-3 lg:pr-4 text-gray-400 text-[0.9rem] lg:text-xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" style={{ fontFamily: 'Archivo' }}>Portfolio</a>
                     </li>
                     <li>
                       <Link to="#" className="block py-2 pl-1 pr-2 lg:pl-3 lg:pr-4 text-gray-400 text-[0.9rem] lg:text-xl rounded md:hover:text-[#7F00FF] md:p-0 md:p-0" style={{ fontFamily: 'Archivo' }}>Our Services</Link>

@@ -211,6 +211,9 @@
     .iphone1{
         width: 294px;
     }
+    .iframe{
+        height: 9rem!important;
+    }
 
     .videodiv1{
         width: 270px;
@@ -266,6 +269,9 @@
     }
     .iphone1{
         width: 264px;
+    }
+    .iframe{
+        height: 8rem!important;
     }
 
     .videodiv1{

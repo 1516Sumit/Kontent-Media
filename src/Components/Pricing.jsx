@@ -25,7 +25,7 @@ export default function Pricing() {
                                 <img className="w-screen rotate-180 h-60 -mt-20 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
                             </div>
                             {/* <div className="bg-[url('./assets/img/gird6.png')] rotate-180 bg-cover bg-no-repeat h-12 sm:h-28 md:h-36"></div> */}
-                            <div className="pricing grid grid-cols-1 sm:grid-cols-3 justify-items-center items-center gap-10 px-12 sm:px-2 lg:px-16 sm:gap-1 my-12 m-6 sm:m-0 z-10">
+                            <div className="pricing grid grid-cols-1 sm:grid-cols-3 justify-items-center items-center gap-10 px-12 sm:px-2 lg:px-16 sm:gap-1 my-0 sm:my-12 mx-6 sm:m-0 z-10">
                                 <div className="grow pricingheight flex flex-col p-2 sm:p-4 justify-center p-4 w-8/12 sm:w-11/12 md:w-10/12 bg-white rounded-2xl shadow xl:p-4 overflow-hidden z-10">
                                     <div className="flex justify-between items-center">
                                         <div className='w-10/12'>

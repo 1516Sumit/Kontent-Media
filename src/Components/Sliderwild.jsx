@@ -9,7 +9,7 @@ import './sliderwild.css';
 // import iphone from '../assets/img/iphone.png'
 
 
-import { Pagination, EffectCoverflow } from 'swiper';
+import { Navigation, Pagination, EffectCoverflow } from 'swiper';
 import Sliderupdown from './Sliderupdown.jsx';
 
 export default function Sliderwild() {
@@ -24,6 +24,10 @@ export default function Sliderwild() {
                 }}
                     effect={'coverflow'}
                     grabCursor={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: true,
+                    }}
                     centeredSlides={true}
                     slidesPerView={'auto'}
                     coverflowEffect={{
@@ -34,8 +38,9 @@ export default function Sliderwild() {
                         slideShadows: false,
                     }}
                     loop={true}
-                    pagination={true}
-                    modules={[Pagination, EffectCoverflow]}
+                    navigation={true}
+                    pagination={{ clickable: true }}
+                    modules={[Navigation, Pagination, EffectCoverflow]}
                     className="mySwiper block md:hidden pt-16"
                 >
                     <SwiperSlide className='w-[350px] h-[450px] mt-4'>
@@ -55,3 +60,4 @@ export default function Sliderwild() {
         </>
     );
 }
+
