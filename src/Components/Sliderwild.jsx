@@ -31,7 +31,7 @@ export default function Sliderwild() {
                     effect={'coverflow'}
                     grabCursor={true}
                     autoplay={{
-                        delay: 10000,
+                        delay: 5000,
                         disableOnInteraction: true,
                     }}
                     centeredSlides={true}
