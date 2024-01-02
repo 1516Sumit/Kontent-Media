@@ -17,7 +17,7 @@ export default function Trustby() {
                 <div className="flex flex-col justify-center align-center bg-black w-screen text-center">
                     
                     <p className="trustText self-center text-3xl leading-[2.2rem] sm:text-4xl md:text-5xl tracking-tight font-semibold whitespace-nowrap text-white z-10" style={{ fontFamily: 'Archivo' }}>Our Clients <span className="trustText text-[#7F00FF]">Rocking With
-                    </span> Crazy <br /><img className="w-8 relative inline-block" src={growth} /> Videos <span className="trustText text-[#FFD93D]">Across The Globe <img className="w-10 -left-0 top-0 relative inline-block" src={globe} /></span>
+                    </span> Crazy <br /><img className="w-4 sm:w-8 relative inline-block" src={growth} /> Videos <span className="trustText text-[#FFD93D]">Across The Globe <img className="w-6 sm:w-10 -left-0 top-0 relative inline-block" src={globe} /></span>
                     </p>
                     <p className="my-1 sm:my-2 font-Inter font-medium text-white text-[1.15rem] md:text-[2.3rem] sm:px-16 xl:px-48 z-10 capitalize">You can be the next </p>
                 </div>

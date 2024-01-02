@@ -6,36 +6,40 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 // import 'swiper/css/pagination';
 import 'swiper/css/navigation'
-
+import { useRef } from 'react'
 import './styles.css';
 
 import { Autoplay, EffectCoverflow, Navigation } from 'swiper';
 
 export default function Slider() {
+    const swiperRef = useRef(null)
     return (
         <>
-            <Swiper
-                effect={'coverflow'}
-                grabCursor={true}
-                autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                }}
-                centeredSlides={true}
-                slidesPerView={'auto'}
-                coverflowEffect={{
-                    rotate: 10,
-                    stretch: 80,
-                    depth: 550,
-                    modifier: 1.8,
-                    slideShadows: true,
-                }}
-                loop={true}
-                navigation={true}
-                // pagination={true}
-                modules={[Autoplay, EffectCoverflow, Navigation]}
-                className="mySwiper"
-            >
+            <div onMouseEnter={() => swiperRef.current.swiper.autoplay.stop()}
+                onMouseLeave={() => swiperRef.current.swiper.autoplay.start()} className='w-screen'>
+                <Swiper
+                    ref={swiperRef}
+                    effect={'coverflow'}
+                    grabCursor={true}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    centeredSlides={true}
+                    slidesPerView={'auto'}
+                    coverflowEffect={{
+                        rotate: 10,
+                        stretch: 80,
+                        depth: 550,
+                        modifier: 1.8,
+                        slideShadows: true,
+                    }}
+                    loop={true}
+                    navigation={true}
+                    // pagination={true}
+                    modules={[Autoplay, EffectCoverflow, Navigation]}
+                    className="mySwiper"
+                >
                     <SwiperSlide className='slider'>
                         <div className="profile-sect">
                             <div className="profile-sec">
@@ -126,7 +130,8 @@ export default function Slider() {
                             </div>
                         </div>
                     </SwiperSlide>
-            </Swiper>
+                </Swiper>
+            </div>
         </>
     );
 }

@@ -5,23 +5,29 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import Slidercompwild from './Slidercompwild.jsx'
 import './sliderwild.css';
-// import Video from '../assets/video/video.mp4'
-// import iphone from '../assets/img/iphone.png'
 
-
-import {Autoplay, Navigation, Pagination, EffectCoverflow } from 'swiper';
+import { Autoplay, Navigation, Pagination, EffectCoverflow } from 'swiper';
 import Sliderupdown from './Sliderupdown.jsx';
+import { useRef } from 'react'
 
 export default function Sliderwild() {
+    const swiperRef = useRef(null)
     return (
         <>
-            <div className='w-screen overflow-hidden flex justify-center items-center'>
-                <Swiper style={{
+            <div
+                onMouseEnter={() => swiperRef.current.swiper.autoplay.stop()}
+                onMouseLeave={() => swiperRef.current.swiper.autoplay.start()}
+                className='w-screen overflow-hidden flex justify-center items-center'>
+                <Swiper
+                 ref={swiperRef}
+                 style={{
                     "--swiper-pagination-color": "#FFBA08",
                     "--swiper-pagination-bullet-inactive-color": "#999999",
                     "--swiper-pagination-bullet-width": "30px",
                     "--swiper-pagination-bullet-border-radius": "30px",
                 }}
+
+                   
                     effect={'coverflow'}
                     grabCursor={true}
                     autoplay={{
