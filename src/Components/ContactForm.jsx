@@ -152,7 +152,7 @@ function ContactForm() {
       </div>
       <div className="w-screen relative">
         <div className="absolute top-4 sm:top-20">
-          <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-4">Visuals 60,000X impact than text.</span></Marquee>
+          <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-4">Visual Impact 60,000X than text</span></Marquee>
         </div>
       </div>
       <div className="w-screen relative">

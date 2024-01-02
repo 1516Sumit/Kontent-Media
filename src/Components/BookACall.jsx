@@ -33,18 +33,12 @@ function BookACall() {
             </div>
             <div className="w-screen relative">
               <div className="absolute top-4 sm:top-20 lg:top-6">
-                <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-4">Visuals 60,000X impact than text.</span></Marquee>
+                <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-4">Visual Impact 60,000X than text</span></Marquee>
               </div>
             </div>
             <div className="w-screen relative">
               <img className="w-screen h-60 -mt-20 sm:-mt-16 lg:-mt-16 xl:-mt-16 2xl:-mt-16 " src={grid6} />
             </div>
-            {/* <div className="bg-[url('./assets/img/grid2.png')] bg-cover bg-no-repeat h-16 sm:h-28 lg:h-44"> */}
-
-            {/* <div className="mt-16">
-                <Marquee pauseOnHover autoFill={true} speed={50}><span className="m-24">Visuals 60,000X impact than text.</span></Marquee>
-              </div> */}
-            {/* </div> */}
           </div>
         </div>
       </div>
